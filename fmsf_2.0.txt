@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 11/12/2016 11:58 AM GMT+7
+! Last modified: 5/1/2017 1:18 PM GMT+7
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -24,7 +24,6 @@
 @@||cadviet.vn^$elemhide
 chotot.com,xuanvinh.vn,hulu.com,box.com,nationalgeographic.com#@#[class^="ad-"]:not(.ad-skin)
 eva.vn,gamek.vn,techz.vn,dantri.com.vn,asianwiki.com,hvdic.thivien.net,hayhaytv.vn#@#[class^="ads"]
-hdvietnam.com#@#[id^="div-gpt-ad"]
 inbox.google.com#@#.ad
 giaxaydung.vn#@#[id^="ad_"]
 x-rates.com,classical-pippo9.blogspot.com,gameapks.com,kissanime.to,vnexpress.net#@#[id^="ads"]:not(#adsIfrme)
@@ -40,10 +39,6 @@ chovinh.com###messageList > .message:first-child > .messageInfo + div
 3dcontentcentral.com###DivHomeBanner
 3dcontentcentral.com###supplierServices
 4shared.com##[id^="epom"]
-5giay.vn###divBalloonAds
-5giay.vn###whats_going_on
-5giay.vn##.ss_rightcolumn_column
-5giay.vn##DIV[style^="overflow:hidden; height:18"]
 5giay.vn##[id*="bg_ban_"]
 7msport.com###divR1
 8bongda.com##[id*="bd8adsheadline"]
@@ -97,7 +92,6 @@ eva.vn##[class^="banner300250"]
 expertcircuits.blogspot.com###fanback
 facebook.com###pagelet_side_ads
 facebook.com##[id^='PageAdsPagelet']
-foody.vn##.microsite-top-banner
 foody.vn##div .microsite .social-share-icons
 forum.360kpop.com##.dc-adv
 forum.ragezone.com##[class*="RZ_BOX"]
@@ -115,11 +109,6 @@ gsm.vn##[class^="section widget"] > #widget-11
 hamtruyen.com###ballon_left
 hamtruyen.vn##.title_quancaog
 hanoicomputer.vn###highstreet
-hdonline.vn##.tn-main-full > A
-hdvietnam.com###posts [id^='div-gpt-ad']
-hdvietnam.com##.above_body  > #navbar ~ div
-hdvietnam.com##.sbanner
-hdvietnam.com##[id^="yamaha_ads"]
 heaveniphone.com##.thongbao
 howtogeek.com###side78
 howtogeek.com##.adSystem_ads
@@ -129,15 +118,11 @@ kenh14.vn##.socialbox
 kenh60.net###content > DIV[style*="height: 100px;"]
 kenhtin360.com##.detail_content .textwidget
 kenhtin360.com##.detail_content > .left_detail > .header_detail > center
-kenhvl.net##.dvBannerMenu
-kenhvl.net##.dvSocialTool
 ketcau.com##TD[width="140"][valign="top"]
 ketqua.net##.float-qc-left
 khampha.vn##[id^="ADS_"]
-kickass.to##.advertising
 kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
-laban.vn##.overlay-bg
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 lottecinemavn.com###ctl00_pPopup
 lozi.vn##.share-box
@@ -150,10 +135,8 @@ mmo4me.com##.sidebar #widget-11
 mmo4me.com##.sidebar #widget-12
 movies.hdviet.com##[class^="box-adv"]
 movies.hdviet.com##[id^="popup"]
-mupvl.us###advert-notice
 mybongda.com###left_popup
 mybongda.com##[class$="banner"]
-mytv24h.mybongda.com###banner_FloatLeft
 neowin.net###mini_spy
 news.zing.vn###advBalloon
 news.zing.vn###site-header
@@ -167,8 +150,6 @@ pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
 phienbanmoi.com###uix_welcomeBlock
-phim.tiengnga.net###exposeMask
-phim.tiengnga.net##.errorOverlay
 phim.tiengnga.net##.sectionMain.funbox
 phim16.com###mask
 phim16.com##[id^="adMarx"]
@@ -210,7 +191,7 @@ thamhue.com###sidebar
 thamhue.vn,thamhue.com.vn###sidebar
 thamhue.vn,thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thanhnien.com.vn##.qc-Container.bg-Container
-thiendia.com##.sidebar > a
+thiendia.com##.my_responsive_ads
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
 tinthethao.com.vn###letsop-sportgame
@@ -235,8 +216,6 @@ up.4share.vn##.advs + * + CENTER
 up.4share.vn##TD[style="width: 150px; padding: 5px"]
 userstyles.org###social
 viettorrent.vn##.container-fluid CENTER
-vivo.vn##.banner_a.banner_bg_e
-vivo.vn##.tatquangcao
 vkool.net###boxes
 vn-zoom.com###toolbar_bottom
 vn-zoom.com##TD[width="300"]
@@ -972,3 +951,4 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clickadu.com^$third-party
 ||vuighe.net/assest/banner/*
 ||hayhaytv.vn/static/*.gif|
+||zjk24.com^$third-party

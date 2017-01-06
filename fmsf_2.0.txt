@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 5/1/2017 1:18 PM GMT+7
+! Last modified: 6/1/2017 9:03 PM GMT+7
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player

@@ -638,7 +638,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
 ||hai360.vn/skin/web/*custombox*
-||haiivl.com/*.swf|
 ||haivk.net^$third-party
 ||halophim.net^$popup,third-party
 ||hanoicomputer.vn/media/banner/*.jpg
@@ -676,9 +675,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
-||linktocdo.com/hotro/hinhanh/*x*.gif
-||linktocdo.com/hotro/hinhanh/banner*
-||linktocdo.com/hotro/hinhanh/lienhequangcao.jpg
 ||loading-delivery1.com^
 ||lode88.com^$popup,third-party
 ||logging.admicro.vn^

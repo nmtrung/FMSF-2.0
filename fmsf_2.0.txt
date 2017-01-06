@@ -153,8 +153,6 @@ phienbanmoi.com###uix_welcomeBlock
 phim.tiengnga.net##.sectionMain.funbox
 phim16.com###mask
 phim16.com##[id^="adMarx"]
-phimhd.vn###body ~ *
-phimhd.vn##.bn_bottom_fixed.show
 phongvu.vn###divBannerFloatLeft
 phongvu.vn###divBannerFloatRight
 phongvu.vn##.banner
@@ -533,7 +531,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.vn/js/jquery.fancybox/*
 ||bongdatructuyen.vn/js/p0pundr.js
 ||bp.blogspot.com/*/banner.png|$domain=hamtruyen.vn
-||bp.blogspot.com/-*.gif$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn|xemthethao.vn|xembongda24h.com|ketqua.net|mphim.net
+||bp.blogspot.com/-*.gif$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|xemthethao.vn|xembongda24h.com|ketqua.net|mphim.net
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
@@ -628,7 +626,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||gigya.com^
 ||girlxinh.gocchiase.vn^$popup,third-party
 ||go.blogtruyen.com^$popup
-||goo.gl^$popup,domain=videomega.tv|be69.net|phimhd.vn
+||goo.gl^$popup,domain=videomega.tv|be69.net
 ||google-analytics.com^
 ||google.com/ads*
 ||google.com/pagead/*

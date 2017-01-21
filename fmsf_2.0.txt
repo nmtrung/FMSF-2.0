@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 8/1/2017 10:15 AM GMT+7
+! Last modified: 21/1/2017 6:50 PM GMT+7
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -23,7 +23,7 @@
 ! ========================= Element Hiding Exception ==========================
 @@||cadviet.vn^$elemhide
 chotot.com,xuanvinh.vn,hulu.com,box.com,nationalgeographic.com#@#[class^="ad-"]:not(.ad-skin)
-eva.vn,gamek.vn,techz.vn,dantri.com.vn,asianwiki.com,hvdic.thivien.net,hayhaytv.com#@#[class^="ads"]
+eva.vn,gamek.vn,techz.vn,dantri.com.vn,asianwiki.com,hvdic.thivien.net,hayhaytv.com,hayhaytv.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 giaxaydung.vn#@#[id^="ad_"]
 x-rates.com,classical-pippo9.blogspot.com,gameapks.com,kissanime.to,vnexpress.net#@#[id^="ads"]:not(#adsIfrme)

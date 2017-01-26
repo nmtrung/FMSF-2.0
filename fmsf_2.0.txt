@@ -241,6 +241,7 @@ youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
+fshare.vn##[id^="ET"]
 ! ============================== General adverts ==============================
 -ads/
 -banner/
@@ -947,3 +948,5 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hayhaytv.vn/static/*.gif|
 ||zjk24.com^$third-party
 ||jwpcdn.com/player/*/vast.js$domain=vungtv.com
+||fshare.vn/*/dinhdau*
+||openload.co/assets/js/script.2321.js

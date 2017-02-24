@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 24/2/2017
+! Last modified: 25/2/2017
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -392,6 +392,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/playback?*
 @@||123doc.org/documents/popup/pop_download_not_login.php?*
 @@||chiasenhac.vn/js/ads.js
+@@||facebook.com/ads/profile
 ! ====================== Third-party adverts and trackers =====================
 |http://u.to^$popup,domain=vietcago.com
 ||*-ad.24hstatic.com^

@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 25/2/2017
+! Last modified: 26/2/2017
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -452,7 +452,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||addthis.com^
 ||addtoany.com^
 ||adexprt.com^
-||adf.ly^$third-party
 ||adfox.vn^
 ||adi.vcmedia.vn^
 ||adit-media.com^

@@ -954,3 +954,4 @@ yts/swfbin/player-vfl*/ad*.swf
 ||concernrain.com^$third-party
 ||mellowads.com^
 ||cloudfront.net$script,third-party,domain=shink.in
+||shink.in/js/p.v1.js

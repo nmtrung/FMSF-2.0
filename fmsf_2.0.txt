@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 6/3/2017
+! Last modified: 15/3/2017
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -395,6 +395,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
+@@||4shared.com/css/popup_$stylesheet
 ! ====================== Third-party adverts and trackers =====================
 ||*-ad.24hstatic.com^
 ||118.69.168.115/PolyadsFile/*
@@ -920,7 +921,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vietad.vn^
 ||vietcongnghe.net/diendan/qc/*
 ||vietnamnetad.vn^
-||viglink.com^	
+||viglink.com^
 ||vivo.vn/skin/js/ova-jquery.js
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
@@ -957,3 +958,4 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
+||search.4shared.com^$popup

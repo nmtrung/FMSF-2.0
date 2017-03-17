@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 15/3/2017
+! Last modified: 17/3/2017
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -242,6 +242,7 @@ yeah1.com##.tn-sharepost.hh-sharepost
 youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
+youtube.com##.pyv-afc-ads-container
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 -ads/
@@ -298,6 +299,7 @@ zippyshare.com##.center_ad
 /log.
 /mudim-
 /mudim.
+/pagead/lvz?
 /piwik.js
 /pop-ad.
 /pop.js

@@ -28,7 +28,6 @@
 @@||hvdic.thivien.net^$generichide
 @@||nationalgeographic.com^$generichide
 @@||x-rates.com^$generichide
-@@||youtube.com^$generichide
 @@||yts.ag^$elemhide
 asianwiki.com#@#[class^="ads"]
 box.com#@#[class^="ad-"]:not(.ad-skin)
@@ -37,6 +36,7 @@ giaxaydung.vn#@#[id^="ad_"]
 inbox.google.com#@#.ad
 techz.vn#@#[class^="ads"]
 vnexpress.net#@#[id^="ads"]:not(#adsIfrme)
+youtube.com#@#[class^="ad-"]:not(.ad-skin)
 ! ========================== Element Hiding Per Site ==========================
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
@@ -464,7 +464,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adbrite.com^
 ||adcash.com^
 ||addons.mozilla.org/en-US/firefox/i/promos?*
-||addthis.com^
+||addthis.com^$third-party
 ||addtoany.com^
 ||adexprt.com^
 ||adfox.vn^
@@ -639,8 +639,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||fptplay.net/js/plugins/vast-client.min.js
 ||fptplay.net/static/js/ad_vast_new_skip.js
 ||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
-||fshare.vn/*/ad
-||fshare.vn/*/dinhdau*
 ||fulldl.net^
 ||galaxypub.vn^$third-party,~image,~object-subrequest
 ||game-advertising-online.com^
@@ -693,6 +691,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||invitemedia.com^
 ||ismcorp.vn^
 ||ixinh.net^$popup,third-party
+||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
 ||jwpcdn.com/player/*/vast.js$domain=vungtv.com
@@ -924,7 +923,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||upfile.vn/view/default/image/index-*.gif|
 ||upload69.net/images/*.gif|
 ||upsieutoc.com^$domain=ketqua.net|tructiepbongda.com
-||userreport.com^
+||userreport.com^$third-party
 ||v8l.info^
 ||vaolien.com^$third-party
 ||vbet*.com^$popup

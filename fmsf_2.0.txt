@@ -23,6 +23,7 @@
 ! ========================= Element Hiding Exception ==========================
 @@||classical-pippo9.blogspot.com^$generichide
 @@||eva.vn^$generichide
+@@||gamek.vn^$generichide
 @@||hulu.com^$generichide
 @@||hvdic.thivien.net^$generichide
 @@||nationalgeographic.com^$generichide
@@ -32,7 +33,6 @@
 asianwiki.com#@#[class^="ads"]
 box.com#@#[class^="ad-"]:not(.ad-skin)
 dantri.com.vn#@#[class^="ads"]
-gamek.vn#@#[class^="ads"]
 giaxaydung.vn#@#[id^="ad_"]
 inbox.google.com#@#.ad
 techz.vn#@#[class^="ads"]

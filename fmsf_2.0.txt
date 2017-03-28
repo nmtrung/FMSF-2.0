@@ -924,3 +924,4 @@ yts/swfbin/player-vfl*/ad*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
 ||spillvacation.com^$third-party
+||chiasenhac.vn/videojs-vast-plugin-master/*

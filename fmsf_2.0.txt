@@ -35,6 +35,7 @@ dantri.com.vn#@#[class^="ads"]
 giaxaydung.vn#@#[id^="ad_"]
 inbox.google.com#@#.ad
 techz.vn#@#[class^="ads"]
+lottecinemavn.com#@#[id^="ads"]:not(#adsIfrme)
 vnexpress.net#@#[id^="ads"]:not(#adsIfrme)
 youtube.com#@#[class^="ad-"]:not(.ad-skin)
 ! ========================== Element Hiding Per Site ==========================

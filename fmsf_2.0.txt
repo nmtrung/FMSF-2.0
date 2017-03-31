@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 28/3/2017
+! Last modified: 1/4/2017
 ! ========================== General Element Hiding ===========================
 ###bar_float
 ##.above-player
@@ -354,6 +354,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||4shared.com/css/popup_$stylesheet
+@@||ad.doubleclick.net^$domain=windowscentral.com
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
@@ -365,7 +366,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
 @@||cdnviet.com/static/layout/images/logo.png$third-party
-@@||chiasenhac.vn/js/ads.js
 @@||creative.adobe.com/*/resource/common/utils/log.js
 @@||dmcdn.net/js/gen/widget/pack/popup.js.*
 @@||doko.vn/StaticDeploy/*/popup*
@@ -561,7 +561,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||cerotop.com^$third-party
 ||channelvn.net^
 ||chartbeat.com^
-||chiasenhac.com/banner/*
+||chiasenhac.vn/videojs-vast-plugin-master/*
 ||chitika.net^
 ||chovinh.com/data/*.gif|
 ||click.xdeal.vn/adssite/*
@@ -817,6 +817,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||somo.vn^$popup,third-party
 ||sonyfan.vn/*.swf
 ||sosmart.vn^$third-party
+||spillvacation.com^$third-party
 ||spotxchange.com^
 ||st.game.thanhnien.com.vn^$third-party
 ||statcounter.com^
@@ -924,5 +925,3 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
-||spillvacation.com^$third-party
-||chiasenhac.vn/videojs-vast-plugin-master/*

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 1/4/2017
+! Last modified: 2/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -364,8 +364,9 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ====================== Third-party adverts and trackers =====================
-*.accountant^$third-party
 *-ad.24hstatic.com^
+*.accountant^$third-party
+/1121525/|$domain=kissmanga.com
 ||118.69.168.115/PolyadsFile/*
 ||123doc.org/documents/ajax/ajax_load_ads_vg.php
 ||125.212.202.62/*.gif
@@ -695,6 +696,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||novanetservice.com^
 ||oclaserver.com^$third-party
 ||oclasrv.com^
+||onclasrv.com^$third-party
 ||onclickads.net^
 ||onclkds.com^$third-party
 ||open.id.zing.vn/sharelink/*

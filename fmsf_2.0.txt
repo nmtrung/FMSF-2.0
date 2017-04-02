@@ -446,6 +446,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adroll.com^
 ||adrotator.se^$popup,script,image
 ||ads*.com^$third-party,script,image,subdocument,popup
+||ads4digital.com^$third-party
 ||adserver.
 ||adsgame.soha.vn^$popup,third-party
 ||adskeeper.co.uk^

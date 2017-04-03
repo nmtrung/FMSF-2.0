@@ -440,6 +440,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adonly.com^
 ||adpdx.com^
 ||adpia.vn^$third-party
+||adpop*.com^$third-party
 ||adproper.info^
 ||adprotected.com^
 ||adrich.cash^
@@ -770,7 +771,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||rtbpop.com^
 ||rubiconproject.com^
 ||rutracker.org^$subdocument,object
-||s1block.com^$third-party
+||s*1block.com^$third-party
 ||sbbanner.com^
 ||scorecardresearch.com^
 ||search.4shared.com^$popup

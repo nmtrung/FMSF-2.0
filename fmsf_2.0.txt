@@ -267,7 +267,6 @@ zippyshare.com##.center_ad
 /log.
 /mudim-
 /mudim.
-/pagead/*
 /pagead/lvz?
 /piwik.js
 /pop-ad.

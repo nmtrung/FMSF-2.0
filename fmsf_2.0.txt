@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 3/4/2017
+! Last modified: 4/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -216,10 +216,8 @@ zippyshare.com##.center_ad
 .mp4|$object-subrequest,domain=movies.hdviet.com
 .net/qc/*
 .php?referer*
+/1121525/|$domain=kissmanga.com
 /?file=ads&
-/Bacdau-banner-
-/Collateral.aspx?*
-/GTrackPlugin.swf
 /ad.php?
 /ad_manage/*
 /ads-
@@ -238,6 +236,7 @@ zippyshare.com##.center_ad
 /api/impression_hit*
 /atrk.js
 /avim.js
+/Bacdau-banner-
 /banner/*$~image
 /banner/*.gif
 /banner_$third-party
@@ -245,13 +244,16 @@ zippyshare.com##.center_ad
 /banners/*$~image
 /banners?
 /buaxua_floating.js
+/cdn/qc/*
 /click.$popup
+/Collateral.aspx?*
 /delivery/*
 /facebook-popup-box/*
 /floatads.js?*
 /gamead/*
 /gen_204?*
 /generate_204
+/GTrackPlugin.swf
 /itro-popup/*
 /jquery.bpopup.min.js
 /jquery.smart*banner.
@@ -259,10 +261,13 @@ zippyshare.com##.center_ad
 /js/pop-
 /js/pov.js
 /jspopup.js
+/jwplayer/*/vast.js
+/jwplayer7/vast.js
 /letsop-
 /log.
 /mudim-
 /mudim.
+/pagead/*
 /pagead/lvz?
 /piwik.js
 /pop-ad.
@@ -367,7 +372,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
 *.accountant^$third-party
-/1121525/|$domain=kissmanga.com
 ||118.69.168.115/PolyadsFile/*
 ||123doc.org/documents/ajax/ajax_load_ads_vg.php
 ||125.212.202.62/*.gif
@@ -447,7 +451,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adriver.ru^
 ||adroll.com^
 ||adrotator.se^$popup,script,image
-||ads*.com^$third-party,script,image,subdocument,popup
+||ads*.com^$third-party,script,image,subdocument,object-subrequest,popup
 ||ads4digital.com^$third-party
 ||adserver.
 ||adsgame.soha.vn^$popup,third-party
@@ -530,8 +534,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net$script,third-party,domain=shink.in
-||cloudfront.net^$domain=hamtruyen.vn
+||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -617,9 +620,11 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hai360.vn/skin/web/*custombox*
 ||halophim.net^$popup,third-party
 ||hanoicomputer.vn/media/banner/*.jpg
+||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
 ||hdonline.vn/*/banner
 ||hdonline.vn/file/*.jpg
+||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
 ||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
@@ -664,7 +669,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||m88*.com^$popup,third-party
 ||macintosh.vn/forum/image/*.jpg?rand=*
 ||mangak.net/wp-content/themes/manga/ad/*
-||media.jxf88.com^$third-party,domain=vkool.net
+||media.jxf88.com^$third-party,domain=vkool.net|xemphimso.com
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||mellowads.com^
@@ -771,8 +776,9 @@ yts/swfbin/player-vfl*/ad*.swf
 ||rtbpop.com^
 ||rubiconproject.com^
 ||rutracker.org^$subdocument,object
-||s*1block.com^$third-party
+||s*block.com^$third-party
 ||sbbanner.com^
+||sbro.me/truyentranh.js?*$third-party
 ||scorecardresearch.com^
 ||search.4shared.com^$popup
 ||senpay.vn^$third-party
@@ -812,6 +818,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||taiiwin.net^
 ||takataka.vn^
 ||talktv.vn/resource/third-party/jwplayer/*.png
+||tamquocbanghiep.com^$popup
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
 ||thamhue.*vn/ad/*
@@ -871,6 +878,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vietnamnetad.vn^
 ||viglink.com^
 ||vivo.vn/skin/js/ova-jquery.js
+||vkool.net/js/povff.js
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
 ||vnwebgame.com^$popup
@@ -888,6 +896,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||xahoithongtin.com.vn/upload/*
 ||xembongda24h.com/templates/xbd/js/qc-vbd.js
 ||xemphimso.com/img/*$third-party,image,object
+||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf
 ||xemtvhd.com/logo/*$subdocument
 ||xemvtv.net/kaka/ads*

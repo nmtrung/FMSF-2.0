@@ -207,6 +207,7 @@ youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 youtube.com##.pyv-afc-ads-container
+zippyshare.com###qrCode ~ a[href$="1131386.html"]
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 -ads/

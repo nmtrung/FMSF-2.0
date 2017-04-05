@@ -508,6 +508,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bluekai.com^
 ||blueseed.tv^$third-party,domain=movies.hdviet.com
 ||blueserving.com^
+||bnserving.com^$third-party
 ||bong99.com^$popup,third-party
 ||bongacash.com^
 ||bongda.com.vn/wp-content/*.swf
@@ -673,7 +674,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||m88*.com^$popup,third-party
 ||macintosh.vn/forum/image/*.jpg?rand=*
 ||mangak.net/wp-content/themes/manga/ad/*
-||maxonclick.com^$third-party||bnserving.com^$third-party
+||maxonclick.com^$third-party
 ||media.jxf88.com^$third-party,domain=vkool.net|xemphimso.com
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*

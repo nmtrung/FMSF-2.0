@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/4/2017
+! Last modified: 5/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -217,6 +217,8 @@ zippyshare.com##.center_ad
 .net/qc/*
 .php?referer*
 /1121525/|$domain=kissmanga.com
+/1131386.$domain=zippyshare.com
+/1131386/|$domain=zippyshare.com
 /?file=ads&
 /ad.php?
 /ad_manage/*
@@ -357,6 +359,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||tracking.gfycat.com^
 @@||udemy.com/staticx/udemy/js/ng/directives/common/popup.js?*
 @@||videomega.tv/vjs/plugin/css/ads.css
+@@||vietcombank.com.vn/upload/popup/*
 @@||vipphim.net/ads/xemphim.png
 @@||vtc.vn/*/views/common/popup.js|
 @@||vtvapi.channelvn.net^
@@ -576,6 +579,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||eqads.com^
 ||ertosatie.com^
 ||esportsviet.vn/images/*.gif|
+||exdynsrv.com^$third-party
 ||exoclick.com^$popup,script,image
 ||exponential.com^
 ||extreme-dm.com^$third-party
@@ -628,6 +632,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
 ||histats.com^
+||histock.info^$third-party
 ||horsered.com^
 ||htvonline.com.vn/layout/images/*.jpg
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
@@ -668,6 +673,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||m88*.com^$popup,third-party
 ||macintosh.vn/forum/image/*.jpg?rand=*
 ||mangak.net/wp-content/themes/manga/ad/*
+||maxonclick.com^$third-party||bnserving.com^$third-party
 ||media.jxf88.com^$third-party,domain=vkool.net|xemphimso.com
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
@@ -812,6 +818,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||stumbleupon.com^$third-party
 ||switchads.com^
 ||syngrestic.com^
+||taboola.com^$third-party
 ||taifile.vn^$popup,third-party
 ||taigamevina.com^$popup,third-party
 ||taiiwin.net^

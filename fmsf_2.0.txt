@@ -905,7 +905,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||xahoithongtin.com.vn/images/*.gif|
 ||xahoithongtin.com.vn/upload/*
 ||xembongda24h.com/templates/xbd/js/qc-vbd.js
-||xembongdahd.net/themes/abongda/images/banner_*.gif|
+||xembongdahd.net/themes/abongda/images/banner*.gif|
 ||xemphimso.com/img/*$third-party,image,object
 ||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf

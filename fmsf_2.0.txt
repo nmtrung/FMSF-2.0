@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/4/2017
+! Last modified: 6/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -70,6 +70,8 @@ bongdatv.net###block-block-13
 bongdatv.net###block-block-14
 bongdaup.com##.tfs-topads
 cadviet.com###quangcaocadviet
+chiasenhac.us##.a > .content
+chiasenhac.us##.dl-box-overlay
 choimobile.vn###rightContentBox
 choimobile.vn##.quangcao_post
 chovinh.com###messageList > .message:first-child > .messageInfo + div
@@ -412,12 +414,12 @@ yts/swfbin/player-vfl*/ad*.swf
 ||9cc85d.se^
 ||aad73c550c.se/?*$popup
 ||abcsrv1.com^$third-party
+||accesstrade.vn^$third-party
 ||ad*.tinong.net^
 ||ad.*.com.vn^
 ||ad.*.com^
 ||ad.*.net^
 ||ad.5imedia.vn^
-||ad.accesstrade.vn^$third-party
 ||ad.ddestiny.ru^
 ||ad.mcdn.vn^
 ||ad.org.vn^
@@ -903,6 +905,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||xahoithongtin.com.vn/images/*.gif|
 ||xahoithongtin.com.vn/upload/*
 ||xembongda24h.com/templates/xbd/js/qc-vbd.js
+||xembongdahd.net/themes/abongda/images/banner_*.gif|
 ||xemphimso.com/img/*$third-party,image,object
 ||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf

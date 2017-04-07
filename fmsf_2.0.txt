@@ -100,7 +100,8 @@ gametv.vn##.ads_topbaner
 ghacks.net##.block
 giaiphapexcel.com###sidebar_container
 giaiphapexcel.com##.yui-sidebar
-google.com###extrares.med
+google.com,google.com.vn###extrares.med
+google.com,google.com.vn##.ads-ad
 gsm.vn##[class^="section widget"] > #widget-11
 hamtruyen.com###ballon_left
 hamtruyen.vn##.title_quancaog
@@ -184,7 +185,6 @@ torviet.com###rightBanner1Ky
 tructiepbongda.com###text-8
 tructiepbongda.com###text-9
 truyen18.org##.pr-widget
-tuoitre.vn##.main > .block-share
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
@@ -717,6 +717,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||onclasrv.com^$third-party
 ||onclickads.net^
 ||onclkds.com^$third-party
+||onthe.io^$third-party
 ||open.id.zing.vn/sharelink/*
 ||openadserving.com^
 ||openload.co/assets/js/script*.js

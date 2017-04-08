@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/4/2017
+! Last modified: 8/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -439,6 +439,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adit-media.com^
 ||adjuggler.net^
 ||adk2*.com^
+||adk2.co^$third-party
 ||adlike.net^$popup
 ||adlite.net^
 ||admicro1.vcmedia.vn^
@@ -450,6 +451,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adonly.com^
 ||adpdx.com^
 ||adpia.vn^$third-party
+||adplxmd.com^$third-party
 ||adpop*.com^$third-party
 ||adproper.info^
 ||adprotected.com^
@@ -541,7 +543,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com
+||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com|ouo.io
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -724,7 +726,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||openx.net^
 ||openx.org^
 ||optimizely.com^
-||ouo.io^$third-party
+||ouo.io/images/download-ad.
+||ouo.io/js/pop.
 ||padstm.com^
 ||pagefair.com^
 ||paragonads.vn^
@@ -898,6 +901,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vozforums.com/specials/*
 ||vozforums.com/vbdev/*
 ||vuighe.net/assest/banner/*
+||waframedia*.com^$third-party
 ||webdien.com/d/ad/*
 ||websitedhoome.com^$popup,third-party
 ||webtrends.com^

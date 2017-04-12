@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/4/2017 8:05 PM
+! Last modified: 12/4/2017 8:15 PM
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -43,6 +43,7 @@
 @@||nationalgeographic.com^$generichide
 @@||x-rates.com^$generichide
 @@||yts.ag^$elemhide
+@@||zippyshare.com^$elemhide
 inbox.google.com#@#.ad
 ! ========================== Element Hiding Per Site ==========================
 24h.com.vn###ReplayAd
@@ -211,7 +212,6 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 youtube.com##.pyv-afc-ads-container
 zippyshare.com###qrCode ~ a[href$="1131386.html"]
-zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 -ads/
 -banner/
@@ -379,7 +379,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
-@@||zippyshare.com/ads.js
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
 *.accountant^$third-party

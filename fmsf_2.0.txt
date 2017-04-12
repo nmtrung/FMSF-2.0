@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/4/2017
+! Last modified: 12/4/2017
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -308,6 +308,7 @@ searchTrack.php?
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/adsbygoogle.js$domain=hackintosh.zone
+@@/favicon.ico|$domain=linkneverdie.com
 @@/js/tracking.js
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/themes/front/*/ads.js
@@ -320,6 +321,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
+@@||advertising.aol.com^$domain=linkneverdie.com
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*$domain=talktv.vn
 @@||behance.net/css/project/popup.css
@@ -346,6 +348,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||kay.com.vn/kay_v2/js/popup.js
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
+@@||linkneverdie.com^$script,generichide
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phim3s.net/player-ads/*
 @@||phongvu.vn/gallery/avatar_upload/ads/*.swf
@@ -422,6 +425,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||ad.*.net^
 ||ad.5imedia.vn^
 ||ad.ddestiny.ru^
+||ad.mail.ru^$third-party
 ||ad.mcdn.vn^
 ||ad.org.vn^
 ||ad.zing.vn^

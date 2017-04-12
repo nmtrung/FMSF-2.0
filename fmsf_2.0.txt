@@ -231,6 +231,7 @@ zippyshare.com##.center_ad
 /ads/*
 /ads_
 /adscript/*
+/adsense/*
 /adserver/*
 /adsfloat/*
 /adv/*

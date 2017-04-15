@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 15/4/2017 3:19 PM
+! Last modified: 15/4/2017 6:05 PM
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -89,7 +89,7 @@ eva.vn##[id^="ADS_"]
 expertcircuits.blogspot.com###fanback
 facebook.com###pagelet_side_ads
 facebook.com##[id^='PageAdsPagelet']
-foody.vn##div .microsite .social-share-icons
+foody.vn##.foody-banner
 forum.360kpop.com##.dc-adv
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
@@ -339,8 +339,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||facebook.com/ads/profile
 @@||facebook.com/ajax/questions/popup.php?*
 @@||facebook.com/dialog/oauth?*
-@@||foody.vn/biz_banner/*1000x
-@@||foody.vn/biz_banner/*foody-banner*
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||fptplay.net/js/ads.js
 @@||googlesyndication.com^$domain=yts.ag
@@ -605,7 +603,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||feedjit.com^
 ||fmpub.net^
 ||fn1s.info^$third-party
-||foody.vn/biz_banner/
 ||fptplay.net/js/plugins/vast-client.min.js
 ||fptplay.net/static/js/ad_vast_new_skip.js
 ||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com

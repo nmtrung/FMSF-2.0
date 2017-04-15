@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/4/2017 8:15 PM
+! Last modified: 15/4/2017 8:15 PM
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -136,6 +136,7 @@ news.zing.vn###site-header
 news.zing.vn##[id*="adv"]
 nhac.vui.vn##.padTop5.padBot5
 nhaccuatui.com##[class*="adv_home"]
+nld.com.vn##.bordertopmenuv4
 notebookitalia.it##.block1a.unit
 pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
@@ -440,6 +441,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||addtoany.com^
 ||adexprt.com^
 ||adfox.vn^
+||adi.admicro.vn^$domain=nld.com.vn|cafef.vn
 ||adi.vcmedia.vn^
 ||adit-media.com^
 ||adjuggler.net^
@@ -476,6 +478,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adtimaserver.vn^$script,image,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
 ||adultadworld.com^
+||adv.meodep.com^$third-party
 ||adv.thethaovanhoa.vn^
 ||adver*.com^
 ||adx.*vn^$third-party
@@ -585,6 +588,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||dt00.net^$third-party
 ||dulichdatviet.info^$third-party
 ||dynamicoxygen.com^
+||dyncdn.me/static/20/js/expla6.js
 ||ebz.io^
 ||eclick.$third-party
 ||effectivemeasure.net^
@@ -768,6 +772,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||pr-quangcao.edu.vn^
 ||projectwonderful.com^
 ||propellerads.com^
+||prscripts.com^$third-party
 ||prwidgets.com^$third-party
 ||pso2vn.com/js/SmoothScroll.js
 ||ptp22.com^

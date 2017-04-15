@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 15/4/2017 12:57 PM
+! Last modified: 15/4/2017 3:19 PM
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -627,7 +627,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||gigya.com^
 ||gmodules.com^$domain=tv.101vn.com
 ||go.blogtruyen.com^$popup
-||goo.gl^$popup,domain=videomega.tv|be69.net
+||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
 ||google.com/ads*
 ||google.com/pagead/*

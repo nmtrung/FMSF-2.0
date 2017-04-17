@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 15/4/2017 6:05 PM
+! Last modified: 17/4/2017 6:05 PM
 ! Last edit by: theheroofvn
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
@@ -87,8 +87,6 @@ eva.vn###subLeftSuKienTieuDiem
 eva.vn##[class^="banner300250"]
 eva.vn##[id^="ADS_"]
 expertcircuits.blogspot.com###fanback
-facebook.com###pagelet_side_ads
-facebook.com##[id^='PageAdsPagelet']
 foody.vn##.foody-banner
 forum.360kpop.com##.dc-adv
 forum.ragezone.com##[class*="RZ_BOX"]

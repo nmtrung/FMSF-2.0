@@ -3,8 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 30/4/2017
-! Last edit by: theheroofvn
+! Last modified: 7/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -273,7 +272,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /log.
 /mudim-
 /mudim.
-/pagead/lvz?
+/pagead/*
 /piwik.js
 /pop-ad.
 /pop.js
@@ -626,7 +625,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
 ||google.com/ads*
-||google.com/pagead/*
 ||googleadservices.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -935,9 +933,11 @@ yts/swfbin/player-vfl*/ad*.swf
 ||yceml.net^
 ||yllix.com^
 ||yomedia.vn^
+||youtube.com/annotations_invideo?*
 ||youtube.com/api/stats/
 ||youtube.com/embed/VLz6bN1dImo?*
 ||youtube.com/gen_*?a=resolution&width=*
+||youtube.com/get_video_*
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party

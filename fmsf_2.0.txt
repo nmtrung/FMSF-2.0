@@ -937,7 +937,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/api/stats/
 ||youtube.com/embed/VLz6bN1dImo?*
 ||youtube.com/gen_*?a=resolution&width=*
-||youtube.com/get_video_*$domain=youtube.com
+!||youtube.com/get_video_*$domain=youtube.com
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party

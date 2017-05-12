@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 8/5/2017 10:18 PM
+! Last modified: 12/5/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -584,7 +584,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||dt00.net^$third-party
 ||dulichdatviet.info^$third-party
 ||dynamicoxygen.com^
-||dyncdn.me/static/20/js/expla6.js
+||dyncdn.me/static/20/js/expla*.js
 ||ebz.io^
 ||eclick.$third-party
 ||effectivemeasure.net^
@@ -608,6 +608,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||fulldl.net^
 ||galaxypub.vn^$third-party,~image,~object-subrequest
 ||game-advertising-online.com^
+||game360pro.com^$third-party
 ||gamehub.vn/img/files/*.gif|
 ||gammaplatform.com/js/ad-exchange.js
 ||genericsteps.com^
@@ -674,6 +675,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
+||linkneverdie.com/signalr/*
 ||liveadexchanger.com^$third-party
 ||loading-delivery1.com^
 ||lode88.com^$popup,third-party
@@ -729,6 +731,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||open.id.zing.vn/sharelink/*
 ||openadserving.com^
 ||openload.co/assets/js/script*.js
+||openstat.net^$third-party
 ||openx.net^
 ||openx.org^
 ||optimizely.com^
@@ -740,7 +743,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||pcworld.com.vn/files/advertising/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party
-||phimmoi.net^$third-party
+||phimmoi.net/*/vast.
 ||phongcomputer.com^$third-party
 ||phongvu.vn/templates/vtpv/fancybox2/*
 ||phongvu.vn/templates/vtpv/js/BannerFloat.js
@@ -786,6 +789,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||ragezone.com/out.php/display/show_single?*
 ||raovattoanquoc3s.com^$popup,third-party
 ||rarbg.to/xarldhvgowkynu.js
+||rarbg.to^$script,~third-party
 ||rarenok.biz^
 ||realer.info^
 ||rev2pub.com^
@@ -798,6 +802,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||rtbpop.com^
 ||rubiconproject.com^
 ||rutracker.org^$subdocument,object
+||rutrk.org^$third-party
 ||s*block.com^$third-party
 ||sbbanner.com^
 ||scorecardresearch.com^

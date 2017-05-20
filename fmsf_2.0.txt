@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 16/5/2017
+! Last modified: 20/5/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -744,6 +744,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||pcworld.com.vn/files/advertising/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party
+||phimhay.info^$third-party
 ||phimmoi.net/*/vast.
 ||phongcomputer.com^$third-party
 ||phongvu.vn/templates/vtpv/fancybox2/*

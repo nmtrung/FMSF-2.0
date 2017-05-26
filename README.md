@@ -1,5 +1,5 @@
 # FMSF 2
 
-Bộ lọc chặn quảng cáo của người Việt cho Adblock Plus và uBlock₀
+Bộ lọc quảng cáo của người Việt
 
 Homepage: http://nmtrung.com/fmsf-2

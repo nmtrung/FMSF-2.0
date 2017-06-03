@@ -687,6 +687,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||logging.admicro.vn^
 ||lottecinemavn.com/getattachment/*/NodeAlias.aspx?width=&height=
 ||lp.longtailvideo.com/5/ova/ova-jw.swf
+||lps.sbro.me^$script,third-party
 ||luckytravelshop.info^
 ||luminate.com^
 ||m-viet.com^$popup,third-party
@@ -855,6 +856,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tamquocbanghiep.com^$popup
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
+||tenlua.vn/img/*_banner*.gif|
 ||thamhue.*vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party

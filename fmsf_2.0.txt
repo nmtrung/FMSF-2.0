@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 3/6/2017
+! Last modified: 4/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -577,6 +577,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||dammetruyen.com/images/970x100.gif
 ||delivery45.com^
 ||delnapb.com^$third-party
+||dfnb-ads.com^$third-party
 ||diendanlequydon.com^$third-party
 ||directrev.com^
 ||divxcentral.com/wp-content/plugins/adblock-notify-by-bweb/*
@@ -626,7 +627,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaiphapexcel.com/qcao/*
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigya.com^
-||gmodules.com^$domain=tv.101vn.com
+||gmodules.com^$third-party,domain=keonhacai.com|tv.101vn.com
 ||go.blogtruyen.com^$popup
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^

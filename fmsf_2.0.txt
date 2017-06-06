@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/6/2017
+! Last modified: 6/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -213,7 +213,7 @@ youtube.com##.pyv-afc-ads-container
 zippyshare.com###qrCode ~ a[href$="1131386.html"]
 ! ============================== General adverts ==============================
 -ads/
--banner/
+-banner/$image
 -quang-cao/
 .com/qc/*
 .mp4|$object-subrequest,domain=movies.hdviet.com

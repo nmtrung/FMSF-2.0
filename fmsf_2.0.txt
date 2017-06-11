@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/6/2017 7:15 PM
+! Last modified: 11/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -222,6 +222,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /1121525/|$domain=kissmanga.com
 /1131386.$domain=zippyshare.com
 /1131386/|$domain=zippyshare.com
+/950081/|$domain=1fichier.com
 /?file=ads&
 /ad.php?
 /ad_manage/*

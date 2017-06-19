@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/6/2017
+! Last modified: 19/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -295,9 +295,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /rhpop_
 /smartbanner/*
 /thvpopup.js
-/track.
-/tracking.
-/tracking/*
 /traffic.php
 /vbulletin_read_marker.js?*
 /viettyping.js
@@ -310,7 +307,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/favicon.ico|$domain=linkneverdie.com
-@@/js/tracking.js
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/themes/front/*/ads.js
 @@/WebtrethoTV/js/ads.js
@@ -349,7 +345,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$script,generichide
-@@||nixcdn.com/*/nct-player-video/tracking/*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
 @@||openload.co/assets/js/script.*.f.js
@@ -366,8 +361,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||thamhue.com/images/ads/lgthamhue1.gif
 @@||thethaohd.net/static/themes/front/js/jquery-*
 @@||tinmoi.vn/ads/anninhtv/*
-@@||track.prd.tnt-digital.com^
-@@||tracking.gfycat.com^
 @@||udemy.com/staticx/udemy/js/ng/directives/common/popup.js?*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*

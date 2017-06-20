@@ -347,7 +347,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||linkneverdie.com^$script,generichide
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
-@@||openload.co/assets/js/script.*.f.js
 @@||phim3s.net/player-ads/*
 @@||phongvu.vn/gallery/avatar_upload/ads/*.swf
 @@||pq-direct.revsci.net^$domain=vivo.vn
@@ -733,7 +732,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||onthe.io^$third-party
 ||open.id.zing.vn/sharelink/*
 ||openadserving.com^
-||openload.co/assets/js/script*.js
+||openload.co/assets/js/script.2534.js
 ||openstat.net^$third-party
 ||openx.net^
 ||openx.org^

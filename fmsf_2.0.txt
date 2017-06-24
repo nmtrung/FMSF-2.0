@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/6/2017
+! Last modified: 24/6/2017 11:34 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -57,6 +57,7 @@ twitch.tv#@#[class^="balloon"]
 8bongda.com##[id*="bd8adsheadline"]
 answers.yahoo.com##[id$="textads"]
 baodatviet.vn###ballon
+baodatviet.vn###left_col center
 blackboxrepack.com##.down
 blogtruyen.com##.qc-inner [id^="venus"]
 bongda.com.vn##[id^="text-html-widget"]
@@ -136,6 +137,7 @@ nhac.vui.vn##.padTop5.padBot5
 nhaccuatui.com##[class*="adv_home"]
 nld.com.vn##.bordertopmenuv4
 notebookitalia.it##.block1a.unit
+onhax.me##.lelabp
 pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
@@ -488,6 +490,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||anthill.vn^
 ||api.nas.nct.vn/crossdomain.xml
 ||apple8.com.vn/?*$popup,third-party
+||arrassley.info^$third-party
 ||assets.voz.vn/ga/*
 ||asto-exo.com^$third-party
 ||atdmt.com^
@@ -500,6 +503,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||banxe.2banh.vn^$third-party
 ||baobongda.net/*.gif|
 ||baobongda.net/templates/themes/js/qc_video.js
+||baodatviet.vn^$subdocument
 ||baovieclam.com^$third-party
 ||batdongsangroup.vn^$popup,third-party
 ||bbvnmedia.files.wordpress.com/*.gif
@@ -547,7 +551,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com|ouo.io|zippyshare.com
+||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com|ouo.io|zippyshare.com|onhax.me
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -729,6 +733,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||onclasrv.com^$third-party
 ||onclickads.net^
 ||onclkds.com^$third-party
+||onhax.me/*/rocket.js
 ||onthe.io^$third-party
 ||open.id.zing.vn/sharelink/*
 ||openadserving.com^
@@ -742,6 +747,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||padstm.com^
 ||pagefair.com^
 ||paragonads.vn^
+||pc*ads.com^$third-party
 ||pcworld.com.vn/files/advertising/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party

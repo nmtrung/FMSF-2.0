@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 24/6/2017 11:34 PM
+! Last modified: 27/6/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -316,7 +316,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||4shared.com/css/popup_$stylesheet
-@@||ad.doubleclick.net^$domain=windowscentral.com
+@@||ad.doubleclick.net^$domain=windowscentral.com|thewindowsclub.com
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
@@ -657,6 +657,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
+||imasdk.googleapis.com^$domain=xem.vn
 ||img.thiendia.com/*.gif
 ||img.xemphim73.com/img/*.gif|
 ||infogame.vn/*swf

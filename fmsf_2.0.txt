@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/6/2017
+! Last modified: 3/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -282,7 +282,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /pop.js
 /pop1web-
 /popads.
-/popup.
 /popup/*
 /popup1.js
 /popup2.js
@@ -323,7 +322,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||advertising.aol.com^$domain=linkneverdie.com
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*$domain=talktv.vn
-@@||behance.net/css/project/popup.css
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
@@ -331,11 +329,9 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||chiasenhac.vn/js/ads.js
 @@||creative.adobe.com/*/resource/common/utils/log.js
-@@||dmcdn.net/js/gen/widget/pack/popup.js.*
 @@||docbao.vn/resources/media/ads.js
 @@||doko.vn/StaticDeploy/*/popup*
 @@||facebook.com/ads/profile
-@@||facebook.com/ajax/questions/popup.php?*
 @@||facebook.com/dialog/oauth?*
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||fptplay.net/js/ads.js
@@ -343,7 +339,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||kay.com.vn/IndexBanner/*
-@@||kay.com.vn/kay_v2/js/popup.js
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$script,generichide
@@ -362,11 +357,9 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||thamhue.com/images/ads/lgthamhue1.gif
 @@||thethaohd.net/static/themes/front/js/jquery-*
 @@||tinmoi.vn/ads/anninhtv/*
-@@||udemy.com/staticx/udemy/js/ng/directives/common/popup.js?*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
 @@||vipphim.net/ads/xemphim.png
-@@||vtc.vn/*/views/common/popup.js|
 @@||vtvapi.channelvn.net^
 @@||vuighe.net/build/js/ads-*.js
 @@||weather.channelvn.net^

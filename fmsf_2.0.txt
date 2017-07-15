@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 3/7/2017 10:52 PM
+! Last modified: 15/7/2017 3:59 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -308,6 +308,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/favicon.ico|$domain=linkneverdie.com
+@@/show_ads.js
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/themes/front/*/ads.js
 @@/WebtrethoTV/js/ads.js
@@ -545,7 +546,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|shink.in|movies.hdviet.com|ouo.io|zippyshare.com|onhax.me
+||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|movies.hdviet.com|ouo.io|zippyshare.com|onhax.me
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -818,7 +819,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||serving.bluexy.net/vod/*.mp4
 ||sharelive.net^
 ||sharethis.com^
-||shink.in/js/p.v1.js
+||shink.in/img/downloadad.png
+||shink.in/js/p*.js
 ||sieumua.com^$third-party
 ||skimresources.net^
 ||skylink.vn^
@@ -951,3 +953,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
+! ========================== Scripts Injection ===========================
+shink.in##script:inject(abort-on-property-read.js, RunAds)
+shink.in##script:inject(abort-on-property-write.js, _pop)
+shink.in##script:inject(abort-on-property-write.js, Fingerprint2)

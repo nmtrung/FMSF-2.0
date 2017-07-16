@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 15/7/2017 3:59 PM
+! Last modified: 16/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -953,7 +953,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
-! ========================== Scripts Injection ===========================
+! ========================== Scripts ===========================
+rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)

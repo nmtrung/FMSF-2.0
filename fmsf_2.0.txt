@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 16/7/2017
+! Last modified: 19/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -115,6 +115,7 @@ ketqua.net##.float-qc-left
 khampha.vn##[id^="ADS_"]
 kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
+kissmanga.com###mgiframe2 + DIV
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 lottecinemavn.com###ctl00_pPopup
 lozi.vn##.share-box
@@ -371,6 +372,11 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
+! ========================== Scripts ===========================
+rarbg.to##script:inject(abort-on-property-read.js, _wm3)
+shink.in##script:inject(abort-on-property-read.js, RunAds)
+shink.in##script:inject(abort-on-property-write.js, _pop)
+shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
 *.accountant^$third-party
@@ -728,6 +734,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||oclasrv.com^
 ||onclasrv.com^$third-party
 ||onclickads.net^
+||onclickbright.com^$third-party
 ||onclkds.com^$third-party
 ||onhax.me/*/rocket.js
 ||onthe.io^$third-party
@@ -841,6 +848,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||stats.wordpress.com^$third-party
 ||statsy.net^$third-party
 ||stc.nas.nixcdn.com^$domain=nhaccuatui.com
+||steepto.com^$websocket,third-party
 ||storage.googleapis.com/728x90/rutracker*.gif|
 ||stumble-upon.com^
 ||stumbleupon.com^$third-party
@@ -864,6 +872,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||thongtincongty.com/fancybox/*
 ||thongtincongty.com/qctruot.js
 ||thoughtleadr.com^
+||ti553.com^$third-party
 ||tidaltv.com^
 ||tivibongda.net/kenh/logo.gif
 ||tivibongda.net/kenh/sv*.png
@@ -953,8 +962,3 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party
-! ========================== Scripts ===========================
-rarbg.to##script:inject(abort-on-property-read.js, _wm3)
-shink.in##script:inject(abort-on-property-read.js, RunAds)
-shink.in##script:inject(abort-on-property-write.js, _pop)
-shink.in##script:inject(abort-on-property-write.js, Fingerprint2)

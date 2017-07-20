@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/7/2017
+! Last modified: 20/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -119,6 +119,8 @@ kissmanga.com###mgiframe2 + DIV
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 lottecinemavn.com###ctl00_pPopup
 lozi.vn##.share-box
+m.blogtruyen.com###mbtfloat
+m.blogtruyen.com###qcInnerContentList
 macintosh.vn###dg-container
 mail.google.com##.Bu.y3
 mediafire.com##.dlPromo1Content.dlPromoContent
@@ -518,6 +520,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||bizible.com^
 ||blogspot.com^$subdocument,third-party
 ||blogtruyen.com/file/*
+||blogtruyen.com/scripts/iframe-rand-mobile.js?*
 ||blogtruyen.com/Scripts/qctruot2ben.js
 ||bluecava.com^
 ||bluekai.com^

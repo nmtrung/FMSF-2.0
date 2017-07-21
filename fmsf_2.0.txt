@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/7/2017
+! Last modified: 21/7/2017 6:48 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -285,7 +285,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /pop.js
 /pop1web-
 /popads.
-/popup/*$script,image,stylesheet
 /popup1.js
 /popup2.js
 /popup_
@@ -315,7 +314,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/themes/front/*/ads.js
 @@/WebtrethoTV/js/ads.js
-@@||123doc.org/documents/popup/pop_download_not_login.php?*
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||4shared.com/css/popup_$stylesheet
@@ -362,7 +360,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||thethaohd.net/static/themes/front/js/jquery-*
 @@||tinmoi.vn/ads/anninhtv/*
 @@||videomega.tv/vjs/plugin/css/ads.css
-@@||vietcombank.com.vn/upload/popup/*
 @@||vipphim.net/ads/xemphim.png
 @@||vtvapi.channelvn.net^
 @@||vuighe.net/build/js/ads-*.js
@@ -546,7 +543,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||cerotop.com^$third-party
 ||channelvn.net^
 ||chartbeat.com^
-||chiasenhac.vn/videojs-vast-plugin-master/*
 ||chitika.net^
 ||chovinh.com/data/*.gif|
 ||click.xdeal.vn/adssite/*

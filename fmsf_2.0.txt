@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/7/2017 6:48 PM
+! Last modified: 22/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -372,6 +372,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
+phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
@@ -418,6 +419,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||abcsrv1.com^$third-party
 ||accesstrade.vn^$third-party
 ||ad*.tinong.net^
+||ad-stir.com^$third-party
 ||ad.*.com.vn^
 ||ad.*.com^
 ||ad.*.net^
@@ -534,6 +536,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||bongdatructuyen.vn/js/p0pundr.js
 ||bp.blogspot.com/*/banner.png|$domain=hamtruyen.vn
 ||bp.blogspot.com/-*.gif$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|xemthethao.vn|xembongda24h.com|ketqua.net|mphim.net
+||brand.ad^$third-party
 ||buysellads.com^
 ||buzzadnetwork.com^$third-party
 ||cam4.com^
@@ -672,6 +675,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||jscount.com^
 ||juicyads.com^
 ||jwpcdn.com/player/*/vast.js$domain=vungtv.com
+||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
 ||kites.vn/lib/video-js/*vast*
 ||kliksaya.com^
@@ -717,6 +721,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||mu-ss2.net^
 ||mxpnl.com^
 ||mywork.vn^$third-party
+||n176adserv.com^$third-party
 ||naidum.com^$third-party
 ||netshelter.net^
 ||newrelic.com^
@@ -755,6 +760,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party
 ||phimmoi.net/*/vast.
+||phimmoi.net/js/fx/ga.js
 ||phongcomputer.com^$third-party
 ||phongvu.vn/templates/vtpv/fancybox2/*
 ||phongvu.vn/templates/vtpv/js/BannerFloat.js
@@ -773,6 +779,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||popads.net^
 ||popcash.net^
 ||popclck.net^$third-party
+||popclck.org^$third-party
 ||popmyads.com^
 ||porn99.net^$third-party
 ||postimg.io/*.gif$domain=bongdatructuyen.us
@@ -863,6 +870,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
 ||tenlua.vn/img/*_banner*.gif|
+||terratraf.com^$third-party
 ||thamhue.*vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
@@ -929,6 +937,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||vozforums.com/specials/*
 ||vozforums.com/vbdev/*
 ||vuighe.net/assest/banner/*
+||vungtv.com/vungtv/fc.php?*
 ||waframedia*.com^$third-party
 ||webdien.com/d/ad/*
 ||websitedhoome.com^$popup,third-party

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 22/7/2017
+! Last modified: 23/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -118,7 +118,6 @@ kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 kissmanga.com###mgiframe2 + DIV
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 lottecinemavn.com###ctl00_pPopup
-lozi.vn##.share-box
 m.blogtruyen.com###mbtfloat
 m.blogtruyen.com###qcInnerContentList
 macintosh.vn###dg-container
@@ -249,11 +248,11 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /atrk.js
 /avim.js
 /Bacdau-banner-
-/banner/*$~image
+/banner/*$~image,~xmlhttprequest
 /banner/*.gif
 /banner_$third-party
 /bannerqc/*
-/banners/*$~image
+/banners/*$~image,~xmlhttprequest
 /banners?
 /buaxua_floating.js
 /cdn/qc/*
@@ -299,7 +298,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /smartbanner/*
 /thvpopup.js
 /traffic.php
-/vbulletin_read_marker.js?*
 /viettyping.js
 _ads.
 _ads/*
@@ -309,7 +307,6 @@ searchTrack.php?
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/adsbygoogle.js$domain=hackintosh.zone
-@@/favicon.ico|$domain=linkneverdie.com
 @@/show_ads.js
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/themes/front/*/ads.js
@@ -321,13 +318,11 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
-@@||advertising.aol.com^$domain=linkneverdie.com
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*$domain=talktv.vn
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
-@@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||chiasenhac.vn/js/ads.js
 @@||creative.adobe.com/*/resource/common/utils/log.js
@@ -335,7 +330,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||doko.vn/StaticDeploy/*/popup*
 @@||facebook.com/ads/profile
 @@||facebook.com/dialog/oauth?*
-@@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||fptplay.net/js/ads.js
 @@||googlesyndication.com^$domain=yts.ag
 @@||hdonline.vn/*/video?*
@@ -372,6 +366,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
+linkneverdie.com##script:inject(bab-defuser.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
@@ -646,7 +641,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
-||hdonline.vn/*/banner
 ||hdonline.vn/file/*.jpg
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
@@ -685,7 +679,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
-||linkneverdie.com/signalr/*
+||linkneverdie.com/CPMMicro/*
 ||liveadexchanger.com^$third-party
 ||loading-delivery1.com^
 ||lode88.com^$popup,third-party
@@ -933,7 +927,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
 ||vnwebgame.com^$popup
-||vozforums.com/clientscript/vbulletin_lightbox.js?*
 ||vozforums.com/specials/*
 ||vozforums.com/vbdev/*
 ||vuighe.net/assest/banner/*

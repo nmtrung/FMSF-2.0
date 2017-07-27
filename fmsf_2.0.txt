@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 23/7/2017
+! Last modified: 27/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -230,6 +230,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /?file=ads&
 /ad.php?
 /ad_manage/*
+/adpost_
 /ads-
 /ads.
 /ads/*
@@ -354,6 +355,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||thethaohd.net/static/themes/front/js/jquery-*
 @@||tinmoi.vn/ads/anninhtv/*
 @@||videomega.tv/vjs/plugin/css/ads.css
+@@||vietcombank.com.vn/upload/popup/*
 @@||vipphim.net/ads/xemphim.png
 @@||vtvapi.channelvn.net^
 @@||vuighe.net/build/js/ads-*.js
@@ -596,6 +598,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||esportsviet.vn/images/*.gif|
 ||exdynsrv.com^$third-party
 ||exoclick.com^$popup,script,image
+||exosrv.com^$third-party
 ||exponential.com^
 ||extreme-dm.com^$third-party
 ||fastclick.net^
@@ -646,6 +649,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
 ||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
+||hilltopads.net^$third-party
 ||histats.com^
 ||histock.info^$third-party
 ||horsered.com^

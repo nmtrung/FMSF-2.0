@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/7/2017
+! Last modified: 28/7/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -494,6 +494,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||asto-exo.com^$third-party
 ||atdmt.com^
 ||automation.net.vn/images/stories*.jpg|
+||automoc.net^$third-party
 ||awltovhc.com^$third-party
 ||b.123c.vn/zad/videoad?*
 ||backlinks365.com^
@@ -955,6 +956,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||xonefm.com/media/*.swf
 ||xtendadvert.com^$third-party
 ||yadro.ru^
+||yamvideo.com/pop1/*
 ||yashilong.info^$third-party
 ||yceml.net^
 ||yllix.com^

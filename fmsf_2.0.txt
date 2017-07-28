@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/7/2017
+! Last modified: 28/7/2017 10:53 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -59,6 +59,9 @@ answers.yahoo.com##[id$="textads"]
 baodatviet.vn###ballon
 baodatviet.vn###left_col center
 blackboxrepack.com##.down
+blogtruyen.com###mbtfloat
+blogtruyen.com###qcInnerContentList
+blogtruyen.com###topbanner
 blogtruyen.com##.qc-inner [id^="venus"]
 bongda.com.vn##[id^="text-html-widget"]
 bongdaplus.vn##.adrgt
@@ -104,7 +107,7 @@ google.com,google.com.vn###extrares.med
 google.com,google.com.vn##.ads-ad
 gsm.vn##[class^="section widget"] > #widget-11
 hamtruyen.com###ballon_left
-hamtruyen.vn##.title_quancaog
+hamtruyen.vn###box-player
 hanoicomputer.vn###highstreet
 heaveniphone.com##.thongbao
 howtogeek.com###side78
@@ -118,8 +121,6 @@ kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 kissmanga.com###mgiframe2 + DIV
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 lottecinemavn.com###ctl00_pPopup
-m.blogtruyen.com###mbtfloat
-m.blogtruyen.com###qcInnerContentList
 macintosh.vn###dg-container
 mail.google.com##.Bu.y3
 mediafire.com##.dlPromo1Content.dlPromoContent
@@ -368,6 +369,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
+blogtruyen.com##script:contains(btpop)
 linkneverdie.com##script:inject(bab-defuser.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/7/2017 10:53 PM
+! Last modified: 29/7/2017 10:53 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -35,7 +35,6 @@
 ##[id^="divAd"]
 ! ========================= Element Hiding Exception ==========================
 @@||classical-pippo9.blogspot.com^$generichide
-@@||eva.vn^$generichide
 @@||gamek.vn^$generichide
 @@||hulu.com^$generichide
 @@||hvdic.thivien.net^$generichide
@@ -48,8 +47,7 @@ twitch.tv#@#[class^="balloon"]
 ! ========================== Element Hiding Per Site ==========================
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
-24h.com.vn,eva.vn###linkbg1
-24h.com.vn,eva.vn###linkbg2
+24h.com.vn##[id^="crt-"]
 2banh.vn##.footer_expand_wrp
 4shared.com##[id^="epom"]
 5giay.vn##[id*="bg_ban_"]
@@ -72,8 +70,6 @@ bongdatructuyen.info###text-14.right-widget
 bongdatructuyen.us###left_sticky_ads
 bongdatructuyen.us##[id^="banner"]
 bongdatv.net###block-block-1
-bongdatv.net###block-block-13
-bongdatv.net###block-block-14
 bongdaup.com##.tfs-topads
 cadviet.com###quangcaocadviet
 chiasenhac.us##.a > .content
@@ -87,16 +83,12 @@ cvt.vn##.brAdsArea
 deviantart.com##.partial-ad
 diadiem.com###divPopAdsPOI
 diadiem.com##.div_box_adv
-eva.vn###subLeftSuKienTieuDiem
-eva.vn##[class^="banner300250"]
 eva.vn##[id^="ADS_"]
 expertcircuits.blogspot.com###fanback
 foody.vn##.foody-banner
-forum.360kpop.com##.dc-adv
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
 fshare.vn##.ban-ev-bot-foot
-fshare.vn##[id^="ET"]
 gamehub.vn##.portal_ads_scroll
 gamesupport.vn###gritter-notice-wrapper
 gametv.vn##.ads_topbaner
@@ -120,7 +112,6 @@ kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 kissmanga.com###mgiframe2 + DIV
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
-lottecinemavn.com###ctl00_pPopup
 macintosh.vn###dg-container
 mail.google.com##.Bu.y3
 mediafire.com##.dlPromo1Content.dlPromoContent
@@ -145,20 +136,15 @@ pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
-phienbanmoi.com###uix_welcomeBlock
+phienbanmoi.com##.xbWelcomeBar
 phim.tiengnga.net##.sectionMain.funbox
-phongvu.vn###divBannerFloatLeft
-phongvu.vn###divBannerFloatRight
-phongvu.vn##.banner
 pl.tclup.com##.modal
 platinumcineplex.vn##[id^="fancybox"]
 play.tclup.com##.body > .modal
 pso2vn.com###scrolling
-quantrimang.com.vn###socialsharebar
 ragezone.com##.rzone_ads
 ragezone.com##.social-counter
 rapidgator.net##[id*="_banner"]
-realmadrid.com.vn###main-content #block-bot-left
 rutracker.org###bn-idx-4
 skidrowgames.net###text-6
 softarchive.net##.big_banner_adv
@@ -172,7 +158,6 @@ talk.secafe.vn##.hs-hide-992
 talktv.vn###update-register-container
 tangthuvien.vn###sidebar
 tapchicntt.com###text-html-widget-8
-tapchicntt.com##.ads-top
 techrum.vn##.sharePage
 techrum.vn##.vip_ad_div
 thamhue.com###ad_global_below_navbar
@@ -211,6 +196,7 @@ xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
 xemtiviso.com##.quangcao
 xemtiviso.com##.tab-kenh
+yan.vn##[id^="crt-"]
 youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
@@ -329,7 +315,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||chiasenhac.vn/js/ads.js
 @@||creative.adobe.com/*/resource/common/utils/log.js
 @@||docbao.vn/resources/media/ads.js
-@@||doko.vn/StaticDeploy/*/popup*
 @@||facebook.com/ads/profile
 @@||facebook.com/dialog/oauth?*
 @@||fptplay.net/js/ads.js
@@ -342,8 +327,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||linkneverdie.com^$script,generichide
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
-@@||phim3s.net/player-ads/*
-@@||phongvu.vn/gallery/avatar_upload/ads/*.swf
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||pubads.g.doubleclick.net^$domain=kites.vn
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js|$domain=tv.zing.vn
@@ -353,16 +336,12 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||stream.org.adtimaserver.vn$object,domain=talktv.vn
 @@||talktv.vn/resource/third-party/jwplayer/ads.js?
 @@||thamhue.com/images/ads/lgthamhue1.gif
-@@||thethaohd.net/static/themes/front/js/jquery-*
 @@||tinmoi.vn/ads/anninhtv/*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
-@@||vipphim.net/ads/xemphim.png
 @@||vtvapi.channelvn.net^
-@@||vuighe.net/build/js/ads-*.js
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
-@@||www.phimmoi.net/js/google/googleanalytics.js
 @@||xemvtv.net/jwplayer7/vast.js
 @@||yan.vn/web_js/videojs/ads.min.js
 @@||yimg.com/zz/combo?*
@@ -383,8 +362,8 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||123doc.org/documents/ajax/ajax_load_ads_vg.php
 ||125.212.202.62/*.gif
 ||125.212.202.62/*.swf
+||12betviet.com^$popup
 ||12betvn88.com^$popup
-||12betwin.net^$popup
 ||188bongda.com^$popup,third-party
 ||195.82.146.52^
 ||210.211.108.201:81/jsads/*
@@ -413,6 +392,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||5giay.vn/script/sticky/*
 ||5giay.vn/trangchu/support/support*.js
 ||7mad.7m.cn^
+||7mimg.7m.cn/*.gif
 ||9cc85d.se^
 ||aad73c550c.se/?*$popup
 ||abcsrv1.com^$third-party
@@ -499,8 +479,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||automoc.net^$third-party
 ||awltovhc.com^$third-party
 ||b.123c.vn/zad/videoad?*
-||backlinks365.com^
-||banbe.net^$third-party
 ||bannhadatdanang.com^$third-party
 ||banxe.2banh.vn^$third-party
 ||baobongda.net/*.gif|
@@ -561,7 +539,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||cohet.tv/ajs/*
 ||coinurl.com^$third-party
 ||concernrain.com^$third-party
-||congdonghot.com^$third-party
 ||connexity.net^
 ||connextra.com^
 ||content.ad^
@@ -583,7 +560,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||diendanlequydon.com^$third-party
 ||directrev.com^
 ||divxcentral.com/wp-content/plugins/adblock-notify-by-bweb/*
-||dj.net.vn^$third-party
 ||docbao.vn/images/bagiang.swf
 ||donate-*.info^
 ||doubleclick.net^$script,image,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
@@ -643,7 +619,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
 ||hai360.vn/skin/web/*custombox*
-||halophim.net^$popup,third-party
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
@@ -656,7 +631,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||histats.com^
 ||histock.info^$third-party
 ||horsered.com^
-||htvonline.com.vn/layout/images/*.jpg
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
 ||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
@@ -671,7 +645,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||intellitxt.com^
 ||interyield.*.com^$third-party
 ||invitemedia.com^
-||ismcorp.vn^
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
@@ -689,9 +662,9 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||linkneverdie.com/CPMMicro/*
 ||liveadexchanger.com^$third-party
 ||loading-delivery1.com^
-||lode88.com^$popup,third-party
+||lode88.net^$popup,third-party
 ||logging.admicro.vn^
-||lottecinemavn.com/getattachment/*/NodeAlias.aspx?width=&height=
+||lottecinemavn.com/App_Themes/lotte/Popup/*
 ||lp.longtailvideo.com/5/ova/ova-jw.swf
 ||lps.sbro.me^$script,third-party
 ||luckytravelshop.info^
@@ -717,11 +690,10 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||mixpanel.com^
 ||mmo4me.com/image.php?*
 ||mobiad.yestech.vn^$third-party
-||mobivui.net^$third-party
 ||msales.com^
 ||mu-ss2.net^
 ||mxpnl.com^
-||mywork.vn^$third-party
+||mywork.com.vn^$third-party
 ||n176adserv.com^$third-party
 ||naidum.com^$third-party
 ||netshelter.net^
@@ -730,7 +702,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||nguonvui.com/content/getPromo?*
 ||nguonvui.com/vast/*
 ||nhaccuatui.com/widget/*$third-party
-||nhacso.net^$popup,third-party,subdocument
 ||nhanthuong88.com^$popup,third-party
 ||nology.vn^$third-party
 ||novanet.vn^

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/7/2017 10:53 PM
+! Last modified: 1/8/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -278,6 +278,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /promotions/*
 /ptracking/*
 /ptracking?*
+/qc.gif|
 /quang-cao/*
 /quangcao.
 /quangcao/*
@@ -765,8 +766,10 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||ptp22.com^
 ||pub2srv.com^
 ||pubmatic.com^
+||puhtml.com^$third-party
 ||punchtab.com^$third-party
 ||purgrobi.com^
+||puserving.com^$third-party
 ||putags.com^
 ||qc.5giay.vn^
 ||qc.tclup.com^$popup,script

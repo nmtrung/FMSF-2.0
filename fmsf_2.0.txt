@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 1/8/2017
+! Last modified: 1/8/2017 11:56 AM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -326,6 +326,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$script,generichide
+@@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
 @@||pq-direct.revsci.net^$domain=vivo.vn
@@ -570,6 +571,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||dulichdatviet.info^$third-party
 ||dynamicoxygen.com^
 ||dyncdn.me/static/20/js/expla*.js
+||eboundservices.com^$third-party
 ||ebz.io^
 ||eclick.$third-party
 ||effectivemeasure.net^
@@ -703,6 +705,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||nguonvui.com/content/getPromo?*
 ||nguonvui.com/vast/*
 ||nhaccuatui.com/widget/*$third-party
+||nhacpro.net/files/js/facebook.js?*
 ||nhanthuong88.com^$popup,third-party
 ||nology.vn^$third-party
 ||novanet.vn^

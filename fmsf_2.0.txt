@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 1/8/2017 11:56 AM
+! Last modified: 3/8/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -101,7 +101,6 @@ gsm.vn##[class^="section widget"] > #widget-11
 hamtruyen.com###ballon_left
 hamtruyen.vn###box-player
 hanoicomputer.vn###highstreet
-heaveniphone.com##.thongbao
 howtogeek.com###side78
 howtogeek.com##.adSystem_ads
 howtogeek.com##.overlay-bg
@@ -322,6 +321,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||googlesyndication.com^$domain=yts.ag
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
+@@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||kay.com.vn/IndexBanner/*
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
@@ -441,6 +441,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||adpop*.com^$third-party
 ||adproper.info^
 ||adprotected.com^
+||adrecover.com^$third-party
 ||adrich.cash^
 ||adriver.ru^
 ||adroll.com^

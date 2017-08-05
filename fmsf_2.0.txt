@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 3/8/2017
+! Last modified: 5/8/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -774,6 +774,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||punchtab.com^$third-party
 ||purgrobi.com^
 ||puserving.com^$third-party
+||pussl10.com^$third-party
 ||putags.com^
 ||qc.5giay.vn^
 ||qc.tclup.com^$popup,script

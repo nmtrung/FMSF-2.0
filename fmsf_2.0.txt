@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/8/2017
+! Last modified: 11/8/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -60,6 +60,7 @@ blackboxrepack.com##.down
 blogtruyen.com###mbtfloat
 blogtruyen.com###qcInnerContentList
 blogtruyen.com###topbanner
+blogtruyen.com##.qc-inner > center > div
 blogtruyen.com##.qc-inner [id^="venus"]
 bongda.com.vn##[id^="text-html-widget"]
 bongdaplus.vn##.adrgt

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 17/8/2017 11:16 PM
+! Last modified: 19/8/2017 12:47 AM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -304,7 +304,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||195.82.146.52/logo/*
 @@||4shared.com/css/popup_$stylesheet
 @@||ad.doubleclick.net^$domain=windowscentral.com|thewindowsclub.com
-@@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
+@@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
 @@||api.adtimaserver.vn/crossdomain.xml
@@ -324,15 +324,12 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
-@@||kay.com.vn/IndexBanner/*
-@@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$script,generichide
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
 @@||pq-direct.revsci.net^$domain=vivo.vn
-@@||pubads.g.doubleclick.net^$domain=kites.vn
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js|$domain=tv.zing.vn
 @@||skylink.vn^$domain=hdonline.vn
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
@@ -347,7 +344,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
 @@||xemvtv.net/jwplayer7/vast.js
-@@||yan.vn/web_js/videojs/ads.min.js
 @@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
@@ -657,7 +653,6 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||jwpcdn.com/player/*/vast.js$domain=vungtv.com
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
-||kites.vn/lib/video-js/*vast*
 ||kliksaya.com^
 ||kontera.com^
 ||lavanetwork.net^

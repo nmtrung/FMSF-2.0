@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/8/2017 12:47 AM
+! Last modified: 19/8/2017 10:32 AM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -326,6 +326,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$script,generichide
+@@||log.quora.com^
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/9/2017 12:31 AM
+! Last modified: 16/9/2017 11:02 AM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -256,7 +256,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /generate_204
 /GTrackPlugin.swf
 /itro-popup/*
-/jquery.bpopup.min.js
 /jquery.smart*banner.
 /js/light.js?*$domain=vipphim.net|tvhay.org
 /js/pop-

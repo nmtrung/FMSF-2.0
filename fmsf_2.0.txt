@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/10/2017
+! Last modified: 25/10/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -625,11 +625,14 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn|diendanvetinh.com.vn
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
+||hadarone.com/ajs/display.js?*
+||hadarone.com^$xmlhttprequest
 ||hai360.vn/skin/web/*custombox*
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
 ||hdonline.vn/file/*.jpg
+||hdonline.vn/template/frontend/*float*
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
 ||heyphim.com/img/*.gif|
@@ -755,6 +758,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||playpark.vn/img/*.swf
 ||playpark.vn/img/ads
 ||plugrush.com^
+||po.st/static/*$third-party
 ||polyad.net^
 ||popads.net^
 ||popcash.net^
@@ -797,6 +801,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||reviveservers.com^
 ||revsci.net^
 ||rhcloud.com^$third-party,domain=tv.101vn.com
+||rigelink.com^$third-party
 ||riverbanksand.com^
 ||rmbn.net^
 ||rtbclick.net^$third-party
@@ -875,6 +880,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||trafficfactory.biz^
 ||trafficjunky.net^
 ||tragop365.com.vn^$popup,third-party
+||tranvu.info^$third-party
 ||tribalfusion.com^
 ||trklnks.com^
 ||trollbongda.com/*.swf

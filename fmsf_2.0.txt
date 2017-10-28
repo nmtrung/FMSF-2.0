@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/10/2017 8:00 PM
+! Last modified: 28/10/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -538,7 +538,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=hamtruyen.vn|phimnhanh.com|movies.hdviet.com|ouo.io|zippyshare.com|onhax.me
+||cloudfront.net^$domain=comicvn.net|hamtruyen.vn|movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -599,6 +599,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
 ||fshare.vn/js/adsplay.
 ||fulldl.net^
+||fun120.com^$popup,third-party
 ||galaxypub.vn^$third-party,~image,~object-subrequest
 ||game-advertising-online.com^
 ||game360pro.com^$third-party

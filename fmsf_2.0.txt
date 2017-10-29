@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/10/2017
+! Last modified: 29/10/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -328,7 +328,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||laodong.com.vn/Jscripts/log.js?*
-@@||linkneverdie.com^$script,generichide
+@@||linkneverdie.com^$generichide,script,subdocument
 @@||log.quora.com^
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
@@ -453,7 +453,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 ||ads4digital.com^$third-party
 ||adserver.
 ||adsgame.soha.vn^$popup,third-party
-||adskeeper.co.uk^
+||adskeeper.co.uk^$third-party,domain=~linkneverdie.com
 ||adsplay.net/js/analytics/*
 ||adsplay.net^$xmlhttprequest
 ||adsvn.ga^

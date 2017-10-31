@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/10/2017
+! Last modified: 31/10/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -145,6 +145,7 @@ pl.tclup.com##.modal
 platinumcineplex.vn##[id^="fancybox"]
 play.tclup.com##.body > .modal
 pso2vn.com###scrolling
+quora.com##.cta_case_rules
 ragezone.com##.rzone_ads
 ragezone.com##.social-counter
 rapidgator.net##[id*="_banner"]

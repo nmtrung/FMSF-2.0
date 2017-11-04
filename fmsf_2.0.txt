@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 31/10/2017
+! Last modified: 4/11/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -179,6 +179,7 @@ torviet.com###rightBanner1Ky
 tructiepbongda.com###text-8
 tructiepbongda.com###text-9
 truyen18.org##.pr-widget
+truyentranh.net###abdplayerdiv
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
@@ -360,6 +361,7 @@ rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
+truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
 *.accountant^$third-party

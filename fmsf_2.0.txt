@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/11/2017
+! Last modified: 5/11/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -356,6 +356,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ========================== Scripts ===========================
 blogtruyen.com##script:contains(btpop)
 linkneverdie.com##script:inject(bab-defuser.js)
+phim14.net##script:inject(nowebrtc.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
@@ -774,6 +775,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||postimg.io/*.gif$domain=bongdatructuyen.us
 ||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|bongdatructuyen.info|keonhacai.com|bongdaup.com|tv.101vn.com|8bongda.com
 ||pr-quangcao.edu.vn^
+||predictivadvertising.com^$third-party
 ||projectwonderful.com^
 ||propellerads.com^
 ||prscripts.com^$third-party

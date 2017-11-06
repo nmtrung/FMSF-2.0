@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/11/2017
+! Last modified: 6/11/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -140,6 +140,7 @@ pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
 phienbanmoi.com##.xbWelcomeBar
+phim.media##.adv-300-right
 phim.tiengnga.net##.sectionMain.funbox
 pl.tclup.com##.modal
 platinumcineplex.vn##[id^="fancybox"]
@@ -335,6 +336,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
+@@||phim.media/js/ads.js
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js|$domain=tv.zing.vn
 @@||skylink.vn^$domain=hdonline.vn
@@ -527,6 +529,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||brand.ad^$third-party
 ||buysellads.com^
 ||buzzadnetwork.com^$third-party
+||cachefly.net/js/ad-exchange.js
 ||cam4.com^
 ||casalemedia.com^
 ||cedexis-radar.net^
@@ -542,7 +545,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=comicvn.net|hamtruyen.vn|movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com
+||cloudfront.net^$domain=comicvn.net|hamtruyen.vn|movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com|phim.media
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -609,6 +612,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||game360pro.com^$third-party
 ||gamehub.vn/img/files/*.gif|
 ||gammaplatform.com/js/ad-exchange.js
+||gammaplatform.com^$third-party
 ||genericsteps.com^
 ||genieessp.com^$third-party
 ||genieesspv.jp^$third-party
@@ -648,7 +652,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||histock.info^$third-party
 ||horsered.com^
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
-||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com
+||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -744,6 +748,8 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 ||paragonads.vn^
 ||pc*ads.com^$third-party
 ||pcworld.com.vn/files/advertising/*
+||phim.media/templates/themes/phim/js/ga.js
+||phim.media/videojs/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party

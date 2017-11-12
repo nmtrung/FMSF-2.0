@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/11/2017 9:08 AM
+! Last modified: 12/11/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -207,6 +207,7 @@ youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 youtube.com##.pyv-afc-ads-container
+youtube.com##.ytp-ce-element.ytp-ce-element-show
 zippyshare.com###qrCode ~ a[href$="1131386.html"]
 ! ============================== General adverts ==============================
 -ads/
@@ -306,6 +307,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/WebtrethoTV/js/ads.js
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
+@@||3rabshort.com/js/ads.js
 @@||4shared.com/css/popup_$stylesheet
 @@||ad.doubleclick.net^$domain=windowscentral.com|thewindowsclub.com
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn

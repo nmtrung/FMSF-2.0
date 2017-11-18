@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/11/2017
+! Last modified: 18/11/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -321,6 +321,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||chiasenhac.vn/js/ads.js
+@@||click.linksynergy.com/deeplink?$popup
 @@||creative.adobe.com/*/resource/common/utils/log.js
 @@||docbao.vn/resources/media/ads.js
 @@||facebook.com/ads/*$xmlhttprequest
@@ -333,6 +334,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdonline.vn/template/frontend/js/ads.js
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
+@@||hub.blueserving.com/?skip=
 @@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$generichide,script,subdocument
 @@||log.quora.com^
@@ -360,6 +362,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
 blogtruyen.com##script:contains(btpop)
+hdonline.vn##script:inject(window.open-defuser.js)
 linkneverdie.com##script:inject(bab-defuser.js)
 phim14.net##script:inject(nowebrtc.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)

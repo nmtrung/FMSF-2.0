@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/11/2017
+! Last modified: 1/12/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -289,6 +289,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /quangcao/*
 /rellect/AdblockDetector/*
 /rhpop_
+/script/suurl.php?
 /smartbanner/*
 /thvpopup.js
 /traffic.php
@@ -361,6 +362,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
+aphim.co##script:inject(abort-on-property-write.js, adcashMacros)
 blogtruyen.com##script:contains(btpop)
 hdonline.vn##script:inject(window.open-defuser.js)
 linkneverdie.com##script:inject(bab-defuser.js)
@@ -474,6 +476,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||adtechus.com^$third-party
 ||adtimaserver.vn^$script,image,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
+||adtrue.com^$third-party
 ||adultadworld.com^
 ||adv.meodep.com^$third-party
 ||adv.thethaovanhoa.vn^
@@ -488,6 +491,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||amung.us^
 ||an.facebook.com/*/vast.xml?*$third-party
 ||anthill.vn^
+||aphim.co/asset_blade/js/jquery.popup.js
 ||api.nas.nct.vn/crossdomain.xml
 ||apple8.com.vn/?*$popup,third-party
 ||arrassley.info^$third-party
@@ -618,7 +622,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||game-advertising-online.com^
 ||game360pro.com^$third-party
 ||gamehub.vn/img/files/*.gif|
-||gammaplatform.com/js/ad-exchange.js
 ||gammaplatform.com^$third-party
 ||genericsteps.com^
 ||genieessp.com^$third-party

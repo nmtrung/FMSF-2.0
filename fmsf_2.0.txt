@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 1/12/2017
+! Last modified: 2/12/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -858,6 +858,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||sosmart.vn^$third-party
 ||spillvacation.com^$third-party
 ||spotxchange.com^
+||sspapi.admicro.vn^$third-party
 ||st.game.thanhnien.com.vn^$third-party
 ||statcounter.com^
 ||staticflickr.com^$third-party,domain=itunesvn.com

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 2/12/2017
+! Last modified: 24/12/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -59,6 +59,7 @@ twitch.tv#@#[class^="balloon"]
 answers.yahoo.com##[id$="textads"]
 baodatviet.vn###ballon
 baodatviet.vn###left_col center
+bdslamdong.vn##.widget-ad-300
 blackboxrepack.com##.down
 blogtruyen.com###mbtfloat
 blogtruyen.com###qcInnerContentList
@@ -149,6 +150,7 @@ pso2vn.com###scrolling
 quora.com##.cta_case_rules
 ragezone.com##.rzone_ads
 ragezone.com##.social-counter
+raovatdalat.vn##.share-ad-zone.top-banner
 rapidgator.net##[id*="_banner"]
 rutracker.org###bn-idx-4
 skidrowgames.net###text-6
@@ -510,6 +512,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||baovieclam.com^$third-party
 ||batdongsangroup.vn^$popup,third-party
 ||bbvnmedia.files.wordpress.com/*.gif
+||bdslamdong.vn^$third-party
 ||beads.com.vn^
 ||bebi.com^$third-party
 ||begun.ru^
@@ -937,6 +940,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||vdoc.vn^$third-party
 ||vgdn.net/apoop/play_background_*
 ||videomega.tv/vjs/*vast*
+||vieclamdalat.vn^$third-party
 ||vietad.vn^
 ||vietcongnghe.net/diendan/qc/*
 ||vietnamnetad.vn^

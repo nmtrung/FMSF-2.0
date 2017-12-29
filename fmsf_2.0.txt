@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 24/12/2017
+! Last modified: 29/12/2017
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -22,6 +22,8 @@
 ##.adsbygoogle
 ##.float-ads-left
 ##.float-ads-right
+##.float-ck
+##.float-ck-righttop
 ##.quangcao
 ##.ytp-ad-progress-list
 ##[class^="ad_"]:not(body)
@@ -354,6 +356,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||talktv.vn/resource/third-party/jwplayer/ads.js?
 @@||thamhue.com/images/ads/lgthamhue1.gif
 @@||tinmoi.vn/ads/anninhtv/*
+@@||tvhay.org/playergk/fingerprint2.min.js
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
 @@||vtvapi.channelvn.net^
@@ -636,6 +639,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||giaiphapexcel.com/qcao/*
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigya.com^
+||gmodules.com/gadgets/proxy?*$domain=xemtiviso.com|tivi4k.net|kenh1.info
 ||gmodules.com^$third-party,domain=keonhacai.com|tv.101vn.com
 ||go.blogtruyen.com^$popup
 ||goo.gl^$popup,domain=animetvn.com
@@ -665,7 +669,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||histock.info^$third-party
 ||horsered.com^
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
-||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media
+||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media|tvhay.org
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -792,7 +796,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||popmyads.com^
 ||porn99.net^$third-party
 ||postimg.io/*.gif$domain=bongdatructuyen.us
-||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|bongdatructuyen.info|keonhacai.com|bongdaup.com|tv.101vn.com|8bongda.com
+||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|bongdatructuyen.info|keonhacai.com|bongdaup.com|tv.101vn.com|8bongda.com|xemtiviso.com
 ||pr-quangcao.edu.vn^
 ||predictivadvertising.com^$third-party
 ||projectwonderful.com^

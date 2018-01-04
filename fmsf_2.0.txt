@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/1/2018
+! Last modified: 4/1/2018 10:55 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -439,6 +439,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||addons.mozilla.org/en-US/firefox/i/promos?*
 ||addthis.com^$third-party
 ||addtoany.com^
+||adexchangetracker.com^$third-party
 ||adexprt.com^
 ||adf.boxxod.net/images/abDetector.js
 ||adfox.vn^
@@ -668,7 +669,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||histock.info^$third-party
 ||horsered.com^
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
-||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media|tvhay.org
+||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media|tvhay.org|vkool.net
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -951,6 +952,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||viglink.com^
 ||vivo.vn/skin/js/ova-jquery.js
 ||vkool.net/js/povff.js
+||vkool.net/js/*/vast.js
 ||vkool.net/swf/pre-roll.xml?*
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*

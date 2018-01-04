@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/12/2017
+! Last modified: 4/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -65,9 +65,8 @@ bdslamdong.vn##.widget-ad-300
 blackboxrepack.com##.down
 blogtruyen.com###mbtfloat
 blogtruyen.com###qcInnerContentList
-blogtruyen.com###topbanner
-blogtruyen.com##.qc-inner > center > div
-blogtruyen.com##.qc-inner [id^="venus"]
+blogtruyen.com##.BT-Ads > center > div
+blogtruyen.com##.qc-css
 bongda.com.vn##[id^="text-html-widget"]
 bongdaplus.vn##.adrgt
 bongdaplus.vn##.banner
@@ -368,7 +367,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
 aphim.co##script:inject(abort-on-property-write.js, adcashMacros)
-blogtruyen.com##script:contains(btpop)
+blogtruyen.com##script:inject(window.open-defuser.js)
 hdonline.vn##script:inject(window.open-defuser.js)
 linkneverdie.com##script:inject(bab-defuser.js)
 phim14.net##script:inject(nowebrtc.js)
@@ -816,6 +815,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||qc.5giay.vn^
 ||qc.tclup.com^$popup,script
 ||qc.yan.vn^
+||qcv5.blogtruyen.com^
 ||quachdaica.net/*/qdc*
 ||quachdaica.net/images/*.gif
 ||quantserve.com^

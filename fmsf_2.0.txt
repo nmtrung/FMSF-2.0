@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/1/2018 11:16 PM
+! Last modified: 5/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -369,7 +369,7 @@ yts/swfbin/player-vfl*/ad*.swf
 aphim.co##script:inject(abort-on-property-write.js, adcashMacros)
 blogtruyen.com##script:inject(window.open-defuser.js)
 hdonline.vn##script:inject(window.open-defuser.js)
-linkneverdie.com##script:inject(bab-defuser.js)
+linkneverdie.com##script:inject(setTimeout-defuser.js, 2d18)
 phim14.net##script:inject(nowebrtc.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/1/2018
+! Last modified: 5/1/2018 10:44 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -104,8 +104,6 @@ giaiphapexcel.com##.yui-sidebar
 google.com,google.com.vn###extrares.med
 google.com,google.com.vn##.ads-ad
 gsm.vn##[class^="section widget"] > #widget-11
-hamtruyen.com###ballon_left
-hamtruyen.vn###box-player
 hanoicomputer.vn###highstreet
 howtogeek.com###side78
 howtogeek.com##.adSystem_ads
@@ -217,7 +215,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 -banner/$image
 -quang-cao/
 .com/qc/*
-.mp4|$object-subrequest,domain=movies.hdviet.com
 .net/qc/*
 .php?referer*
 /1121525/|$domain=kissmanga.com
@@ -264,7 +261,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /GTrackPlugin.swf
 /itro-popup/*
 /jquery.smart*banner.
-/js/light.js?*$domain=vipphim.net|tvhay.org
+/js/light.js$domain=tvhay.org
 /js/pop-
 /js/pov.js
 /jspopup.js
@@ -331,7 +328,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
 @@||facebook.com/dialog/oauth?*
-@@||fptplay.net/js/ads.js
 @@||fptplay.vn/js/ads.js
 @@||googlesyndication.com^$domain=yts.ag
 @@||hdonline.vn/*/video?*
@@ -347,7 +343,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phim.media/js/ads.js
 @@||pq-direct.revsci.net^$domain=vivo.vn
-@@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js|$domain=tv.zing.vn
 @@||skylink.vn^$domain=hdonline.vn
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||stream.adtimaserver.vn^$domain=talktv.vn
@@ -368,6 +363,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ========================== Scripts ===========================
 aphim.co##script:inject(abort-on-property-write.js, adcashMacros)
 blogtruyen.com##script:inject(window.open-defuser.js)
+comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 hdonline.vn##script:inject(window.open-defuser.js)
 linkneverdie.com##script:inject(setTimeout-defuser.js, 2d18)
 phim14.net##script:inject(nowebrtc.js)
@@ -431,12 +427,11 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||ad.mcdn.vn^
 ||ad.org.vn^
 ||ad.zing.vn^
-||ad360.vn^
+||ad360.vn^$third-party
 ||adadvisor.net^
 ||adbrand.net^
 ||adbrite.com^
 ||adcash.com^
-||addons.mozilla.org/en-US/firefox/i/promos?*
 ||addthis.com^$third-party
 ||addtoany.com^
 ||adexchangetracker.com^$third-party
@@ -539,10 +534,9 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||bongdaso.com/_BannerSlot.aspx?*
 ||bongdatructuyen.info/js/pop2web*
 ||bongdatructuyen.org^$popup,third-party
-||bongdatructuyen.vn/js/jquery.fancybox/*
-||bongdatructuyen.vn/js/p0pundr.js
-||bp.blogspot.com/*/banner.png|$domain=hamtruyen.vn
-||bp.blogspot.com/-*.gif$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|xemthethao.vn|xembongda24h.com|ketqua.net|mphim.net
+||bongdatructuyen.us/js/jquery.fancybox/*
+||bongdatructuyen.us/js/p0pundr.js
+||bp.blogspot.com/-*.gif$domain=ketqua.net
 ||brand.ad^$third-party
 ||buysellads.com^
 ||buzzadnetwork.com^$third-party
@@ -562,7 +556,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=comicvn.net|hamtruyen.vn|movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com|phim.media
+||cloudfront.net^$domain=movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com|phim.media
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -582,7 +576,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||cydia.vn^$third-party
 ||d5coalition.com^$third-party
 ||da-ads.com^
-||daihaitrinh.com^$popup
 ||dammetruyen.com/images/970x100.gif
 ||delivery45.com^
 ||delnapb.com^$third-party
@@ -620,7 +613,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||fn1s.info^$third-party
 ||fptplay.net/js/plugins/vast-client.min.js
 ||fptplay.net/static/js/ad_vast_new_skip.js
-||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
 ||fshare.vn/js/adsplay.
 ||fulldl.net^
 ||fun120.com^$popup,third-party
@@ -648,12 +640,13 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn|diendanvetinh.com.vn
+||googleusercontent.com^$image,domain=diendanvetinh.com.vn
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
 ||hadarone.com/ajs/display.js?*
 ||hadarone.com^$xmlhttprequest
 ||hai360.vn/skin/web/*custombox*
+||hamtruyen.com/Scripts/blueyonew.js
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
@@ -668,10 +661,11 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||histock.info^$third-party
 ||horsered.com^
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
-||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|bongdatructuyen.us|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn|topbongda.com|phim.media|tvhay.org|vkool.net
+||i.imgur.com/*.gif$domain=bongdatructuyen.us|xemtiviso.com|bongdatv.net|mybongda.com|macintosh.vn|topbongda.com|phim.media|tvhay.org|vkool.net
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
+||img.ketqua.net/images/*.gif|
 ||img.thiendia.com/*.gif
 ||img.xemphim73.com/img/*.gif|
 ||infogame.vn/*swf
@@ -684,7 +678,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$domain=vungtv.com
+||jwpcdn.com/player/*/vast.js$domain=vung.tv
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^
@@ -704,12 +698,10 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||lps.sbro.me^$script,third-party
 ||luckytravelshop.info^
 ||luminate.com^
-||m-viet.com^$popup,third-party
 ||m88*.com^$popup,third-party
 ||macintosh.vn/forum/image/*.jpg?rand=*
 ||mangak.net/wp-content/themes/manga/ad/*
 ||maxonclick.com^$third-party
-||media.jxf88.com^$third-party,domain=vkool.net|xemphimso.com
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||mellowads.com^
@@ -729,6 +721,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||mu-ss2.net^
 ||mxpnl.com^
 ||mywork.com.vn^$third-party
+||n.xemtvhd.com^$subdocument
 ||n176adserv.com^$third-party
 ||naidum.com^$third-party
 ||netshelter.net^
@@ -740,7 +733,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||nhacpro.net/files/js/facebook.js?*
 ||nhanthuong88.com^$popup,third-party
 ||nology.vn^$third-party
-||novanet.vn^
+||novanet.vn^$third-party
 ||novanetservice.com^
 ||oclaserver.com^$third-party
 ||oclasrv.com^
@@ -773,9 +766,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||phimmoi.net/js/fx/ga.js
 ||phimmoi.net/js/vtlai/movie/public/pad.js?*
 ||phongcomputer.com^$third-party
-||phongvu.vn/templates/vtpv/fancybox2/*
-||phongvu.vn/templates/vtpv/js/BannerFloat.js
-||phongvu.vn/templates/vtpv/js/function.js
 ||photobucket.com/*sonyvietmedia/
 ||picadmedia.com^
 ||pinterest.com^$third-party
@@ -794,8 +784,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||popclck.org^$third-party
 ||popmyads.com^
 ||porn99.net^$third-party
-||postimg.io/*.gif$domain=bongdatructuyen.us
-||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|bongdatructuyen.info|keonhacai.com|bongdaup.com|tv.101vn.com|8bongda.com|xemtiviso.com
+||postimg.org/*.gif$domain=bongdatructuyen.info|keonhacai.com|8bongda.com|xemtiviso.com
 ||pr-quangcao.edu.vn^
 ||predictivadvertising.com^$third-party
 ||projectwonderful.com^
@@ -822,7 +811,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||quensillo.com^$domain=mediafire.com
 ||ragezone.com/hf*
 ||ragezone.com/out.php/display/show_single?*
-||raovattoanquoc3s.com^$popup,third-party
 ||rarbg.to/xarldhvgowkynu.js
 ||rarbg.to^$script,~third-party
 ||rarenok.biz^
@@ -830,7 +818,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||rev2pub.com^
 ||reviveservers.com^
 ||revsci.net^
-||rhcloud.com^$third-party,domain=tv.101vn.com
 ||rigelink.com^$third-party
 ||riverbanksand.com^
 ||rmbn.net^
@@ -858,17 +845,14 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||skypeassets.com^$third-party,domain=~skype.com
 ||smail188.com^$third-party
 ||sociomantic.com^
-||sohanews.info^$third-party
 ||sohot.vn^$third-party
 ||somo.vn^$popup,third-party
 ||sonyfan.vn/*.swf
-||sosmart.vn^$third-party
 ||spillvacation.com^$third-party
 ||spotxchange.com^
 ||sspapi.admicro.vn^$third-party
 ||st.game.thanhnien.com.vn^$third-party
 ||statcounter.com^
-||staticflickr.com^$third-party,domain=itunesvn.com
 ||staticpress.vcmedia.vn/*.swf
 ||stats.wordpress.com^$third-party
 ||statsy.net^$third-party
@@ -883,34 +867,28 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||taifile.vn^$popup,third-party
 ||taigamevina.com^$popup,third-party
 ||taiiwin.net^
-||takataka.vn^
+||takataka.coccoc.com^
 ||talktv.vn/resource/third-party/jwplayer/*.png
 ||tamquocbanghiep.com^$popup
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
 ||tenlua.vn/img/*_banner*.gif|
 ||terratraf.com^$third-party
-||thamhue.*vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
-||thegioigame.vn^$popup,third-party
+||thiendia.com/popup.js
 ||thongke.24h.com.vn^
 ||thongtincongty.com/fancybox/*
 ||thongtincongty.com/qctruot.js
 ||thoughtleadr.com^
 ||ti553.com^$third-party
 ||tidaltv.com^
-||tivibongda.net/kenh/logo.gif
-||tivibongda.net/kenh/sv*.png
-||tivionline.vn/*qc
 ||tocmoi.net^$third-party
 ||topbongda.com/media/advert_images/*
 ||topdev.vn^$third-party
-||tracking100.com^
 ||tradeadexchange.com^$third-party
 ||trafficfactory.biz^
 ||trafficjunky.net^
-||tragop365.com.vn^$popup,third-party
 ||tranvu.info^$third-party
 ||tribalfusion.com^
 ||trklnks.com^
@@ -925,17 +903,12 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||tuyensinh.*.edu.vn^$popup,third-party
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/*foobar.*
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/module/streaming/play/js/limit.js?*
-||tvtructuyen.net/2lk.html
-||tvtructuyen.net/4lk.html
 ||tynt.com^
 ||uniad.
 ||unibet.com^$third-party
-||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||up.ssc.vn^$domain=cvt.vn|ssc.vn
-||upanh123.com^$popup,third-party
 ||upfile.vn/view/default/image/index-*.gif|
 ||upload69.net/images/*.gif|
-||upsieutoc.com^$domain=ketqua.net|tructiepbongda.com
 ||userreport.com^$third-party
 ||v8l.info^
 ||vbet*.com^$popup
@@ -950,8 +923,8 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||vietnamnetad.vn^
 ||viglink.com^
 ||vivo.vn/skin/js/ova-jquery.js
-||vkool.net/js/povff.js
 ||vkool.net/js/*/vast.js
+||vkool.net/js/povff.js
 ||vkool.net/swf/pre-roll.xml?*
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
@@ -959,7 +932,6 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||vozforums.com/specials/*
 ||vozforums.com/vbdev/*
 ||vuighe.net/assest/banner/*
-||vungtv.com/vungtv/fc.php?*
 ||waframedia*.com^$third-party
 ||webdien.com/d/ad/*
 ||websitedhoome.com^$popup,third-party
@@ -969,12 +941,12 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||xahoithongtin.com.vn/*.swf|
 ||xahoithongtin.com.vn/images/*.gif|
 ||xahoithongtin.com.vn/upload/*
+||xembongda24h.com/images/banners/*
 ||xembongda24h.com/templates/xbd/js/qc-vbd.js
 ||xembongdahd.net/themes/abongda/images/banner*.gif|
 ||xemphimso.com/img/*$third-party,image,object
 ||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf
-||xemtvhd.com/logo/*$subdocument
 ||xemvtv.net/kaka/ads*
 ||xevathethao.vn^$third-party
 ||xonefm.com/media/*.swf
@@ -991,6 +963,5 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||youtube.com/gen_*?a=resolution&width=*
 ||youtube.com/get_midroll_
 ||youtube.com/get_video_*el=adunit*
-||youtv.vn/upload/*.swf
 ||zedo.com^
 ||zjk24.com^$third-party

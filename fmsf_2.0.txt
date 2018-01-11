@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/1/2018 10:44 PM
+! Last modified: 11/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -268,7 +268,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /jwplayer/*/vast.js
 /jwplayer7/vast.js
 /letsop-
-/log.
 /mudim-
 /mudim.
 /pagead/*
@@ -323,7 +322,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||chiasenhac.vn/js/ads.js
 @@||click.linksynergy.com/deeplink?$popup
-@@||creative.adobe.com/*/resource/common/utils/log.js
 @@||docbao.vn/resources/media/ads.js
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
@@ -335,9 +333,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||hub.blueserving.com/?skip=
-@@||laodong.com.vn/Jscripts/log.js?*
 @@||linkneverdie.com^$generichide,script,subdocument
-@@||log.quora.com^
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/1/2018
+! Last modified: 12/1/2018 8:01 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -115,6 +115,7 @@ kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 kissmanga.com###mgiframe2 + DIV
 kzone.tv##.ad-sticky-content
+kzone.tv##.ads_player
 kzone.tv##.jwplayer>.afs_ads~div[style*="height:30px"]
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 macintosh.vn###dg-container
@@ -364,6 +365,7 @@ aphim.co##script:inject(abort-on-property-write.js, adcashMacros)
 blogtruyen.com##script:inject(window.open-defuser.js)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 hdonline.vn##script:inject(window.open-defuser.js)
+kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 linkneverdie.com##script:inject(setTimeout-defuser.js, 2d18)
 phim14.net##script:inject(nowebrtc.js)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)

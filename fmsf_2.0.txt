@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/1/2018
+! Last modified: 12/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -114,6 +114,8 @@ khampha.vn##[id^="ADS_"]
 kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 kissmanga.com###mgiframe2 + DIV
+kzone.tv##.ad-sticky-content
+kzone.tv##.jwplayer>.afs_ads~div[style*="height:30px"]
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
 macintosh.vn###dg-container
 mail.google.com##.Bu.y3
@@ -235,6 +237,7 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /adsfloat/*
 /adv/*
 /advertise/*
+/advertisement.js
 /advertisement/*
 /adx.php?*
 /analytics_frame
@@ -512,6 +515,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||begun.ru^
 ||bestfitnesscbproducts.com^$third-party
 ||beta.ads.cc^
+||bidadx.com^$third-party
 ||bidvertiser.com^
 ||bit.ly^$popup,domain=blogtruyen.com
 ||bizible.com^
@@ -882,6 +886,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||tocmoi.net^$third-party
 ||topbongda.com/media/advert_images/*
 ||topdev.vn^$third-party
+||toptipstricks.net/index.php$xmlhttprequest
 ||tradeadexchange.com^$third-party
 ||trafficfactory.biz^
 ||trafficjunky.net^

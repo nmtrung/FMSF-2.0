@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/1/2018
+! Last modified: 25/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -145,6 +145,7 @@ petrotimes.vn##[id^="rotating_elements_"]
 phienbanmoi.com##.xbWelcomeBar
 phim.media##.adv-300-right
 phim.tiengnga.net##.sectionMain.funbox
+phimnhanh.com##.qc-inner
 pl.tclup.com##.modal
 platinumcineplex.vn##[id^="fancybox"]
 play.tclup.com##.body > .modal
@@ -368,6 +369,7 @@ hdonline.vn##script:inject(window.open-defuser.js)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 linkneverdie.com##script:inject(setTimeout-defuser.js, 2d18)
 phim14.net##script:inject(nowebrtc.js)
+phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
@@ -767,6 +769,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||phimmoi.net/*/vast.
 ||phimmoi.net/js/fx/ga.js
 ||phimmoi.net/js/vtlai/movie/public/pad.js?*
+||phimnhanh.net/*.gif
 ||phongcomputer.com^$third-party
 ||photobucket.com/*sonyvietmedia/
 ||picadmedia.com^

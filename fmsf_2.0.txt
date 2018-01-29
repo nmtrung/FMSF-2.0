@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/1/2018
+! Last modified: 29/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -266,7 +266,6 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /GTrackPlugin.swf
 /itro-popup/*
 /jquery.smart*banner.
-/js/light.js$domain=tvhay.org
 /js/pop-
 /js/pov.js
 /jspopup.js
@@ -909,6 +908,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||tuyensinh.*.edu.vn^$popup,third-party
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/*foobar.*
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/module/streaming/play/js/limit.js?*
+||tvhay.org/guide/tvhpopup.js
 ||tynt.com^
 ||uniad.
 ||unibet.com^$third-party

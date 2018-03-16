@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 14/3/2018
+! Last modified: 16/3/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -86,6 +86,7 @@ chovinh.com###messageList > .message:first-child > .messageInfo + div
 chovinh.com##.sidebar > DIV[style^="width:300px"]
 clbgamesvn.com###contentMain center
 cvt.vn##.brAdsArea
+dangcaphd.com##.block-banner
 deviantart.com##.partial-ad
 diadiem.com###divPopAdsPOI
 diadiem.com##.div_box_adv

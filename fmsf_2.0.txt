@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 17/3/2018
+! Last modified: 17/3/2018 8:09 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -337,7 +337,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||hub.blueserving.com/?skip=
-@@||linkneverdie.com^$generichide,script,subdocument
 @@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
@@ -368,7 +367,6 @@ cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 hdonline.vn##script:inject(window.open-defuser.js)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
-linkneverdie.com##script:inject(setTimeout-defuser.js, 2d18)
 phim14.net##script:inject(nowebrtc.js)
 phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
@@ -473,7 +471,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||ads4digital.com^$third-party
 ||adserver.
 ||adsgame.soha.vn^$popup,third-party
-||adskeeper.co.uk^$third-party,domain=~linkneverdie.com
+||adskeeper.co.uk^$third-party
 ||adsplay.net/js/analytics/*
 ||adsplay.net^$xmlhttprequest
 ||adsvn.ga^
@@ -697,7 +695,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
-||linkneverdie.com/CPMMicro/*
+||linkneverdie.com^
 ||liveadexchanger.com^$third-party
 ||loading-delivery1.com^
 ||lode88.net^$popup,third-party

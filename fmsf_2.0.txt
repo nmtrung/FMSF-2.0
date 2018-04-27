@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 18/4/2018 10:31 PM
+! Last modified: 27/4/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -661,6 +661,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||hayhaytv.vn/static/*.gif|
 ||hdonline.vn/file/*.jpg
 ||hdonline.vn/template/frontend/*float*
+||hdonline.vn/template/frontend/images/Topplayer.png
 ||hdsieunhanh.com/static/*.gif
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
@@ -962,6 +963,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||xemphimso.com/img/*$third-party,image,object
 ||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf
+||xemrap.com/assets/js/abDetector.min.js
 ||xemvtv.net/kaka/ads*
 ||xevathethao.vn^$third-party
 ||xonefm.com/media/*.swf

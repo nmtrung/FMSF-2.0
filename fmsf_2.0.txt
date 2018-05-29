@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/5/2018
+! Last modified: 29/5/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -476,6 +476,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||ads*.com^$third-party,script,image,subdocument,object-subrequest,popup
 ||ads4digital.com^$third-party
 ||adserver.
+||adservice.google.com.vn^$third-party
 ||adsgame.soha.vn^$popup,third-party
 ||adskeeper.co.uk^$third-party
 ||adsplay.net/js/analytics/*
@@ -900,6 +901,7 @@ vkool.net##script:inject(abort-on-property-write.js, vkads)
 ||thuckhuya.tv/wp-content/uploads/*.gif
 ||ti553.com^$third-party
 ||tidaltv.com^
+||tintuc24h.info/*/gooima.js
 ||tocmoi.net^$third-party
 ||topbongda.com/media/advert_images/*
 ||topdev.vn^$third-party

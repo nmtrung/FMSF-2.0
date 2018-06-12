@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/6/2018
+! Last modified: 12/6/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -45,7 +45,6 @@
 @@||hvdic.thivien.net^$generichide
 @@||nationalgeographic.com^$generichide
 @@||x-rates.com^$generichide
-@@||yts.ag^$elemhide
 @@||zippyshare.com^$elemhide
 inbox.google.com#@#.ad
 twitch.tv#@#[class^="balloon"]
@@ -384,6 +383,7 @@ shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 truyentranh.net##script:inject(abort-on-property-read.js, popups)
 vkool.net##script:inject(abort-on-property-write.js, vkads)
+yts.am##script:inject(abort-current-inline-script.js, T822)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
 *.accountant^$third-party

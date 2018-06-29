@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/6/2018
+! Last modified: 29/6/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -94,6 +94,8 @@ expertcircuits.blogspot.com###fanback
 foody.vn##.foody-banner
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
+forums.voz.vn##.middleads
+forums.voz.vn##TD[width="160"]
 fshare.vn##.ban-ev-bot-foot
 gamehub.vn##.portal_ads_scroll
 gamesupport.vn###gritter-notice-wrapper
@@ -145,6 +147,8 @@ petrotimes.vn##[id^="rotating_elements_"]
 phienbanmoi.com##.xbWelcomeBar
 phim.media##.adv-300-right
 phim.tiengnga.net##.sectionMain.funbox
+phimmedia.tv##.adv-300-right IMG
+phimmedia.tv##BODY > .nopadding[style="text-align:center"] + .nopadding + .nopadding[style="text-align:center"]
 phimnhanh.com##.qc-inner
 pl.tclup.com##.modal
 platinumcineplex.vn##[id^="fancybox"]
@@ -200,8 +204,6 @@ vn-zoom.com###toolbar_bottom
 vn-zoom.com##TD[width="300"]
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
-forums.voz.vn##.middleads
-forums.voz.vn##TD[width="160"]
 vung.tv###ads-popup
 whitehat.vn###fanback
 xemgame.com##.abs-bg
@@ -345,6 +347,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phim.media/js/ads.js
+@@||phimmedia.tv/templates/themes/phim/js/advertisement.js
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||skylink.vn^$domain=hdonline.vn
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
@@ -629,6 +632,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||feedjit.com^
 ||fmpub.net^
 ||fn1s.info^$third-party
+||forums.voz.vn/specials/*
+||forums.voz.vn/vbdev/*
 ||fptplay.net/js/plugins/vast-client.min.js
 ||fptplay.net/static/js/ad_vast_new_skip.js
 ||fshare.vn/js/adsplay.
@@ -681,7 +686,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||histock.info^$third-party
 ||horsered.com^
 ||i.imgsafe.org/*.gif$domain=bongdatructuyen.info
-||i.imgur.com/*.gif$domain=bongdatructuyen.us|bongdatv.net|macintosh.vn|mybongda.com|phim.media|thuckhuya.tv|topbongda.com|tvhay.org|vkool.net|xemtiviso.com
+||i.imgur.com/*.gif$domain=bongdatructuyen.us|bongdatv.net|macintosh.vn|mybongda.com|phim.media|phimmedia.tv|thuckhuya.tv|topbongda.com|tvhay.org|vkool.net|xemtiviso.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -782,6 +787,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party
+||phimmedia.tv/templates/themes/phim/js/adblock-checker.js
+||phimmedia.tv^$xmlhttprequest
 ||phimmoi.net/*/vast.
 ||phimmoi.net/js/fx/ga.js
 ||phimmoi.net/js/vtlai/movie/public/pad.js?*
@@ -954,8 +961,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
 ||vnwebgame.com^$popup
-||forums.voz.vn/specials/*
-||forums.voz.vn/vbdev/*
 ||vuighe.net/assest/banner/*
 ||waframedia*.com^$third-party
 ||webdien.com/d/ad/*

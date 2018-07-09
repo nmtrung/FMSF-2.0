@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/7/2018
+! Last modified: 9/7/2018 8:52 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -188,8 +188,7 @@ torviet.com###leftBanner1Ky
 torviet.com###rightBanner1Ky
 tructiepbongda.com###text-8
 tructiepbongda.com###text-9
-truyen18.org##.pr-widget
-truyentranh.net###abdplayerdiv
+truyentranh.net###inread-ads-wrapper
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
@@ -205,7 +204,6 @@ vn-zoom.com##TD[width="300"]
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 vung.tv###ads-popup
-whitehat.vn###fanback
 xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
 xemtiviso.com##.quangcao
@@ -233,7 +231,8 @@ zippyshare.com###qrCode ~ a[href$="1131386.html"]
 /ad_manage/*
 /adpost_
 /ads-
-/ads.
+/ads.$image,stylesheet,xmlhttprequest
+/ads.php
 /ads/*
 /ads_
 /adscript/*
@@ -310,11 +309,8 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/recaptcha/*$script,domain=ouo.io|ouo.press
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
-@@/themes/front/*/ads.js
-@@/WebtrethoTV/js/ads.js
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
-@@||3rabshort.com/js/ads.js
 @@||4shared.com/css/popup_$stylesheet
 @@||ad.doubleclick.net^$domain=windowscentral.com|thewindowsclub.com
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
@@ -327,42 +323,31 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
-@@||chiasenhac.vn/js/ads.js
 @@||click.linksynergy.com/deeplink?$popup
-@@||docbao.vn/resources/media/ads.js
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
 @@||facebook.com/dialog/oauth?*
-@@||fptplay.vn/js/ads.js
 @@||getresponse.com^$popup,third-party
 @@||googlesyndication.com/pagead/*
 @@||googletagmanager.com/gtm.js$domain=www.adayroi.com
 @@||googletagservices.com/tag/js/gpt.js$domain=techrepublic.com
 @@||hdonline.vn/*/video?*
-@@||hdonline.vn/template/frontend/js/ads.js
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||hub.blueserving.com/?skip=
-@@||nhacpro.net/ads.js?*
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
-@@||phim.media/js/ads.js
 @@||phimmedia.tv/templates/themes/phim/js/advertisement.js
 @@||pq-direct.revsci.net^$domain=vivo.vn
-@@||skylink.vn^$domain=hdonline.vn
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
-@@||stream.adtimaserver.vn^$domain=talktv.vn
-@@||stream.org.adtimaserver.vn$object,domain=talktv.vn
-@@||talktv.vn/resource/third-party/jwplayer/ads.js?
 @@||thamhue.com/images/ads/lgthamhue1.gif
-@@||tinmoi.vn/ads/anninhtv/*
+@@||tinmoi.vn/ads/anninhtv/*$subdocument
 @@||tvhay.org/playergk/fingerprint2.min.js
 @@||vib.com.vn/banners/*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
 @@||vnecdn.net/*/ads.js
-@@||vnurl.net/*/advertisement.js
-@@||vnurl.net/js/ads.js
+@@||vnurl.*/*/advertisement.js
 @@||vtvapi.channelvn.net^
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
@@ -444,6 +429,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||ad.zing.vn^
 ||ad360.vn^$third-party
 ||adadvisor.net^
+||adblox.net^$third-party
 ||adbrand.net^
 ||adbrite.com^
 ||adcash.com^
@@ -485,8 +471,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||adservice.google.com.vn^$third-party
 ||adsgame.soha.vn^$popup,third-party
 ||adskeeper.co.uk^$third-party
-||adsplay.net/js/analytics/*
-||adsplay.net^$xmlhttprequest
+||adsplay.net^$third-party
 ||adsvn.ga^
 ||adsyst.biz^
 ||adtechus.com^$third-party
@@ -636,8 +621,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fn1s.info^$third-party
 ||forums.voz.vn/specials/*
 ||forums.voz.vn/vbdev/*
-||fptplay.net/js/plugins/vast-client.min.js
-||fptplay.net/static/js/ad_vast_new_skip.js
+||fptplay.vn/js/videojs/*ads.js
 ||fshare.vn/js/adsplay.
 ||fulldl.net^
 ||fun120.com^$popup,third-party

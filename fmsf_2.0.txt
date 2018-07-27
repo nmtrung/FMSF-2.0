@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/7/2018
+! Last modified: 27/7/2018 6:41 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -121,6 +121,7 @@ movies.hdviet.com##[id^="popup"]
 mybongda.com##.top_ads
 nationalgeographic.com##.ad-holder
 news.zing.vn###advBalloon
+news.zing.vn###btnHighlight
 news.zing.vn###site-header
 news.zing.vn##[id*="adv"]
 nhac.vui.vn##.padTop5.padBot5
@@ -457,6 +458,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||adsvn.ga^
 ||adsyst.biz^
 ||adtechus.com^$third-party
+||adtima.vn^$third-party
 ||adtimaserver.vn^$script,image,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
 ||adtrue.com^$third-party
@@ -477,6 +479,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||anthill.vn^
 ||aphim.co/asset_blade/js/jquery.popup.js
 ||api.nas.nct.vn/crossdomain.xml
+||api.news.zing.vn/api/mobile/ban-tin-highlight.json?*
 ||api.voz.vn/post/v1.0/thread-migration-status/*
 ||apple8.com.vn/?*$popup,third-party
 ||arrassley.info^$third-party
@@ -647,6 +650,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||hdsieunhanh.com/static/*.gif
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
+||hdvietnam.com/banner/*
 ||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
 ||hilltopads.net^$third-party

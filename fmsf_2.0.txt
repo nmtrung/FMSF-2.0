@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/7/2018 6:41 PM
+! Last modified: 2/8/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -295,6 +295,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adnetwork.vn^$domain=tv.tuoitre.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
+@@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
@@ -550,6 +551,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cnzz.com^
 ||coccoc.com^$third-party
 ||cohet.tv/ajs/*
+||coin98.net^$subdocument,third-party
 ||coinurl.com^$third-party
 ||concernrain.com^$third-party
 ||connexity.net^
@@ -914,6 +916,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vdoc.vn^$third-party
 ||velocecdn.com/script/native_*.js$domain=aphim.co
 ||vgdn.net/apoop/play_background_*
+||video8s.com^$subdocument,third-party
 ||videomega.tv/vjs/*vast*
 ||vieclamdalat.vn^$third-party
 ||vietad.vn^

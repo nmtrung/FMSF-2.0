@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/8/2018
+! Last modified: 12/8/2018 11:32 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -133,10 +133,9 @@ pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
-phim.media##.adv-300-right
 phim.tiengnga.net##.sectionMain.funbox
-phimmedia.tv##.adv-300-right IMG
-phimmedia.tv##BODY > .nopadding[style="text-align:center"] + .nopadding + .nopadding[style="text-align:center"]
+phimmedia.tv##.adv-300-right
+phimmedia.tv##BODY > .nopadding[style="text-align:center"]
 phimnhanh.com##.qc-inner
 platinumcineplex.vn##[id^="fancybox"]
 play.tclup.com##.body > .modal
@@ -312,7 +311,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||googlesyndication.com/pagead/*
 @@||googletagmanager.com/gtm.js$domain=www.adayroi.com
 @@||googletagservices.com/tag/js/gpt.js$domain=techrepublic.com
-@@||hdonline.vn/*/video?*
+@@||hdo.tv/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||hub.blueserving.com/?skip=
@@ -343,10 +342,12 @@ aphim.co##script:inject(setTimeout-defuser.js, alert_warning)
 blogtruyen.com##script:inject(window.open-defuser.js)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
-hdonline.vn##script:inject(window.open-defuser.js)
+hdo.tv##script:inject(window.open-defuser.js)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 phim14.net##script:inject(nowebrtc.js)
+phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
 phimnhanh.com##script:inject(abort-on-property-read.js, popups)
+phimnhanh.com##script:inject(set-constant.js, player.on, noopFunc)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
@@ -546,7 +547,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=movies.hdviet.com|onhax.me|ouo.io|phimnhanh.com|zippyshare.com|phim.media
+||cloudfront.net^$domain=onhax.me|ouo.io|zippyshare.com|hdo.tv
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -639,16 +640,15 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com|xemtiviso.com
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
-||hadarone.com/ajs/display.js?*
-||hadarone.com^$xmlhttprequest
+||hadarone.com^$third-party
 ||hai360.vn/skin/web/*custombox*
 ||hamtruyen.com/Scripts/blueyonew.js
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
-||hdonline.vn/file/*.jpg
-||hdonline.vn/template/frontend/*float*
-||hdonline.vn/template/frontend/images/Topplayer.png
+||hdo.tv/file/*.jpg
+||hdo.tv/template/frontend/*float*
+||hdo.tv/template/frontend/images/Topplayer.png
 ||hdsieunhanh.com/static/*.gif
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
@@ -659,7 +659,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||histats.com^
 ||histock.info^$third-party
 ||horsered.com^
-||i.imgur.com/*.gif$domain=bongdatv.net|macintosh.vn|phim.media|phimmedia.tv|topbongda.com|vkool.net
+||i.imgur.com/*.gif$domain=bongdatv.net|macintosh.vn|phimmedia.tv|topbongda.com|vkool.net
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -754,12 +754,12 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||paragonads.vn^
 ||pc*ads.com^$third-party
 ||pcworld.com.vn/files/advertising/*
-||phim.media/templates/themes/phim/js/ga.js
-||phim.media/videojs/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party
 ||phimmedia.tv/templates/themes/phim/js/adblock-checker.js
+||phimmedia.tv/templates/themes/phim/js/ga.js
+||phimmedia.tv/videojs/*
 ||phimmedia.tv^$xmlhttprequest
 ||phimmoi.net/*/vast.
 ||phimmoi.net/js/fx/ga.js
@@ -915,6 +915,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vcdn.vn/static/plugin/plugin.js
 ||vclick.vn^
 ||vdoc.vn^$third-party
+||vdosupreme.com^$third-party
 ||velocecdn.com/script/native_*.js$domain=aphim.co
 ||vgdn.net/apoop/play_background_*
 ||video8s.com^$subdocument,third-party

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/8/2018 11:32 PM
+! Last modified: 13/8/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -297,6 +297,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
+@@||biphim.net/ads.php
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
@@ -333,13 +334,16 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
 @@||xemvtv.net/jwplayer7/vast.js
+@@||xphim.vn/jwplayer7/vast.js
 @@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
 anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.co##script:inject(setTimeout-defuser.js, alert_warning)
+banhtv.net##script:inject(noeval.js)
 blogtruyen.com##script:inject(window.open-defuser.js)
+bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 hdo.tv##script:inject(window.open-defuser.js)
@@ -452,6 +456,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||adrotator.se^$popup,script,image
 ||ads*.com^$third-party,script,image,subdocument,object-subrequest,popup
 ||ads4digital.com^$third-party
+||adsco.re^$third-party
 ||adserver.
 ||adservice.google.com.vn^$third-party
 ||adsgame.soha.vn^$popup,third-party
@@ -509,6 +514,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||beta.ads.cc^
 ||bidadx.com^$third-party
 ||bidvertiser.com^
+||biphim.net/*x*.gif
 ||bit.ly^$popup,domain=blogtruyen.com
 ||bizible.com^
 ||blogspot.com^$subdocument,third-party

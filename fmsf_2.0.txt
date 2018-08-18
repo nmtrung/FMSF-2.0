@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 13/8/2018
+! Last modified: 18/8/2018 11:41 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -181,7 +181,6 @@ vn-zoom.com###toolbar_bottom
 vn-zoom.com##TD[width="300"]
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
-vung.tv###ads-popup
 xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
 xemtiviso.com##.full_banner22
@@ -346,6 +345,8 @@ blogtruyen.com##script:inject(window.open-defuser.js)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
+forums.voz.vn##.neo_column.main:style(max-width: none !important)
+forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
 hdo.tv##script:inject(window.open-defuser.js)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 phim14.net##script:inject(nowebrtc.js)
@@ -681,7 +682,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$domain=vung.tv
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^

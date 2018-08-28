@@ -192,6 +192,7 @@ youtube.com###watch7-sidebar-ads
 youtube.com##.pyv-afc-ads-container
 youtube.com##.ytp-ce-element.ytp-ce-element-show
 zippyshare.com###qrCode ~ a[href$="1131386.html"]
+zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 -ads/
 -banner/$image
@@ -302,6 +303,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||click.linksynergy.com/deeplink?$popup
+@@||clksite.com/static/advertisement.js
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
 @@||facebook.com/dialog/oauth?*
@@ -634,6 +636,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||giacaphe.com/wp-content/themes/gcp/js/fb/giacaphe-like.js
 ||giaiphapexcel.com/qcao/*
 ||giaitriviet.net.vn/gtvpopup.js
+||gigaonclick.com^$third-party
 ||gigya.com^
 ||gmodules.com/gadgets/proxy?*$domain=kenh1.info|keonhacai.com|tivi4k.net|tv.101vn.com|xemtiviso.com
 ||go.blogtruyen.com^$popup
@@ -823,6 +826,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||rigelink.com^$third-party
 ||riverbanksand.com^
 ||rmbn.net^
+||rosemand.pro^$third-party
 ||rtbclick.net^$third-party
 ||rtbpop.com^
 ||rubiconproject.com^

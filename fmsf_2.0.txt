@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 2/9/2018
+! Last modified: 2/9/2018 11:50 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -320,6 +320,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hub.blueserving.com/?skip=
 @@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
+@@||phimaz.net/ads.php
 @@||phimmedia.tv/templates/themes/phim/js/advertisement.js
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||rutrk.org/logo/*
@@ -766,6 +767,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||pc*ads.com^$third-party
 ||pcworld.com.vn/files/advertising/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
+||phimaz.net/ad/*
+||phimaz.net/media/js/popaz.js
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party
 ||phimmedia.tv/templates/themes/phim/js/adblock-checker.js

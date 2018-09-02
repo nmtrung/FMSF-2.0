@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 18/8/2018 11:41 PM
+! Last modified: 2/9/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -81,6 +81,7 @@ chovinh.com##.samCodeUnit
 clbgamesvn.com###contentMain center
 cvt.vn##.headbanner
 dangcaphd.com##.block-banner
+danviet.vn##.banner-LR
 deviantart.com##.partial-ad
 diadiem.com###divPopAdsPOI
 diadiem.com##.div_box_adv
@@ -578,6 +579,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||d5coalition.com^$third-party
 ||da-ads.com^
 ||dammetruyen.com/images/970x100.gif
+||danviet.vn/upload/*.gif
 ||defaultdsp.admicro.vn^$third-party
 ||delivery.vungtv.com^
 ||delivery45.com^

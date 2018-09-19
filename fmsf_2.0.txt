@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 15/9/2018
+! Last modified: 19/9/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -145,6 +145,8 @@ ragezone.com##.rzone_ads
 ragezone.com##.social-counter
 raovatdalat.vn##.share-ad-zone.top-banner
 rapidgator.net##[id*="_banner"]
+razorphim.com##.ads_player
+razorphim.com##.contadorads
 taisachhay.com###footer ~ div
 talk.secafe.vn###headerProxy
 talk.secafe.vn##.hs-header-ad
@@ -359,6 +361,7 @@ phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.com##script:inject(set-constant.js, player.on, noopFunc)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
+razorphim.com##+js(abort-current-inline-script.js, myVideo)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
@@ -825,6 +828,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||rarbg.to/xarldhvgowkynu.js
 ||rarbg.to^$script,~third-party
 ||rarenok.biz^
+||razorphim.com/*/videoads/*
 ||realer.info^
 ||rev2pub.com^
 ||reviveservers.com^
@@ -865,6 +869,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||sspapi.admicro.vn^$third-party
 ||st.game.thanhnien.com.vn^$third-party
 ||statcounter.com^
+||staticflickr.com^$third-party,domain=razorphim.com
 ||staticpress.vcmedia.vn/*.swf
 ||stats.wordpress.com^$third-party
 ||statsy.net^$third-party

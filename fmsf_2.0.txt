@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 20/9/2018
+! Last modified: 20/9/2018 9:58 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -49,6 +49,7 @@
 inbox.google.com#@#.ad
 twitch.tv#@#[class^="balloon"]
 ! ========================== Element Hiding Per Site ==========================
+101vn.com##.header
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
 24h.com.vn##[id^="crt-"]
@@ -173,7 +174,6 @@ truyentranh.net###inread-ads-wrapper
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
-tv.101vn.com##.header
 up.4share.vn##.advs + * + CENTER
 up.4share.vn##TD[style="width: 150px; padding: 5px"]
 userstyles.org###social
@@ -646,7 +646,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigaonclick.com^$third-party
 ||gigya.com^
-||gmodules.com/gadgets/proxy?*$domain=kenh1.info|keonhacai.com|tivi4k.net|tv.101vn.com|xemtiviso.com
+||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.com|tivi4k.net|xemtiviso.com
 ||go.blogtruyen.com^$popup
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
@@ -693,6 +693,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
+||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^

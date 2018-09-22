@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 20/9/2018 9:58 PM
+! Last modified: 22/9/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -67,6 +67,7 @@ blogtruyen.com###mbtfloat
 blogtruyen.com###qcInnerContentList
 blogtruyen.com##.BT-Ads > center > div
 blogtruyen.com##.qc-css
+blogtruyen.com##.qc-inner
 bongda.com.vn##[id^="text-html-widget"]
 bongdaplus.vn##.adrgt
 bongdaplus.vn##.banner
@@ -583,6 +584,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cydia.vn^$third-party
 ||d5coalition.com^$third-party
 ||da-ads.com^
+||dailymotion.com^$third-party,domain=blogtruyen.com
 ||dammetruyen.com/images/970x100.gif
 ||danviet.vn/upload/*.gif
 ||defaultdsp.admicro.vn^$third-party

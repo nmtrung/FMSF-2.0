@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/9/2018
+! Last modified: 2/10/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -527,6 +527,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bizible.com^
 ||blogspot.com^$subdocument,third-party
 ||blogtruyen.com/file/*
+||blogtruyen.com/scripts/banner-preload.js
 ||blogtruyen.com/scripts/iframe-rand-mobile.js?*
 ||blogtruyen.com/Scripts/qctruot2ben.js
 ||bluecava.com^

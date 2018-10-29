@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 17/10/2018
+! Last modified: 29/10/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -102,6 +102,7 @@ ghacks.net##.block
 google.com,google.com.vn###extrares.med
 google.com,google.com.vn##.ads-ad
 hanoicomputer.vn###highstreet
+hdvip.tv##.rightleftads
 keonhacai.com##.AdsDesktop-header
 ketcau.com##TD[width="140"][valign="top"]
 ketqua.net##.float-qc-left
@@ -355,6 +356,7 @@ comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpo
 forums.voz.vn##.neo_column.main:style(max-width: none !important)
 forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
 hdo.tv##script:inject(window.open-defuser.js)
+hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 phim14.net##script:inject(nowebrtc.js)
 phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
@@ -672,6 +674,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||hdviet.com/v1/js/hdv_tracking.js
 ||hdviet.com/v2/js/event/hdv.v2.event.min.js?*
 ||hdvietnam.com/banner/*
+||hdvip.tv/*x*.gif
+||hdvip.tv/hdvipvast.xml
 ||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
 ||hilltopads.net^$third-party

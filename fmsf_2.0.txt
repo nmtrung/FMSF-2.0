@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/10/2018
+! Last modified: 12/11/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -181,8 +181,6 @@ userstyles.org###social
 viettorrent.vn##.container-fluid CENTER
 vkool.net###ad_right_watch
 vkool.net###boxes
-vn-zoom.com###toolbar_bottom
-vn-zoom.com##TD[width="300"]
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 xemgame.com##.abs-bg
@@ -334,6 +332,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||vib.com.vn/banners/*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
+@@||vn-zoom.org/advstats/*
 @@||vnecdn.net/*/ads.js
 @@||vnurl.*/*/advertisement.js
 @@||vtvapi.channelvn.net^
@@ -958,6 +957,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vkool.net/js/*/vast.js
 ||vkool.net/js/povff.js
 ||vkool.net/swf/pre-roll.xml?*
+||vn-zoom.org/Banner-
 ||vnreview.vn/*/images/background/outAds_*$image
 ||vnreview.vn/*/js/ads*.js
 ||vnreview.vn/play-clip/*

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/11/2018
+! Last modified: 22/11/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -77,6 +77,7 @@ bongdaso.com##[class*="_banner"]
 bongdatructuyen.us###left_sticky_ads
 bongdatructuyen.us##[id^="banner"]
 cadviet.com###float_panel
+chiasenhac.vn##body>a:first-child>div
 choimobile.vn##.quangcao_post
 chovinh.com###messageList > .message:first-child > .messageInfo + div
 chovinh.com##.samBannerUnit
@@ -351,6 +352,7 @@ banhtv.net##script:inject(noeval.js)
 blogtruyen.com##script:inject(window.open-defuser.js)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
+chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 forums.voz.vn##.neo_column.main:style(max-width: none !important)
 forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
@@ -497,6 +499,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||aphim.co/asset_blade/js/jquery.popup.js
 ||api.nas.nct.vn/crossdomain.xml
 ||api.news.zing.vn/api/mobile/ban-tin-highlight.json?*
+||api.pose.com.vn^$xmlhttprequest,third-party
 ||api.voz.vn/post/v1.0/thread-migration-status/*
 ||apple8.com.vn/?*$popup,third-party
 ||arrassley.info^$third-party

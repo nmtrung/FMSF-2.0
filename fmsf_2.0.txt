@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 22/11/2018
+! Last modified: 25/11/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -346,7 +346,8 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
 anime47.com##script:inject(fuckadblock.js-3.2.0)
-aphim.co##script:inject(setTimeout-defuser.js, alert_warning)
+aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
+aphim.tv##+js(window.open-defuser.js)
 autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
 banhtv.net##script:inject(noeval.js)
 blogtruyen.com##script:inject(window.open-defuser.js)
@@ -496,7 +497,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||amung.us^
 ||an.facebook.com/*/vast.xml?*$third-party
 ||anthill.vn^
-||aphim.co/asset_blade/js/jquery.popup.js
+||aphim.org/asset_blade/js/jquery.popup.js
+||aphim.tv/api/js/vast.js
 ||api.nas.nct.vn/crossdomain.xml
 ||api.news.zing.vn/api/mobile/ban-tin-highlight.json?*
 ||api.pose.com.vn^$xmlhttprequest,third-party
@@ -567,7 +569,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=4share.vn|hdo.tv|onhax.me|ouo.io|zippyshare.com
+||cloudfront.net^$domain=4share.vn|hdo.tv|khoai.tv|onhax.me|ouo.io|zippyshare.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -621,6 +623,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||exosrv.com^$third-party
 ||exponential.com^
 ||extreme-dm.com^$third-party
+||facebook.com/*/plugins/video.php?*$domain=khoai.tv
 ||facebook.com/video/instream_video/view/story/*&ad_break_duration_ms=*
 ||fastclick.net^
 ||fastly-analytics.com^
@@ -702,6 +705,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||juicyads.com^
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
+||khoai.tv/sw.js
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^
 ||kontera.com^
@@ -907,6 +911,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||thongtincongty.com/fancybox/*
 ||thongtincongty.com/qctruot.js
 ||thoughtleadr.com^
+||thterras.com^$third-party
 ||thuckhuya.tv/wp-content/uploads/*.gif
 ||ti553.com^$third-party
 ||tidaltv.com^
@@ -947,7 +952,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vclick.vn^
 ||vdoc.vn^$third-party
 ||vdosupreme.com^$third-party
-||velocecdn.com/script/native_*.js$domain=aphim.co
+||velocecdn.com/script/native_*.js$domain=aphim.org
 ||vgdn.net/apoop/play_background_*
 ||video8s.com^$subdocument,third-party
 ||videomega.tv/vjs/*vast*

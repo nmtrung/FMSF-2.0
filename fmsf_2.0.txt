@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/11/2018
+! Last modified: 28/11/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -172,8 +172,6 @@ topbongda.com##.tkb
 topbongda.com##[class*="fadeIn"]
 torviet.com###leftBanner1Ky
 torviet.com###rightBanner1Ky
-tructiepbongda.com###text-8
-tructiepbongda.com###text-9
 truyentranh.net###inread-ads-wrapper
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com##.fb-comments + TABLE[width="900px"]
@@ -512,6 +510,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||automoc.net^$third-party
 ||awltovhc.com^$third-party
 ||b.123c.vn/zad/videoad?*
+||banner.4win1.com^$third-party
 ||bannhadatdanang.com^$third-party
 ||banxe.2banh.vn^$third-party
 ||baobongda.net/*.gif|
@@ -928,7 +927,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||trklnks.com^
 ||trollbongda.com/*.swf
 ||trollbongda.com/templates/troll/images/*.gif
-||tructiepbongda.com/images/qc/*
+||tructiepbongda.xyz/images/qc/*
 ||trungtamtinhoc.edu.vn/inc/colorbox/*
 ||truyen5s.com^$third-party
 ||truyentranhtuan.com/wp-content/banners/*

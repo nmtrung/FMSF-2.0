@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 28/11/2018
+! Last modified: 10/12/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -163,6 +163,7 @@ techrum.vn##.vip_ad_div
 thamhue.com###ad_global_below_navbar
 thamhue.com###sidebar
 thiendia.com##.my_responsive_ads
+thiendia.com##.samThreadPostMessageInside
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.adWidget
 tivi24h.com###bloggernotificationWrap
@@ -663,6 +664,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||googletagmanager.com^
 ||googletagservices.com^
 ||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com|xemtiviso.com
+||greenupload.com/images/*.gif$domain=thiendia.com
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
 ||hadarone.com^$third-party
@@ -905,7 +907,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||terratraf.com^$third-party
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
-||thiendia.com/popup.js
+||thiendia.com/diendan/data/Siropu/images/*
+||thiendia.com/popup$script
 ||thongke.24h.com.vn^
 ||thongtincongty.com/fancybox/*
 ||thongtincongty.com/qctruot.js

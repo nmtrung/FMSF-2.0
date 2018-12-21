@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 18/12/2018
+! Last modified: 21/12/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -240,6 +240,7 @@ zippyshare.com##.center_ad
 /cdn/qc/*
 /click.$popup,domain=~mail.google.com
 /Collateral.aspx?*
+/data/Siropu/images/*
 /facebook-popup-box/*
 /floatads.js?*
 /gamead/*
@@ -910,7 +911,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||terratraf.com^$third-party
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
-||thiendia.com/diendan/data/Siropu/images/*
 ||thiendia.com/popup$script
 ||thongke.24h.com.vn^
 ||thongtincongty.com/fancybox/*

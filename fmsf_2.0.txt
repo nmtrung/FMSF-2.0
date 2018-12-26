@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/12/2018
+! Last modified: 26/12/2018 8:44 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -350,7 +350,8 @@ anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
 aphim.tv##+js(window.open-defuser.js)
 autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
-banhtv.net##script:inject(noeval.js)
+banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
+banhtv.net##script:inject(abort-on-property-write.js, popups)
 blogtruyen.com##script:inject(window.open-defuser.js)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)

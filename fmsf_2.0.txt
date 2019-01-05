@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 26/12/2018 8:44 PM
+! Last modified: 5/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -150,8 +150,7 @@ ragezone.com##.rzone_ads
 ragezone.com##.social-counter
 raovatdalat.vn##.share-ad-zone.top-banner
 rapidgator.net##[id*="_banner"]
-razorphim.com##.ads_player
-razorphim.com##.contadorads
+razorphim.com##.module_home_ads
 taisachhay.com###footer ~ div
 talk.secafe.vn###headerProxy
 talk.secafe.vn##.hs-header-ad
@@ -259,6 +258,7 @@ zippyshare.com##.center_ad
 /mudim.
 /pagead/*
 /piwik.js
+/plugins/ultimate-popunder/*
 /pop-ad.
 /pop.js
 /pop1web-
@@ -368,7 +368,7 @@ phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.com##script:inject(set-constant.js, player.on, noopFunc)
 phimnhanh.net##script:inject(abort-on-property-read.js, listPage)
 rarbg.to##script:inject(abort-on-property-read.js, _wm3)
-razorphim.com##+js(abort-current-inline-script.js, myVideo)
+razorphim.com##+js(nano-setTimeout-booster.js, scds, 35000)
 shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
@@ -819,6 +819,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||popclck.net^$third-party
 ||popclck.org^$third-party
 ||popmyads.com^
+||popupmaker.com^$third-party
 ||porn99.net^$third-party
 ||postimg.cc/*.gif$domain=8bongda.com
 ||pr-quangcao.edu.vn^
@@ -848,7 +849,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||rarbg.to/xarldhvgowkynu.js
 ||rarbg.to^$script,~third-party
 ||rarenok.biz^
-||razorphim.com/*/videoads/*
+||razorphim.com/wp-content/uploads/*.mp4
 ||realer.info^
 ||rev2pub.com^
 ||reviveservers.com^

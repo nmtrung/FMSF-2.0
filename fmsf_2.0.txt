@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/1/2018
+! Last modified: 6/1/2018 1:43 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -184,9 +184,7 @@ vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
-xemtiviso.com##.full_banner22
-xemtiviso.com##.quangcao
-xemtiviso.com##.tab-kenh
+xemtivihot.com##.full_banner22
 youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
@@ -287,22 +285,18 @@ assets/pub/shareaholic*
 searchTrack.php?
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
-@@/adsbygoogle.js$domain=hackintosh.zone
 @@/recaptcha/*$script,domain=ouo.io|ouo.press
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||4shared.com/css/popup_$stylesheet
 @@||ad.doubleclick.net^$domain=windowscentral.com|thewindowsclub.com
-@@||adnetwork.vn^$domain=tv.tuoitre.vn
-@@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
 @@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||biphim.net/ads.php
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
-@@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||click.linksynergy.com/deeplink?$popup
@@ -312,21 +306,19 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||facebook.com/dialog/oauth?*
 @@||gamehub.vn/*/jquery.smartbanner.js
 @@||getresponse.com^$popup,third-party
-@@||gmodules.com/gadgets/proxy?container=ig&url=http://i.imgur.com/*$domain=xemtiviso.com
 @@||googlesyndication.com/pagead/*
 @@||googletagmanager.com/gtm.js$domain=www.adayroi.com
-@@||googletagservices.com/tag/js/gpt.js$domain=techrepublic.com
+@@||googletagservices.com/tag/js/gpt.js$domain=hackintoshzone.com|techrepublic.com
+@@||hackintoshzone.com/ipscdn/ads/*
 @@||hdo.tv/*/video?*
-@@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
 @@||hub.blueserving.com/?skip=
-@@||nmtrung.com^$document
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phimaz.net/ads.php
 @@||phimmedia.tv/templates/themes/phim/js/advertisement.js
-@@||pq-direct.revsci.net^$domain=vivo.vn
 @@||rutrk.org/logo/*
 @@||secufiles.com/themes/*/advertisement.js
+@@||securepubads.g.doubleclick.net^$script,domain=hackintoshzone.com
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||thamhue.com/images/ads/lgthamhue1.gif
 @@||tinmoi.vn/ads/anninhtv/*$subdocument
@@ -334,7 +326,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||vib.com.vn/banners/*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
-@@||vn-zoom.org/advstats/*
 @@||vnecdn.net/*/ads.js
 @@||vnurl.*/*/advertisement.js
 @@||vtvapi.channelvn.net^
@@ -373,6 +364,7 @@ shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 truyentranh.net##script:inject(abort-on-property-read.js, popups)
+tvhay.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
 vkool.net##script:inject(abort-on-property-write.js, vkads)
 yts.am##script:inject(abort-current-inline-script.js, T822)
@@ -542,7 +534,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||blogtruyen.com/Scripts/qctruot2ben.js
 ||bluecava.com^
 ||bluekai.com^
-||blueseed.tv^$third-party,domain=movies.hdviet.com
 ||blueserving.com^
 ||bnserving.com^$third-party
 ||bong99.com^$popup,third-party
@@ -658,7 +649,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||giaiphapexcel.com/qcao/*
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigaonclick.com^$third-party
-||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.com|tivi4k.net|xemtiviso.com
+||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.com|tivi4k.net
 ||go.blogtruyen.com^$popup
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
@@ -667,7 +658,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com|xemtiviso.com
+||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com
 ||greenupload.com/images/*.gif$domain=thiendia.com
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
@@ -708,6 +699,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
+||jwpcdn.com/player/*/vast.js$third-party,domain=khoai.tv|tvhay.org
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||khoai.tv/sw.js
@@ -792,6 +784,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||pcworld.com.vn/files/advertising/*
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimaz.net/ad/*
+||phimaz.net/media/js/abp.js
 ||phimaz.net/media/js/popaz.js
 ||phimchieurap.vn^$third-party
 ||phimhay.info^$third-party
@@ -963,6 +956,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vgdn.net/apoop/play_background_*
 ||video8s.com^$subdocument,third-party
 ||videomega.tv/vjs/*vast*
+||videonow.ru^$third-party
 ||vieclamdalat.vn^$third-party
 ||vietad.vn^
 ||vietcongnghe.net/diendan/qc/*
@@ -994,6 +988,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||xemphimso.com/img/*.gif
 ||xemphimso.com/img/*.swf
 ||xemrap.com/assets/js/abDetector.min.js
+||xemtivihot.com/ad/*
+||xemtiviso.net/sonet/*
 ||xemvtv.net/kaka/ads*
 ||xevathethao.vn^$third-party
 ||xonefm.com/media/*.swf

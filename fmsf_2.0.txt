@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 6/1/2018 1:43 PM
+! Last modified: 9/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -534,6 +534,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||blogtruyen.com/Scripts/qctruot2ben.js
 ||bluecava.com^
 ||bluekai.com^
+||blueseed.tv^$third-party,domain=chiasenhac.vn
 ||blueserving.com^
 ||bnserving.com^$third-party
 ||bong99.com^$popup,third-party
@@ -563,7 +564,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=4share.vn|hdo.tv|khoai.tv|onhax.me|ouo.io|zippyshare.com
+||cloudfront.net^$domain=4share.vn|chiasenhac.vn|hdo.tv|khoai.tv|onhax.me|ouo.io|zippyshare.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -699,7 +700,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$third-party,domain=khoai.tv|tvhay.org
+||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|tvhay.org
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||khoai.tv/sw.js

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Homepage: http://nmtrung.com/fmsf-2
+! Homepage: https://nmtrung.com/fmsf-2/
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 9/1/2018
+! Last modified: 12/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -295,6 +295,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
+@@||bebi.com/bebi_v3.js$domain=anime47.com
 @@||biphim.net/ads.php
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*

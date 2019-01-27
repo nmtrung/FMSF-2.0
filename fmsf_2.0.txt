@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/1/2018
+! Last modified: 27/1/2018
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -371,7 +371,7 @@ shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 truyentranh.net##script:inject(abort-on-property-read.js, popups)
 tvhay.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
-vkool.net##script:inject(abort-on-property-write.js, vkads)
+vkool.tv##+js(set-constant.js, $.cookie, trueFunc)
 yts.am##script:inject(abort-current-inline-script.js, T822)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
@@ -708,6 +708,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|tvhay.org
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
+||khoai.tv/assets/popup.js
 ||khoai.tv/sw.js
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^
@@ -1014,3 +1015,4 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||youtube.com/get_video_*el=adunit*
 ||zedo.com^
 ||zjk24.com^$third-party
+||vkool.tv/js/adsvk*.js

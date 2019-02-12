@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/1/2018
+! Last modified: 12/2/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -104,7 +104,7 @@ google.com,google.com.vn###extrares.med
 google.com,google.com.vn##.ads-ad
 hanoicomputer.vn###highstreet
 hdvip.tv##.rightleftads
-keonhacai.com##.AdsDesktop-header
+keonhacai.net##.AdsDesktop-header
 ketcau.com##TD[width="140"][valign="top"]
 ketqua.net##.float-qc-left
 khampha.vn##[id^="ADS_"]
@@ -297,6 +297,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
+@@||bdpcdn.net/ads/live-score/*
 @@||bebi.com/bebi_v3.js$domain=anime47.com
 @@||biphim.net/ads.php
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
@@ -655,7 +656,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||giaiphapexcel.com/qcao/*
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigaonclick.com^$third-party
-||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.com|tivi4k.net
+||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.net|tivi4k.net
 ||go.blogtruyen.com^$popup
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
@@ -733,7 +734,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||mangak.net/wp-content/themes/manga/ad/*
 ||maxonclick.com^$third-party
 ||media.jxf88.com/*/media_banner/*
-||media1.admicro.vn^$domain=genk.vn|kenh14.vn
+||media1.admicro.vn^$domain=genk.vn|kenh14.vn|vtv.vn
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||mellowads.com^

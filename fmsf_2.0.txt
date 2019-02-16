@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/2/2019
+! Last modified: 16/2/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -349,6 +349,7 @@ autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
 banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 blogtruyen.com##script:inject(window.open-defuser.js)
+bongngo.tv##+js(abort-on-property-write.js, _pop)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)

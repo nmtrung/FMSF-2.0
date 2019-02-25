@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/2/2019
+! Last modified: 25/2/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -342,6 +342,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
+90phut.tv##+js(abort-current-inline-script.js, $, overlay)
 anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
 aphim.tv##+js(window.open-defuser.js)
@@ -547,6 +548,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bong99.com^$popup,third-party
 ||bongacash.com^
 ||bongda.com.vn/wp-content/*.swf
+||bongdalive.tv/wp-content/uploads/*.gif
 ||bongdaso.com/_BannerSlot.aspx?*
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
@@ -558,6 +560,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cachefly.net/js/ad-exchange.js
 ||cam4.com^
 ||casalemedia.com^
+||cdnads.90phut.tv^
 ||cedexis-radar.net^
 ||cedexis.com^
 ||cerotop.com^$third-party

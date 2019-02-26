@@ -738,7 +738,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||mangak.net/wp-content/themes/manga/ad/*
 ||maxonclick.com^$third-party
 ||media.jxf88.com/*/media_banner/*
-||media1.admicro.vn^$domain=genk.vn|kenh14.vn|vtv.vn
+||media1.admicro.vn^$domain=genk.vn|kenh14.vn|soha.vn|vtv.vn
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||mellowads.com^

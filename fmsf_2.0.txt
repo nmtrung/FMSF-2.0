@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/2/2019
+! Last modified: 5/3/2019 8:21 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -152,6 +152,7 @@ ragezone.com##.social-counter
 raovatdalat.vn##.share-ad-zone.top-banner
 rapidgator.net##[id*="_banner"]
 razorphim.com##.module_home_ads
+rutor.info##.b_tz_on_top
 subscene.com##.banner
 taisachhay.com###footer ~ div
 talk.secafe.vn###headerProxy
@@ -605,6 +606,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||demkhuya.tv/*.gif
 ||dfnb-ads.com^$third-party
 ||diendanlequydon.com^$third-party
+||directadvert.ru^$third-party
 ||directrev.com^
 ||divxcentral.com/wp-content/plugins/adblock-notify-by-bweb/*
 ||docbao.vn/images/bagiang.swf
@@ -754,6 +756,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||mixpanel.com^
 ||mmo4me.com/image.php?*
 ||mobiad.yestech.vn^$third-party
+||mrelko.com^$third-party
 ||msales.com^
 ||mu-ss2.net^
 ||mxpnl.com^
@@ -932,6 +935,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||topbongda.com/media/advert_images/*
 ||topdev.vn^$third-party
 ||toptipstricks.net/index.php$xmlhttprequest
+||torvind.com^$third-party
 ||tradeadexchange.com^$third-party
 ||trafficfactory.biz^
 ||trafficjunky.net^

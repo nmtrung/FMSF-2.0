@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/3/2019 8:21 PM
+! Last modified: 9/3/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -740,7 +740,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||mangak.net/wp-content/themes/manga/ad/*
 ||maxonclick.com^$third-party
 ||media.jxf88.com/*/media_banner/*
-||media1.admicro.vn^$domain=genk.vn|kenh14.vn|soha.vn|vtv.vn
+||media1.admicro.vn^$domain=gamek.vn|genk.vn|kenh14.vn|soha.vn|vtv.vn
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||mellowads.com^

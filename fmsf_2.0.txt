@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/3/2019
+! Last modified: 30/3/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -202,7 +202,6 @@ zippyshare.com##.center_ad
 .com/qc/*
 .net/qc/*
 .php?referer*
-/1121525/|$domain=kissmanga.com
 /1131386.$domain=zippyshare.com
 /1131386/|$domain=zippyshare.com
 /950081/|$domain=1fichier.com
@@ -221,7 +220,6 @@ zippyshare.com##.center_ad
 /adsfloat/*
 /adv/*
 /advertise/*
-/advertisement.js
 /advertisement/*
 /adx.php?*
 /analytics_frame
@@ -305,8 +303,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||click.linksynergy.com/deeplink?$popup
-@@||clksite.com/static/advertisement.js
-@@||downmienphi.net/themes/uploadfly/frontend_assets/js/advertisement.js
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
 @@||facebook.com/dialog/oauth?*
@@ -321,9 +317,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hub.blueserving.com/?skip=
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phimaz.net/ads.php
-@@||phimmedia.tv/templates/themes/phim/js/advertisement.js
 @@||rutrk.org/logo/*
-@@||secufiles.com/themes/*/advertisement.js
 @@||securepubads.g.doubleclick.net^$script,domain=hackintoshzone.com
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||thamhue.com/images/ads/lgthamhue1.gif
@@ -334,7 +328,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
 @@||vnecdn.net/*/ads.js
-@@||vnurl.*/*/advertisement.js
 @@||vtvapi.channelvn.net^
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
@@ -471,7 +464,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||adriver.ru^
 ||adroll.com^
 ||adrotator.se^$popup,script,image
-||ads*.com^$third-party,script,image,subdocument,object-subrequest,popup
+||ads*.com^$third-party,subdocument,object-subrequest,popup
 ||ads4digital.com^$third-party
 ||adsco.re^$third-party
 ||adserver.

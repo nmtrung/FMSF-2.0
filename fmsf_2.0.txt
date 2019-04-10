@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 5/4/2019 11:09 AM
+! Last modified: 10/4/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -709,7 +709,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|tvhay.org
+||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|phimonl.net|tvhay.org
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||khoai.tv/assets/popup.js

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 10/4/2019
+! Last modified: 17/4/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -354,6 +354,7 @@ cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 dalatmongm.site##+js(abort-current-inline-script.js, adBlockDetected)
+fimfast.com##+js(abort-on-property-write.js, bannerPreload)
 forums.voz.vn##.neo_column.main:style(max-width: none !important)
 forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
 hdo.tv##script:inject(window.open-defuser.js)
@@ -540,7 +541,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||blogtruyen.com/Scripts/qctruot2ben.js
 ||bluecava.com^
 ||bluekai.com^
-||blueseed.tv^$third-party,domain=chiasenhac.vn
+||blueseed.tv^$third-party,domain=chiasenhac.vn|fimfast.com
 ||blueserving.com^
 ||bnserving.com^$third-party
 ||bong99.com^$popup,third-party
@@ -635,6 +636,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fcine.net/uploads/*_eABD_*$script
 ||fcounter.info^
 ||feedjit.com^
+||fimfast.com/banner/*
 ||fmpub.net^
 ||fn1s.info^$third-party
 ||forums.voz.vn/specials/*

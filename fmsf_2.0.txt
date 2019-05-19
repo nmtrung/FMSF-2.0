@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/4/2019
+! Last modified: 19/5/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -101,7 +101,6 @@ fshare.vn##.ban-ev-bot-foot
 gamehub.vn##.portal_ads_scroll
 gametv.vn##.box-ad
 ghacks.net##.block
-google.com,google.com.vn###extrares.med
 google.com,google.com.vn##.ads-ad
 hanoicomputer.vn###highstreet
 hdvip.tv##.rightleftads
@@ -306,6 +305,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
 @@||click.linksynergy.com/deeplink?$popup
+@@||cuongphim.com/*/adblock-detector/*
 @@||facebook.com/ads/*$xmlhttprequest
 @@||facebook.com/ajax/feed/filter_action/dialog_direct_action_ads/?*
 @@||facebook.com/dialog/oauth?*

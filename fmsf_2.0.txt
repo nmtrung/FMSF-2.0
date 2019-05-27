@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 19/5/2019
+! Last modified: 27/5/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -360,6 +360,7 @@ forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
 hdo.tv##script:inject(window.open-defuser.js)
 hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
+megaurl.in##+js(window.open-defuser.js)
 phim14.net##script:inject(nowebrtc.js)
 phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
 phimnhanh.com##script:inject(abort-on-property-read.js, popups)
@@ -423,6 +424,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||ad.*.com^
 ||ad.*.net^
 ||ad.5imedia.vn^
+||ad.chogiare.vn^$third-party
 ||ad.ddestiny.ru^
 ||ad.mail.ru^$third-party
 ||ad.mcdn.vn^
@@ -573,7 +575,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=4share.vn|chiasenhac.vn|hdo.tv|khoai.tv|onhax.me|ouo.io|zippyshare.com
+||cloudfront.net^$domain=4share.vn|chiasenhac.vn|hdo.tv|khoai.tv|megaurl.in|onhax.me|ouo.io|zippyshare.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -611,6 +613,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||donate-*.info^
 ||doubleclick.net^$script,image,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
 ||doublepimp.com^
+||downmienphi.com/*/banner-*
 ||dpstatic.com^
 ||dt00.net^$third-party
 ||dulichdatviet.info^$third-party
@@ -639,6 +642,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fimfast.com/banner/*
 ||fmpub.net^
 ||fn1s.info^$third-party
+||foloatoo.com^$third-party
 ||forums.voz.vn/specials/*
 ||forums.voz.vn/vbdev/*
 ||fptplay.vn/js/videojs/*ads.js
@@ -755,6 +759,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||mixpanel.com^
 ||mmo4me.com/image.php?*
 ||mobiad.yestech.vn^$third-party
+||monetiza.co^$third-party
 ||mrelko.com^$third-party
 ||msales.com^
 ||mu-ss2.net^
@@ -882,6 +887,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||sharethis.com^
 ||shink.in/img/downloadad.png
 ||shink.in/js/p*.js
+||shorteh.com/apu.php$third-party
 ||sieumua.com^$third-party
 ||skimresources.net^
 ||skylink.vn^

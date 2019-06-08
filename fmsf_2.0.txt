@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/5/2019
+! Last modified: 8/6/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -699,7 +699,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||histats.com^
 ||histock.info^$third-party
 ||horsered.com^
-||i.imgur.com/*.gif$domain=bongdatv.net|macintosh.vn|phimmedia.tv|topbongda.com
+||i.imgur.com/*.gif$domain=bongdatv.net|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn

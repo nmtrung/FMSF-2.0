@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/7/2019
+! Last modified: 4/8/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -63,6 +63,7 @@ answers.yahoo.com##[id$="textads"]
 baodatviet.vn###ballon
 baodatviet.vn###left_col center
 bdslamdong.vn##.widget-ad-300
+bilutv.org###fanback
 blackboxrepack.com##.down
 blogtruyen.com###mbtfloat
 blogtruyen.com###qcInnerContentList
@@ -347,6 +348,7 @@ aphim.tv##+js(window.open-defuser.js)
 autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
 banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
+bilutv.org##+js(abort-current-inline-script.js, popunder)
 blogtruyen.com##script:inject(window.open-defuser.js)
 bongngo.tv##+js(abort-on-property-write.js, _pop)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
@@ -712,6 +714,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||intellitxt.com^
 ||interyield.*.com^$third-party
 ||invitemedia.com^
+||jerredsite.pro^$third-party
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
@@ -801,6 +804,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||paragonads.vn^
 ||pc*ads.com^$third-party
 ||pcworld.com.vn/files/advertising/*
+||perren.xyz^$third-party
 ||phim.tiengnga.net/js/VietXfAdvStats/*
 ||phimaz.net/ad/*
 ||phimaz.net/media/js/abp.js

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/8/2019
+! Last modified: 15/8/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -71,6 +71,7 @@ blogtruyen.com##.BT-Ads > center > div
 blogtruyen.com##.qc-css
 blogtruyen.com##.qc-inner
 bongda.com.vn##[id^="text-html-widget"]
+bongdalive.tv,bongdaso.tv,demkhuya.tv##.show-ads-banner
 bongdaplus.vn##.adrgt
 bongdaplus.vn##.banner
 bongdaso.com##.art_header_text
@@ -290,6 +291,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/recaptcha/*$script,domain=ouo.io|ouo.press
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
+@@/user_ads/*
 @@/wp-content/plugins/bwp-minify/min/*
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
@@ -318,6 +320,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hackintoshzone.com/ipscdn/ads/*
 @@||hdo.tv/*/video?*
 @@||heaveniphone.com/images/quangcao/heaveniphone.jpg
+@@||hphim.tv/styles/*.gif
 @@||hub.blueserving.com/?skip=
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phimaz.net/ads.php
@@ -350,6 +353,7 @@ banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 bilutv.org##+js(abort-current-inline-script.js, popunder)
 blogtruyen.com##script:inject(window.open-defuser.js)
+bongdalive.tv,bongdaso.tv,demkhuya.tv##+js(abort-on-property-write.js, popupBanners)
 bongngo.tv##+js(abort-on-property-write.js, _pop)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
@@ -552,6 +556,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongacash.com^
 ||bongda.com.vn/wp-content/*.swf
 ||bongdalive.tv/wp-content/uploads/*.gif
+||bongdaso.tv/wp-content/uploads/*.gif
 ||bongdaso.com/_BannerSlot.aspx?*
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
@@ -642,6 +647,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fcounter.info^
 ||feedjit.com^
 ||fimfast.com/banner/*
+||financepro.live^$third-party
 ||fmpub.net^
 ||fn1s.info^$third-party
 ||foloatoo.com^$third-party
@@ -676,7 +682,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com
+||googleusercontent.com^$image,domain=diendanvetinh.forumvi.com|bongdalive.tv|bongdaso.tv|demkhuya.tv
 ||greenupload.com/images/*.gif$domain=thiendia.com
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
@@ -701,6 +707,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||histats.com^
 ||histock.info^$third-party
 ||horsered.com^
+||hphim.tv/*.gif
+||hphim.tv/*.xml
 ||i.imgur.com/*.gif$domain=bongdatv.net|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
@@ -718,7 +726,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|phimonl.net
+||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|phimonl.net|bongdalive.tv|bongdaso.tv|demkhuya.tv
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||khoai.tv/assets/popup.js

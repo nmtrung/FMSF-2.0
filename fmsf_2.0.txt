@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 24/8/2019
+! Last modified: 7/9/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -353,6 +353,7 @@ autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
 banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 bilutv.org##+js(abort-current-inline-script.js, popunder)
+binhluan.tv##+js(setTimeout-defuser, modal-media-image)
 blogtruyen.com##script:inject(window.open-defuser.js)
 bongdalive.tv,bongdaso.tv,demkhuya.tv##+js(abort-on-property-write.js, popupBanners)
 bongngo.tv##+js(abort-on-property-write.js, _pop)
@@ -557,8 +558,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongacash.com^
 ||bongda.com.vn/wp-content/*.swf
 ||bongdalive.tv/wp-content/uploads/*.gif
-||bongdaso.tv/wp-content/uploads/*.gif
 ||bongdaso.com/_BannerSlot.aspx?*
+||bongdaso.tv/wp-content/uploads/*.gif
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
 ||bongdatructuyen.us/js/p0pundr.js
@@ -644,6 +645,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||facebook.com/video/instream_video/view/story/*&ad_break_duration_ms=*
 ||fastclick.net^
 ||fastly-analytics.com^
+||fb88sports.com^$third-party
 ||fcine.net/uploads/*_eABD_*$script
 ||fcounter.info^
 ||feedjit.com^
@@ -710,7 +712,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=bongdatv.net|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com
+||i.imgur.com/*.gif$domain=bongdatv.net|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com|binhluan.tv
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -864,6 +866,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||pussl10.com^$third-party
 ||putags.com^
 ||qc.5giay.vn^
+||qc.binhluan.tv^$image
 ||qc.tclup.com^$popup,script
 ||qc.yan.vn^
 ||qcv5.blogtruyen.com^

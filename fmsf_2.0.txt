@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/9/2019
+! Last modified: 15/9/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -105,6 +105,7 @@ gametv.vn##.box-ad
 ghacks.net##.block
 google.com,google.com.vn##.ads-ad
 hanoicomputer.vn###highstreet
+hdvietnam.com###youtube.secondaryContent
 hdvip.tv##.rightleftads
 keonhacai.net##.AdsDesktop-header
 ketcau.com##TD[width="140"][valign="top"]

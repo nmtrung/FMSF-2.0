@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 12/10/2019
+! Last modified: 21/11/2019
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -144,6 +144,8 @@ pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
 phim.tiengnga.net##.sectionMain.funbox
+phimgi.net###top-player
+phimgi.net##.pc-catfix
 phimmedia.tv##.adv-300-right
 phimmedia.tv##BODY > .nopadding[style="text-align:center"]
 phimnhanh.com##.qc-inner
@@ -371,6 +373,7 @@ hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 megaurl.in##+js(window.open-defuser.js)
 phim14.net##script:inject(nowebrtc.js)
+phimgi.net,phimnhe.net##script:inject(abort-on-property-read.js, readCookie)
 phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
 phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.com##script:inject(set-constant.js, player.on, noopFunc)
@@ -559,6 +562,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongacash.com^
 ||bongda.com.vn/wp-content/*.swf
 ||bongdalive.tv/wp-content/uploads/*.gif
+||bongdalu.com/mn/*$image
 ||bongdaso.com/_BannerSlot.aspx?*
 ||bongdaso.tv/wp-content/uploads/*.gif
 ||bongdatructuyen.org^$popup,third-party
@@ -713,7 +717,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=bongdatv.net|live.90m.tv|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com|binhluan.tv
+||i.imgur.com/*.gif$domain=bongdatv.net|live.90m.tv|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com|binhluan.tv|phimgi.net|phimnhe.net
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn

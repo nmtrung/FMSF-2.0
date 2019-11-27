@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/11/2019
+! Last modified: 27/11/2019 9:47 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -65,11 +65,12 @@ baodatviet.vn###left_col center
 bdslamdong.vn##.widget-ad-300
 bilutv.org###fanback
 blackboxrepack.com##.down
-blogtruyen.com###mbtfloat
-blogtruyen.com###qcInnerContentList
-blogtruyen.com##.BT-Ads > center > div
-blogtruyen.com##.qc-css
-blogtruyen.com##.qc-inner
+blogtruyen.vn###mbtfloat
+blogtruyen.vn###qcInnerContentList
+blogtruyen.vn##.BT-Ads > center > a
+blogtruyen.vn##.manga-detail > center > a
+blogtruyen.vn##.qc-css
+blogtruyen.vn##.qc-inner
 bongda.com.vn##[id^="text-html-widget"]
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv##.show-ads-banner
 bongdaplus.vn##.adrgt
@@ -357,7 +358,7 @@ banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 bilutv.org##+js(abort-current-inline-script.js, popunder)
 binhluan.tv##+js(setTimeout-defuser, modal-media-image)
-blogtruyen.com##script:inject(window.open-defuser.js)
+blogtruyen.vn##script:inject(window.open-defuser.js)
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv,thuckhuya.net##+js(abort-on-property-write.js, popupBanners)
 bongngo.tv##+js(abort-on-property-write.js, _pop)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
@@ -546,13 +547,13 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bidadx.com^$third-party
 ||bidvertiser.com^
 ||biphim.net/*x*.gif
-||bit.ly^$popup,domain=blogtruyen.com
+||bit.ly^$popup,domain=blogtruyen.vn
 ||bizible.com^
 ||blogspot.com^$subdocument,third-party
-||blogtruyen.com/file/*
-||blogtruyen.com/scripts/banner-preload.js
-||blogtruyen.com/scripts/iframe-rand-mobile.js?*
-||blogtruyen.com/Scripts/qctruot2ben.js
+||blogtruyen.vn/file/*
+||blogtruyen.vn/scripts/banner-preload.js
+||blogtruyen.vn/scripts/iframe-rand-mobile.js?*
+||blogtruyen.vn/Scripts/qctruot2ben.js
 ||bluecava.com^
 ||bluekai.com^
 ||blueseed.tv^$third-party,domain=chiasenhac.vn|fimfast.com|vuighe.net
@@ -589,7 +590,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||clicksor.net^
 ||clients.ragezone.com^$subdocument
 ||clipvip.tv^$third-party
-||cloudfront.net^$domain=4share.vn|chiasenhac.vn|hdo.tv|khoai.tv|megaurl.in|onhax.me|ouo.io|zippyshare.com
+||cloudfront.net^$domain=4share.vn|chiasenhac.vn|hdo.tv|hatde.tv|megaurl.in|onhax.me|ouo.io|zippyshare.com
 ||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
@@ -610,7 +611,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cydia.vn^$third-party
 ||d5coalition.com^$third-party
 ||da-ads.com^
-||dailymotion.com^$third-party,domain=blogtruyen.com
+||dailymotion.com^$third-party,domain=blogtruyen.vn
 ||dammetruyen.com/images/970x100.gif
 ||danviet.vn/upload/*.gif
 ||defaultdsp.admicro.vn^$third-party
@@ -646,7 +647,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||exosrv.com^$third-party
 ||exponential.com^
 ||extreme-dm.com^$third-party
-||facebook.com/*/plugins/video.php?*$domain=khoai.tv
+||facebook.com/*/plugins/video.php?*$domain=hatde.tv
 ||facebook.com/video/instream_video/view/story/*&ad_break_duration_ms=*
 ||fastclick.net^
 ||fastly-analytics.com^
@@ -682,7 +683,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||giaitriviet.net.vn/gtvpopup.js
 ||gigaonclick.com^$third-party
 ||gmodules.com/gadgets/proxy?*$domain=101vn.com|kenh1.info|keonhacai.net|tivi4k.net
-||go.blogtruyen.com^$popup
+||go.blogtruyen.vn^$popup
 ||goo.gl^$popup,domain=animetvn.com
 ||google-analytics.com^
 ||google.com/ads*
@@ -734,11 +735,11 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|khoai.tv|phimonl.net|bongdalive.tv|bongdaso.tv|bongdainfo.tv|demkhuya.tv|thuckhuya.net
+||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|hatde.tv|phimonl.net|bongdalive.tv|bongdaso.tv|bongdainfo.tv|demkhuya.tv|thuckhuya.net|bongngo.tv
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
-||khoai.tv/assets/popup.js
-||khoai.tv/sw.js
+||hatde.tv/assets/popup.js
+||hatde.tv/sw.js
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^
 ||kontera.com^
@@ -874,7 +875,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||qc.binhluan.tv^$image
 ||qc.tclup.com^$popup,script
 ||qc.yan.vn^
-||qcv5.blogtruyen.com^
+||qcv5.blogtruyen.vn^
 ||quachdaica.net/*/qdc*
 ||quantserve.com^
 ||quensillo.com^$domain=mediafire.com

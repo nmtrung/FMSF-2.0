@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 27/11/2019 9:47 PM
+! Last modified: 7/1/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -626,6 +626,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||divxcentral.com/wp-content/plugins/adblock-notify-by-bweb/*
 ||docbao.vn/images/bagiang.swf
 ||donate-*.info^
+||dongphim.net/cvast.xml?*
 ||doubleclick.net^$script,image,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
 ||doublepimp.com^
 ||downmienphi.com/*/banner-*
@@ -699,6 +700,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||hai360.vn/skin/web/*custombox*
 ||hamtruyen.com/Scripts/blueyonew.js
 ||hanoicomputer.vn/media/banner/*.jpg
+||hatde.tv/assets/popup.js
+||hatde.tv/sw.js
 ||hayhaytv.com/js/atracking.js
 ||hayhaytv.vn/static/*.gif|
 ||hdo.tv/file/*.jpg
@@ -738,8 +741,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|hatde.tv|phimonl.net|bongdalive.tv|bongdaso.tv|bongdainfo.tv|demkhuya.tv|thuckhuya.net|bongngo.tv
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
-||hatde.tv/assets/popup.js
-||hatde.tv/sw.js
 ||kiemthesaigon.club^$popup,third-party
 ||kliksaya.com^
 ||kontera.com^

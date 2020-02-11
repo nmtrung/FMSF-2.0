@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/1/2020
+! Last modified: 11/2/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -569,6 +569,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
 ||bongdatructuyen.us/js/p0pundr.js
+||boyaidare.club^$third-party
 ||bp.blogspot.com/-*.gif$domain=ketqua.net
 ||brand.ad^$third-party
 ||buysellads.com^

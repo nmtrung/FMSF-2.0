@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/2/2020
+! Last modified: 16/2/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -98,6 +98,7 @@ fbtag.net##.Flagrow-Ads-fake-poststream-item
 foody.vn##.foody-banner
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
+forums.voz.vn##.listsponsor>.tooltip>.tooltiptext
 forums.voz.vn##.middleads
 forums.voz.vn##TD[width="160"]
 fshare.vn##.ban-ev-bot-foot

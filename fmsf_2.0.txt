@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 16/2/2020
+! Last modified: 4/4/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -386,6 +386,7 @@ shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 truyentranh.net##script:inject(abort-on-property-read.js, popups)
+truyentranhtuan.com##+js(abort-current-inline-script.js, popunder2)
 tvhay.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
 vkool.tv##+js(fuckadblock.js-3.2.0)

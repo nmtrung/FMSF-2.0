@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 4/4/2020
+! Last modified: 14/4/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -837,7 +837,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||phimmedia.tv/videojs/*
 ||phimmedia.tv^$xmlhttprequest
 ||phimmoi.net/*/vast.
-||phimmoi.net/js/fx/ga.js
+||phimmoi.net/js/vtlai/movie/adoverlay/*
 ||phimmoi.net/js/vtlai/movie/public/pad.js?*
 ||phimnhanh.net/*.gif
 ||phongcomputer.com^$third-party
@@ -1001,6 +1001,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vdoc.vn^$third-party
 ||vdosupreme.com^$third-party
 ||velocecdn.com/script/native_*.js$domain=aphim.org
+||verycheap.cheap-ads.net^
 ||vgdn.net/apoop/play_background_*
 ||video8s.com^$subdocument,third-party
 ||videomega.tv/vjs/*vast*

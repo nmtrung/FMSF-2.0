@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 14/4/2020
+! Last modified: 14/4/2020 8:42 PM
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -350,7 +350,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
-90m.tv,90phut.tv##+js(abort-current-inline-script.js, $, overlay)
+!90m.tv,90phut.tv##+js(abort-current-inline-script.js, $, overlay)
 anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
 aphim.tv##+js(window.open-defuser.js)
@@ -358,7 +358,7 @@ autoitvn.com##+js(abort-current-inline-script.js, addEventListener, AdBlock)
 banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 bilutv.org##+js(abort-current-inline-script.js, popunder)
-binhluan.tv##+js(setTimeout-defuser, modal-media-image)
+binhluan.xyz##+js(setTimeout-defuser, modal-media-image)
 blogtruyen.vn##script:inject(window.open-defuser.js)
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv,thuckhuya.net##+js(abort-on-property-write.js, popupBanners)
 bongngo.tv##+js(abort-on-property-write.js, _pop)
@@ -724,7 +724,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=bongdatv.net|live.90m.tv|live.90phut.tv|macintosh.vn|phimmedia.tv|topbongda.com|binhluan.tv|phimgi.net|phimnhe.net
+||i.imgur.com/*.gif$domain=binhluan.xyz|bongdatv.net|live.90m.tv|live.90phut.tv|macintosh.vn|phimgi.net|phimmedia.tv|phimnhe.net|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn

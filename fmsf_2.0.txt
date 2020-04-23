@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 20/4/2020
+! Last modified: 23/4/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -95,6 +95,7 @@ diadiem.com##.div_box_adv
 eva.vn##[id^="ADS_"]
 expertcircuits.blogspot.com###fanback
 fbtag.net##.Flagrow-Ads-fake-poststream-item
+fimfast.com##BODY > .ff-banner
 foody.vn##.foody-banner
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
@@ -146,8 +147,8 @@ pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
 petrotimes.vn##[id^="rotating_elements_"]
 phim.tiengnga.net##.sectionMain.funbox
-phimgi.net###top-player
-phimgi.net##.pc-catfix
+phimgi.tv###top-player
+phimgi.tv##.pc-catfix
 phimmedia.tv##.adv-300-right
 phimmedia.tv##BODY > .nopadding[style="text-align:center"]
 phimnhanh.com##.qc-inner
@@ -361,7 +362,7 @@ bilutv.org##+js(abort-current-inline-script.js, popunder)
 binhluan.xyz##+js(setTimeout-defuser, modal-media-image)
 blogtruyen.vn##script:inject(window.open-defuser.js)
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv,thuckhuya.net##+js(abort-on-property-write.js, popupBanners)
-bongngo.tv##+js(abort-on-property-write.js, _pop)
+bongngo.tv##+js(abort-on-property-write.js, popups)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)
@@ -375,7 +376,7 @@ hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 megaurl.in##+js(window.open-defuser.js)
 phim14.net##script:inject(nowebrtc.js)
-phimgi.net,phimnhe.net##script:inject(abort-on-property-read.js, readCookie)
+phimgi.tv,phimnhe.net##script:inject(abort-on-property-read.js, readCookie)
 phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
 phimnhanh.com##script:inject(abort-on-property-read.js, popups)
 phimnhanh.com##script:inject(set-constant.js, player.on, noopFunc)
@@ -571,6 +572,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
 ||bongdatructuyen.us/js/p0pundr.js
+||bongngo.tv/assets/games/*
 ||boyaidare.club^$third-party
 ||bp.blogspot.com/-*.gif$domain=ketqua.net
 ||brand.ad^$third-party
@@ -660,6 +662,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fcounter.info^
 ||feedjit.com^
 ||fimfast.com/banner/*
+||fimfast.com/sponsor/*$image
 ||financepro.live^$third-party
 ||fmpub.net^
 ||fn1s.info^$third-party
@@ -724,7 +727,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=binhluan.xyz|bongdatv.net|live.90m.tv|live.90phut.tv|macintosh.vn|phimgi.net|phimmedia.tv|phimnhe.net|topbongda.com
+||i.imgur.com/*.gif$domain=binhluan.xyz|bongdatv.net|bongngo.tv|live.90phut.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn

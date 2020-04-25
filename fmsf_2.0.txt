@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 23/4/2020
+! Last modified: 25/4/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -663,6 +663,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||feedjit.com^
 ||fimfast.com/banner/*
 ||fimfast.com/sponsor/*$image
+||fimfast.com/vast.xml
 ||financepro.live^$third-party
 ||fmpub.net^
 ||fn1s.info^$third-party

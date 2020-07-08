@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/4/2020
+! Last modified: 8/7/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -99,9 +99,6 @@ fimfast.com##BODY > .ff-banner
 foody.vn##.foody-banner
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
-forums.voz.vn##.listsponsor>.tooltip>.tooltiptext
-forums.voz.vn##.middleads
-forums.voz.vn##TD[width="160"]
 fshare.vn##.ban-ev-bot-foot
 gamehub.vn##.portal_ads_scroll
 gametv.vn##.box-ad
@@ -194,6 +191,8 @@ vkool.tv###boxes
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 voz.party##.Flagrow-Ads-fake-poststream-item
+voz.vn##body[data-template="forum_view"] .p-body-sidebar
+voz.vn##body[data-template="thread_view"] .p-body-sidebar
 xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
 xemtivihot.com##.full_banner22
@@ -369,8 +368,6 @@ chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)
 comicvn.net##script:inject(window.open-defuser.js, String.fromCharCode, windowpop)
 dalatmongm.site##+js(abort-current-inline-script.js, adBlockDetected)
 fimfast.com##+js(abort-on-property-write.js, bannerPreload)
-forums.voz.vn##.neo_column.main:style(max-width: none !important)
-forums.voz.vn##script:inject(abort-on-property-read.js, adsbygoogle)
 hdo.tv##script:inject(window.open-defuser.js)
 hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
@@ -521,7 +518,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||api.nas.nct.vn/crossdomain.xml
 ||api.news.zing.vn/api/mobile/ban-tin-highlight.json?*
 ||api.pose.com.vn^$xmlhttprequest,third-party
-||api.voz.vn/post/v1.0/thread-migration-status/*
 ||apple8.com.vn/?*$popup,third-party
 ||arrassley.info^$third-party
 ||assets.voz.vn/ga/*
@@ -668,8 +664,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||fmpub.net^
 ||fn1s.info^$third-party
 ||foloatoo.com^$third-party
-||forums.voz.vn/specials/*
-||forums.voz.vn/vbdev/*
 ||fptplay.vn/js/videojs/*ads.js
 ||fshare.vn/js/adsplay.
 ||fshare.vn/lib/video/fshare.mp4

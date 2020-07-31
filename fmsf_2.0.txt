@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 8/7/2020
+! Last modified: 31/7/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -48,6 +48,7 @@
 @@||zippyshare.com^$elemhide
 esl-lab.com#@#.addthis_toolbox
 inbox.google.com#@#.ad
+tinhte.vn#@#.adsbygoogle
 twitch.tv#@#[class^="balloon"]
 ! ========================== Element Hiding Per Site ==========================
 101vn.com##.header

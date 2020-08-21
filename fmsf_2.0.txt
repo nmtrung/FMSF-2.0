@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 20/8/2020
+! Last modified: 21/8/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -341,6 +341,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||videofly.vn/v2/vfplayer/js/ads/*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vietcombank.com.vn/upload/popup/*
+@@||vietteltelecom.vn/js/tracking/interaction.js$script
 @@||vnecdn.net/*/ads.js
 @@||vtvapi.channelvn.net^
 @@||weather.channelvn.net^

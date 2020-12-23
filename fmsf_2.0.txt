@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 21/8/2020
+! Last modified: 23/12/2020
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -49,6 +49,7 @@
 esl-lab.com#@#.addthis_toolbox
 inbox.google.com#@#.ad
 tinhte.vn#@#.adsbygoogle
+bbs-simulator.com#@#.adsbygoogle
 twitch.tv#@#[class^="balloon"]
 ! ========================== Element Hiding Per Site ==========================
 101vn.com##.header
@@ -336,7 +337,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||thamhue.com/images/ads/lgthamhue1.gif
 @@||tinmoi.vn/ads/anninhtv/*$subdocument
-@@||tvhay.org/playergk/fingerprint2.min.js
+@@||tvhays.org/playergk/fingerprint2.min.js
 @@||vib.com.vn/banners/*
 @@||videofly.vn/v2/vfplayer/js/ads/*
 @@||videomega.tv/vjs/plugin/css/ads.css
@@ -352,7 +353,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
-90m.tv,90p.tv##+js(abort-current-inline-script.js, $, overlay)
+90m.tv,90p.live,90p.tv,binhluanvidamme.online##+js(acis, $, overlay)
 anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
 aphim.tv##+js(window.open-defuser.js)
@@ -387,7 +388,7 @@ shink.in##script:inject(abort-on-property-write.js, _pop)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 truyentranh.net##script:inject(abort-on-property-read.js, popups)
 truyentranhtuan.com##+js(abort-current-inline-script.js, popunder2)
-tvhay.org##+js(abort-current-inline-script.js, tvhayorg)
+tvhays.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
 vkool.tv##+js(fuckadblock.js-3.2.0)
 yts.am##script:inject(abort-current-inline-script.js, T822)
@@ -528,6 +529,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||automation.net.vn/images/stories*.jpg|
 ||automoc.net^$third-party
 ||awltovhc.com^$third-party
+||aydieso.90.link^$third-party
 ||b.123c.vn/zad/videoad?*
 ||banner.4win1.com^$third-party
 ||bannhadatdanang.com^$third-party
@@ -724,7 +726,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=binhluan.xyz|bongdatv.net|bongngo.tv|live1.90p.tv|live.90phut.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
+||i.imgur.com/*.gif$domain=90p.live|90p.tv|90phut.tv|binhluanvidamme.online|bongdatv.net|bongngo.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -984,8 +986,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||tuyensinh.*.edu.vn^$popup,third-party
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/*foobar.*
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/module/streaming/play/js/limit.js?*
-||tvhay.org/guide/*
-||tvhay.org/playergk/*/vast.js
+||tvhays.org/guide/*
+||tvhays.org/playergk/*/vast.js
 ||tynt.com^
 ||uniad.
 ||unibet.com^$third-party

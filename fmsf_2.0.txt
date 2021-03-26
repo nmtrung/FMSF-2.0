@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 23/12/2020
+! Last modified: 26/3/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -362,7 +362,8 @@ banhtv.net##script:inject(abort-current-inline-script.js, mobileCheck)
 banhtv.net##script:inject(abort-on-property-write.js, popups)
 bilutv.org##+js(abort-current-inline-script.js, popunder)
 binhluan.xyz##+js(setTimeout-defuser, modal-media-image)
-blogtruyen.vn##script:inject(window.open-defuser.js)
+blogtruyen.vn##+js(acis, document.write)
+blogtruyen.vn##+js(nowoif)
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv,thuckhuya.net##+js(abort-on-property-write.js, popupBanners)
 bongngo.tv##+js(abort-on-property-write.js, popups)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
@@ -557,6 +558,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||blogtruyen.vn/scripts/banner-preload.js
 ||blogtruyen.vn/scripts/iframe-rand-mobile.js?*
 ||blogtruyen.vn/Scripts/qctruot2ben.js
+||blueadss.com^$third-party
 ||bluecava.com^
 ||bluekai.com^
 ||blueseed.tv^$third-party,domain=chiasenhac.vn|fimfast.com|vuighe.net
@@ -585,6 +587,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cedexis-radar.net^
 ||cedexis.com^
 ||cerotop.com^$third-party
+||ch6p2aj2gh8zy5cm0px9ow7aj3tmzhtk6lzx2ch9xj7gx2jq1cj8v4jklz6b.me^$third-party
 ||channelvn.net^
 ||chartbeat.com^
 ||chitika.net^
@@ -624,6 +627,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||delivery45.com^
 ||delnapb.com^$third-party
 ||demkhuya.tv/*.gif
+||denetsuk.com^$third-party
 ||dfnb-ads.com^$third-party
 ||diendanlequydon.com^$third-party
 ||directadvert.ru^$third-party
@@ -723,6 +727,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||hilltopads.net^$third-party
 ||histats.com^
 ||histock.info^$third-party
+||hoowooze.net^$third-party
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml

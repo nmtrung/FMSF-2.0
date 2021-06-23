@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 29/5/2021
+! Last modified: 23/6/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -353,7 +353,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ========================== Scripts ===========================
-90m.tv,90p.live,90p.tv,binhluanvidamme.online##+js(acis, $, overlay)
+90m.tv,phut90.online,phut91.online,binhluanvidamme.online##+js(acis, $, overlay)
 anime47.com##script:inject(fuckadblock.js-3.2.0)
 aphim.org##script:inject(setTimeout-defuser.js, alert_warning)
 aphim.tv##+js(window.open-defuser.js)
@@ -731,7 +731,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=90p.live|90p.tv|90phut.tv|binhluanvidamme.online|bongdatv.net|bongngo.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
+||i.imgur.com/*.gif$domain=90p.live|phut90.online|phut91.online|binhluanvidamme.online|bongdatv.net|bongngo.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn

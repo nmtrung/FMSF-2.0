@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 23/6/2021
+! Last modified: 10/7/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -188,8 +188,8 @@ tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
 userstyles.org###social
 viettorrent.vn##.container-fluid CENTER
-vkool.tv###ad_right_watch
-vkool.tv###boxes
+vkool.net###ad_right_watch
+vkool.net###boxes
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 voz.party##.Flagrow-Ads-fake-poststream-item
@@ -365,7 +365,7 @@ binhluan.xyz##+js(setTimeout-defuser, modal-media-image)
 blogtruyen.vn##+js(acis, document.write)
 blogtruyen.vn##+js(nowoif)
 bongdalive.tv,bongdaso.tv,bongdainfo.tv,demkhuya.tv,thuckhuya.net##+js(abort-on-property-write.js, popupBanners)
-bongngo.tv##+js(abort-on-property-write.js, popups)
+bongngozz.com##+js(abort-on-property-write.js, popups)
 bumtv.net##script:inject(abort-on-property-write.js, popns)
 cgv.vn##script:inject(abort-current-inline-script.js, win_width, colorbox)
 chiasenhac.vn##+js(abort-current-inline-script.js, screenW, userreport)
@@ -391,7 +391,7 @@ truyentranh.net##script:inject(abort-on-property-read.js, popups)
 truyentranhtuan.com##+js(abort-current-inline-script.js, popunder2)
 tvhays.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
-vkool.tv##+js(fuckadblock.js-3.2.0)
+vkool.net##+js(fuckadblock.js-3.2.0)
 yts.am##script:inject(abort-current-inline-script.js, T822)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
@@ -549,6 +549,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bestfitnesscbproducts.com^$third-party
 ||beta.ads.cc^
 ||bidadx.com^$third-party
+||bidgear.com^$third-party
 ||bidvertiser.com^
 ||biphim.net/*x*.gif
 ||bit.ly^$popup,domain=blogtruyen.vn
@@ -574,7 +575,10 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.us/js/jquery.fancybox/*
 ||bongdatructuyen.us/js/p0pundr.js
-||bongngo.tv/assets/games/*
+||bongngo.bar/1/index.xml$xmlhttprequest
+||bongngo.cloud/1/index.xml$xmlhttprequest
+||bongngozz.com/assets/games/*
+||bowerywill.com^$third-party
 ||boyaidare.club^$third-party
 ||bp.blogspot.com/-*.gif$domain=ketqua.net
 ||brand.ad^$third-party
@@ -605,6 +609,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cohet.tv/ajs/*
 ||coin98.net^$subdocument,third-party
 ||coinurl.com^$third-party
+||comasoiling.casa^$third-party
 ||concernrain.com^$third-party
 ||connexity.net^
 ||connextra.com^
@@ -731,7 +736,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||horsered.com^
 ||hphim.tv/*.gif
 ||hphim.tv/*.xml
-||i.imgur.com/*.gif$domain=90p.live|phut90.online|phut91.online|binhluanvidamme.online|bongdatv.net|bongngo.tv|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
+||i.imgur.com/*.gif$domain=90p.live|phut90.online|phut91.online|binhluanvidamme.online|bongdatv.net|bongngozz.com|macintosh.vn|phimgi.tv|phimmedia.tv|phimnhe.net|topbongda.com
 ||i2.cdn8.net/*.gif$domain=gametv.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||imasdk.googleapis.com^$domain=xem.vn
@@ -748,7 +753,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||js.knowlead.io/dmpcollector.js
 ||jscount.com^
 ||juicyads.com^
-||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|hatde.tv|phimonl.net|bongdalive.tv|bongdaso.tv|bongdainfo.tv|demkhuya.tv|thuckhuya.net|bongngo.tv
+||jwpcdn.com/player/*/vast.js$third-party,domain=chiasenhac.vn|hatde.tv|phimonl.net|bongdalive.tv|bongdaso.tv|bongdainfo.tv|demkhuya.tv|thuckhuya.net|bongngozz.com
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
@@ -1019,9 +1024,9 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||vietnamnetad.vn^
 ||viglink.com^
 ||vivo.vn/skin/js/ova-jquery.js
-||vkool.tv/js/*/vast.js
-||vkool.tv/js/povff.js
-||vkool.tv/swf/pre-roll.xml?*
+||vkool.net/js/*/vast.js
+||vkool.net/js/povff.js
+||vkool.net/swf/pre-roll.xml?*
 ||vn-zoom.org/Banner-
 ||vnreview.vn/*/images/background/outAds_*$image
 ||vnreview.vn/*/js/ads*.js
@@ -1034,6 +1039,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||websitedhoome.com^$popup,third-party
 ||webtrends.com^
 ||widgets.outbrain.com/OutbrainRater.js
+||wp.com/image.bongngocdn.com/http/*$image
 ||wwwpromoter.com^
 ||xahoithongtin.com.vn/*.swf|
 ||xahoithongtin.com.vn/images/*.gif|

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 10/7/2021
+! Last modified: 11/9/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -590,6 +590,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||cdnads.90phut.tv^
 ||cedexis-radar.net^
 ||cedexis.com^
+||celeritascdn.com^$third-party
 ||cerotop.com^$third-party
 ||ch6p2aj2gh8zy5cm0px9ow7aj3tmzhtk6lzx2ch9xj7gx2jq1cj8v4jklz6b.me^$third-party
 ||channelvn.net^
@@ -821,6 +822,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||onclickads.net^
 ||onclickbright.com^$third-party
 ||onclkds.com^$third-party
+||onctus.com^$third-party
 ||onhax.me/*/rocket.js
 ||onthe.io^$third-party
 ||open.id.zing.vn/sharelink/*

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 11/9/2021
+! Last modified: 25/9/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -197,6 +197,7 @@ voz.vn##body[data-template="forum_view"] .p-body-sidebar
 voz.vn##body[data-template="thread_view"] .p-body-sidebar
 xemgame.com##.abs-bg
 xemphim73.com##.movie-info-box + A
+xemphimgi.net###pc-catfix
 xemtivihot.com##.full_banner22
 youtube.com###feed-pyv-container
 youtube.com###video-masthead
@@ -376,6 +377,7 @@ hdo.tv##script:inject(window.open-defuser.js)
 hdvip.tv##+js(abort-current-inline-script.js, openInNewTab)
 kzone.tv##script:inject(abort-current-inline-script.js, Date, n3zz)
 megaurl.in##+js(window.open-defuser.js)
+motchill.net##+js(aopw, MPAds)
 phim14.net##script:inject(nowebrtc.js)
 phimgi.tv,phimnhe.net##script:inject(abort-on-property-read.js, readCookie)
 phimmedia.tv##script:inject(abort-current-inline-script.js, PM_popup)
@@ -392,6 +394,7 @@ truyentranhtuan.com##+js(abort-current-inline-script.js, popunder2)
 tvhays.org##+js(abort-current-inline-script.js, tvhayorg)
 violet.vn##script:inject(setTimeout-defuser.js, loadPopup)
 vkool.net##+js(fuckadblock.js-3.2.0)
+xemphimgi.net##+js(aeld, click, window.open)
 yts.am##script:inject(abort-current-inline-script.js, T822)
 ! ====================== Third-party adverts and trackers =====================
 *-ad.24hstatic.com^
@@ -494,6 +497,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||adservice.google.com.vn^$third-party
 ||adsgame.soha.vn^$popup,third-party
 ||adskeeper.co.uk^$third-party
+||adskeeper.com^$third-party
 ||adsplay.net^$third-party
 ||adsvn.ga^
 ||adsyst.biz^
@@ -553,6 +557,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||bidvertiser.com^
 ||biphim.net/*x*.gif
 ||bit.ly^$popup,domain=blogtruyen.vn
+||bitvtom100.xyz/js/player/*/vast.js
 ||bizible.com^
 ||blogspot.com^$subdocument,third-party
 ||blogtruyen.vn/file/*
@@ -628,6 +633,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||dailymotion.com^$third-party,domain=blogtruyen.vn
 ||dammetruyen.com/images/970x100.gif
 ||danviet.vn/upload/*.gif
+||dc.mpapis.xyz/vast/*
 ||defaultdsp.admicro.vn^$third-party
 ||delivery.vungtv.com^
 ||delivery45.com^
@@ -758,6 +764,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||k8info.com^$third-party
 ||kenhvideo.com/public/media/media/picture/*.gif
 ||kiemthesaigon.club^$popup,third-party
+||kinkledunendly.com^$third-party
 ||kliksaya.com^
 ||kontera.com^
 ||lavanetwork.net^
@@ -977,6 +984,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||tidaltv.com^
 ||tintuc24h.info/*/gooima.js
 ||tocmoi.net^$third-party
+||toolpg.com^$third-party
 ||topbongda.com/media/advert_images/*
 ||topdev.vn^$third-party
 ||toptipstricks.net/index.php$xmlhttprequest
@@ -1041,6 +1049,8 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||websitedhoome.com^$popup,third-party
 ||webtrends.com^
 ||widgets.outbrain.com/OutbrainRater.js
+||wp.com/dc.motphim.net/ia/*$image
+||wp.com/dc.mpapis.xyz/ia/*$image
 ||wp.com/image.bongngocdn.com/http/*$image
 ||wwwpromoter.com^
 ||xahoithongtin.com.vn/*.swf|
@@ -1071,5 +1081,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||youtube.com/gen_*?a=resolution&width=*
 ||youtube.com/get_midroll_
 ||youtube.com/get_video_*el=adunit*
+||zantbowsing.cam^$third-party
 ||zedo.com^
 ||zjk24.com^$third-party

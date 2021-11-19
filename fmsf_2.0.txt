@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 25/9/2021
+! Last modified: 19/11/2021
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -193,6 +193,7 @@ vkool.net###boxes
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 voz.party##.Flagrow-Ads-fake-poststream-item
+voz.vn##.v-element > .v-responsive > .vm-placement
 voz.vn##body[data-template="forum_view"] .p-body-sidebar
 voz.vn##body[data-template="thread_view"] .p-body-sidebar
 xemgame.com##.abs-bg

@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 23/11/2021
+! Last modified: 5/10/2022
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -325,7 +325,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||getresponse.com^$popup,third-party
 @@||google-analytics.com^$script,domain=tiki.vn
 @@||googlesyndication.com/pagead/*
-@@||googletagmanager.com/gtm.js$domain=tiki.vn|www.adayroi.com
+@@||googletagmanager.com/gtm.js$domain=tiki.vn|www.adayroi.com|dienmayxanh.com|pharmacity.vn
 @@||googletagservices.com/tag/js/gpt.js$domain=hackintoshzone.com|techrepublic.com
 @@||hackintoshzone.com/ipscdn/ads/*
 @@||hdo.tv/*/video?*

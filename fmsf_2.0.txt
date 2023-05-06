@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 7/3/2023
+! Last modified: 6/5/2023
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -310,12 +310,14 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||adsnative.com/static/js/render.v2.js$domain=streamable.com
 @@||alicdn.com/retcode/log/*
 @@||api.adtimaserver.vn/crossdomain.xml
+@@||api.nhathuoclongchau.com.vn/*/promotions/price$xhr
 @@||bdpcdn.net/ads/live-score/*
 @@||bebi.com/bebi_v3.js$domain=anime47.com
 @@||biphim.net/ads.php
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
 @@||cdnviet.com/static/layout/images/logo.png$third-party
+@@||click.accesstrade.vn/adv.php$popup,domain=beecost.vn|chat.zalo.me|giasoc24h.com|locknlockvietnam.com|tinhte.vn|www.facebook.com
 @@||click.linksynergy.com/deeplink?$popup
 @@||cuongphim.com/*/adblock-detector/*
 @@||facebook.com/ads/*$xmlhttprequest
@@ -325,7 +327,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||getresponse.com^$popup,third-party
 @@||google-analytics.com^$script,domain=tiki.vn
 @@||googlesyndication.com/pagead/*
-@@||googletagmanager.com/gtm.js$domain=tiki.vn|www.adayroi.com|dienmayxanh.com|pharmacity.vn
+@@||googletagmanager.com/gtm.js$domain=tiki.vn|www.adayroi.com|dienmayxanh.com|pharmacity.vn|nhathuoclongchau.com.vn
 @@||googletagservices.com/tag/js/gpt.js$domain=hackintoshzone.com|techrepublic.com
 @@||hackintoshzone.com/ipscdn/ads/*
 @@||hdo.tv/*/video?*
@@ -334,6 +336,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hub.blueserving.com/?skip=
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phimaz.net/ads.php
+@@||resource.medpro.com.vn/static/images/nhidong1/web/banner_desktop.png$image
 @@||rutrk.org/logo/*
 @@||securepubads.g.doubleclick.net^$script,domain=hackintoshzone.com
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn

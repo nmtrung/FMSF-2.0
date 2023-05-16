@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 6/5/2023
+! Last modified: 17/5/2023
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -208,6 +208,7 @@ youtube.com##.ytp-ce-element.ytp-ce-element-show
 zippyshare.com###qrCode ~ a[href$="1131386.html"]
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
+!/adv/*
 -ads/
 -banner/$image
 -quang-cao/
@@ -230,7 +231,6 @@ zippyshare.com##.center_ad
 /adsense/*
 /adserver/*
 /adsfloat/*
-!/adv/*
 /advertise/*
 /advertisement/*
 /adx.php?*
@@ -286,6 +286,7 @@ zippyshare.com##.center_ad
 /quangcao/*
 /rellect/AdblockDetector/*
 /rhpop_
+/script/nhasrogr.js$third-party
 /script/suurl.php?
 /smartbanner/*
 /thvpopup.js

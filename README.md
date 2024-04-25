@@ -2,4 +2,4 @@
 
 Bộ lọc quảng cáo của người Việt
 
-Homepage: http://nmtrung.com/fmsf-2
+Homepage: https://nmtrung.github.io/fmsf-2/

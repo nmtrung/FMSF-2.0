@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 6/12/2023
+! Last modified: 2/5/2024
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -62,6 +62,7 @@ twitch.tv#@#[class^="balloon"]
 7msport.com###divR1
 8bongda.com##[id*="bd8adsheadline"]
 answers.yahoo.com##[id$="textads"]
+babycenter.com##.placeholder.adSlotContainer
 baodatviet.vn###ballon
 baodatviet.vn###left_col center
 bdslamdong.vn##.widget-ad-300
@@ -141,6 +142,7 @@ nld.com.vn##.bordertopmenuv4
 notebookitalia.it##.block1a.unit
 onhax.me##.lelabp
 outlook.live.com##.root-38>div:last-child>div>div>div:last-child
+outlook.live.com##span:has-text(/^It looks like you\'re using an ad blocker/i):upward(3)
 pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
@@ -326,6 +328,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||facebook.com/dialog/oauth?*
 @@||gamehub.vn/*/jquery.smartbanner.js
 @@||gateway.chotot.com^$xhr,domain=nhatot.com
+@@||gateway.chotot.com^$xhr,domain=nhatot.com
 @@||getresponse.com^$popup,third-party
 @@||google-analytics.com^$script,domain=tiki.vn
 @@||googlesyndication.com/pagead/*
@@ -355,6 +358,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||vtvapi.channelvn.net^
 @@||weather.channelvn.net^
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
+@@||www.vib.com.vn/static/theme/*
 @@||www.vib.com.vn/static/theme/*
 @@||xemvtv.net/jwplayer7/vast.js
 @@||xphim.vn/jwplayer7/vast.js
@@ -1094,3 +1098,4 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||zantbowsing.cam^$third-party
 ||zedo.com^
 ||zjk24.com^$third-party
+

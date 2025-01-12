@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 2/5/2024
+! Last modified: 12/1/2025
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -83,6 +83,7 @@ bongdaso.com##[class*="_banner"]
 bongdatructuyen.us###left_sticky_ads
 bongdatructuyen.us##[id^="banner"]
 cadviet.com###float_panel
+chat.zalo.me##.--web.system-banner__container:has-text(Zalo PC)
 chiasenhac.vn##body>a:first-child>div
 choimobile.vn##.quangcao_post
 chovinh.com###messageList > .message:first-child > .messageInfo + div
@@ -192,6 +193,7 @@ userstyles.org###social
 viettorrent.vn##.container-fluid CENTER
 vkool.net###ad_right_watch
 vkool.net###boxes
+vn-z.vn##.adsbygoogle
 vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 voz.party##.Flagrow-Ads-fake-poststream-item

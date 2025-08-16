@@ -3,7 +3,7 @@
 ! Title: FMSF 2
 ! Expires: 1 days
 ! Version: 2.5
-! Last modified: 9/5/2025
+! Last modified: 16/8/2025
 ! Đừng fork rồi share lung tung nha mấy thím
 ! ========================== General Element Hiding ===========================
 ###ad_float_right
@@ -362,6 +362,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||www.ghacks.net/wp-content/plugins/bwp-minify/*
 @@||www.vib.com.vn/static/theme/*
 @@||www.vib.com.vn/static/theme/*
+@@||www.youtube.com/redirect$document
 @@||xemvtv.net/jwplayer7/vast.js
 @@||xphim.vn/jwplayer7/vast.js
 @@||yimg.com/zz/combo?*
@@ -714,7 +715,6 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||genieesspv.jp^$third-party
 ||geniusdisplay.com^$third-party
 ||get.*.website^
-||get.optad360.io^$third-party
 ||get.sbro.me^$script,third-party
 ||giacaphe.com/wp-content/themes/gcp/js/fb/giacaphe-like.js
 ||giaiphapexcel.com/qcao/*
@@ -854,6 +854,7 @@ yts.am##script:inject(abort-current-inline-script.js, T822)
 ||openstat.net^$third-party
 ||openx.net^
 ||openx.org^
+||optad360.io^$third-party
 ||optimizely.com^
 ||ouo.io/images/download-ad.
 ||ouo.io/js/pop.
